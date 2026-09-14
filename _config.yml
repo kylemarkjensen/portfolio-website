@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./images/profile.png"
+  avatar           : "Kyle_Jensen_TReNDS_2022.jpg"
   name             : "Kyle M. Jensen"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
