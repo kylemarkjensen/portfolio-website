@@ -23,8 +23,8 @@ repository               : "kylemarkjensen/portfolio-website.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Kyle Jensen"
+  avatar           : "./images/profile.png"
+  name             : "Kyle M. Jensen"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
