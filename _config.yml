@@ -26,11 +26,11 @@ author:
   avatar           : "Kyle_Jensen_TReNDS_2022.jpg"
   name             : "Kyle M. Jensen"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "Clinical Neuroimaging Researcher"
+  location         : "Atlanta, GA, USA"
+  employer         : "TReNDS Center"
+  uri              : "https://trendscenter.org/" # URL
+  email            : "kjensen7@gsu.edu" 
 
   # Academic websites
   academia         : # URL
