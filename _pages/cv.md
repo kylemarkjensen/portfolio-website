@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV (Under Construction)"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,54 +11,65 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Psychology, Georgia State University, 2026
+* M.A. in Psychology, New Mexico State University, 2021
+* B.S. in Psychology, Brigham Young University - Idaho, 2017
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jun 2026 - Present: Data Administrator Lead
+  * Georgia State University, TReNDS Center
+  * Supervisor: Dr. Vince D. Calhoun
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Aug 2021 - May 2026: Graduate Research Assistant
+  * Georgia State University, Psychology Dept.
+  * PIs: Drs. Vince D. Calhoun, Armin Iraji, Jessica A. Turner
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Aug 2020 - Jun 2021: Administrative Assistant
+  * New Mexico State University, Psychology Dept.
+  * Research Participation System Administrator
+  * Department Webmaster
+
+* Aug 2019 - May 2021: Graduate Teaching Assistant
+  * New Mexico State University, Psychology Dept.
+
+* Sep 2017 - Dec 2018: Adjunct Instructor
+  * Brigham Young University - Idaho, Psychology Dept. 
+
+* Jan 2018 – Jun 2018: Data Manager
+  * Alere Youth Development, Rexburg, ID
+  * PI: Dr. Scott D. Martin
+
+* Sep 2016 - Jul 2017: Undergraduate Teaching Assistant
+  * Brigham Young University - Idaho, Psychology Dept.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Research
+  * Neuroimaging
+  * Genetics
+  * Data Acquisition + Curation + Harmonization + QC + Analysis + Visualization
+  * Mentoring
+* Teaching
+  * Universal Design Learning
+  * Student-Centered Classroom
+  * Active Learning
+  * Online Learning
+* Computers & Coding
+  * MATLAB
+  * Python
+  * R
+  * Bash
+  * High-performance computing
+  * E-Prime
+  * SPSS
+  * Qualtrics
+  * HTML
+* Writing
+  * Academic
+  * Grants
+  * Creative
+* Graphic Design
+  * Adobe CC (Photoshop, Illustrator, InDesign, Fresco)
+  * Web Design
+  * Document Design
