@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Psychology, Georgia State University, 2026
+* Ph.D. in Psychology, Georgia State University, 2026
 * M.A. in Psychology, New Mexico State University, 2021
 * B.S. in Psychology, Brigham Young University - Idaho, 2017
 
