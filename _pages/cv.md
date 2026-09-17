@@ -22,7 +22,7 @@ author_profile: true
     <div class="cv-section" id="education">
       <h2>Education</h2>
 
-<div class="cv-block-container">
+      <div class="cv-block-container">
 
   <!-- Card 1 -->
   <div class="cv-item-card">
@@ -78,8 +78,8 @@ author_profile: true
     </div>
   </div>
 
-</div>
-</div>
+</div> <!-- Explicitly closes cv-block container -->
+</div> <!-- Explicitly closes education -->
 
 <!-- SECTION 2: EXPERIENCE -->
 <div class="cv-section" id="experience">
@@ -127,8 +127,8 @@ author_profile: true
     </div>
   </div>
 
-</div>
-</div>
+</div> <!-- Explicitly closes cv-block container -->
+</div> <!-- Explicitly closes experience -->
 
 <!-- SECTION 3: Awards -->
 <div class="cv-section" id="awards">
@@ -153,8 +153,8 @@ author_profile: true
     </div>
   </div>
 
-</div>
-</div>
+</div> <!-- Explicitly closes cv-block container -->
+</div> <!-- Explicitly closes awards -->
 
 <!-- SECTION 4: Service -->
 <div class="cv-section" id="service">
@@ -179,8 +179,11 @@ author_profile: true
     </div>
   </div>
 
-</div>
-</div>
+</div> <!-- Explicitly closes cv-block container -->
+</div> <!-- Explicitly closes service -->
+
+</div> <!-- Explicitly closes cv-stream-content -->
+</div> <!-- Explicitly closes cv-grid-layout -->
 
 <script>
   function runScrollspy() {
