@@ -47,8 +47,8 @@
 .cv-item-card {
   display: flex;
   flex-direction: row;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: var(--global-bg-color, #ffffff); /* Dynamically uses skin bg */
+  border: 1px solid var(--global-border-color, rgba(0, 0, 0, 0.15)); /* Native theme border */
   border-radius: 6px;
   padding: 1rem;
   margin-bottom: 1rem;
