@@ -36,4 +36,71 @@
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv"
+
+   /* --- Custom al-folio Theme CV Simulation --- */
+.cv-block-container {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.cv-item-card {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  
+  /* Dark mode protection if your academicpages uses it */
+  html[data-theme="dark"] & {
+    background: #1e1e1e;
+    border-color: #333;
+  }
+}
+
+.cv-card-date {
+  font-weight: 500;
+  color: #757575;
+  min-width: 110px;
+  max-width: 110px;
+  font-size: 0.9rem;
+  padding-right: 10px;
+}
+
+.cv-card-content {
+  flex-grow: 1;
+  
+  h4 {
+    margin: 0 0 4px 0 !important;
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #222;
+    
+    html[data-theme="dark"] & { color: #eee; }
+  }
+  
+  .cv-institution {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    
+    html[data-theme="dark"] & { color: #bbb; }
+  }
+  
+  .cv-details {
+    font-size: 0.9rem;
+    color: #444;
+    margin: 0;
+    
+    html[data-theme="dark"] & { color: #aaa; }
+    
+    ul {
+      margin: 4px 0 0 16px;
+      padding: 0;
+    }
+  }
+}
 ;
