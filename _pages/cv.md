@@ -171,6 +171,7 @@ author_profile: true
 </div>
 
 <!-- Native IntersectionObserver Scrollspy Script -->
+
 <script>
   window.addEventListener('DOMContentLoaded', () => {
     // 1. Grab all h2 section header anchors and side nav links
