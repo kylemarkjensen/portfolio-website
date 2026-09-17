@@ -4,8 +4,14 @@ title: "CV (Under Construction)"
 permalink: /cv/
 author_profile: true
 ---
-
-# Education
+<!-- 1. Page-Specific Sub-Navigation Bar -->
+<div class="cv-sub-nav">
+  <a href="#education" class="cv-nav-link">Education</a>
+  <a href="#experience" class="cv-nav-link">Experience</a>
+  <a href="#awards" class="cv-nav-link">Awards</a>
+</div>
+---
+<h2 id="education">Education</h2>
 
 <div class="cv-block-container">
 
@@ -65,7 +71,7 @@ author_profile: true
 
 </div>
 
-# Work Experience
+<h2 id="experience">Experience</h2>
 
 <div class="cv-block-container">
 
@@ -111,7 +117,7 @@ author_profile: true
 
 </div>
 
-# Awards
+<h2 id="awards">Awards</h2>
 
 <div class="cv-block-container">
 
