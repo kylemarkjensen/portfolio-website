@@ -182,71 +182,49 @@ author_profile: true
 </div>
 </div>
 
-<!-- Robust Scrollspy Script for academicpages -->
 <script>
-  window.addEventListener('load', () => {
-    // 1. Target headings and navigation links
-    const sections = document.querySelectorAll('h2[id]');
+  function runScrollspy() {
+    const sections = document.querySelectorAll('.cv-section');
     const navLinks = document.querySelectorAll('.cv-nav-link');
-
+    
     if (!sections.length || !navLinks.length) return;
 
-    // 2. Optimized Observer Config for deep layout containers
-    const observerOptions = {
-      root: null, 
-      // Expand the window tracking grid: checks a broad horizontal slice near top-middle
-      rootMargin: '-5% 0px -55% 0px', 
-      threshold: [0, 0.1, 0.2]
-    };
+    // Track user position down the page loop
+    window.addEventListener('scroll', () => {
+      let currentSectionId = "";
+      
+      // Calculate exactly where the top view line cuts across your content
+      const scrollPosition = window.scrollY || window.pageYOffset;
+      const triggerPoint = scrollPosition + 120; // safe top margin buffer
 
-    // Keep track of which sections are currently crossing into the view block
-    const visibleSections = new Map();
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        // Map true/false visibility tracking markers
-        visibleSections.set(entry.target.getAttribute('id'), entry.isIntersecting);
+        // Check if the current scroll position rests inside this section box boundary
+        if (triggerPoint >= sectionTop && triggerPoint < (sectionTop + sectionHeight)) {
+          currentSectionId = section.getAttribute('id');
+        }
       });
 
-      // Find the first section that is actively intersecting the viewport banner
-      let activeId = null;
-      for (const [id, isIntersecting] of visibleSections.entries()) {
-        if (isIntersecting) {
-          activeId = id;
-          break; // Grab the highest up visible element block
+      // If we scrolled past the bottom or haven't hit a box, fallback to the first element
+      if (!currentSectionId && sections.length) {
+        currentSectionId = sections[0].getAttribute('id');
+      }
+
+      // Inject the active status class name mapping directly
+      navLinks.forEach(link => {
+        const targetHref = link.getAttribute('href');
+        if (targetHref === `#${currentSectionId}`) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
         }
-      }
+      });
+    });
+  }
 
-      // 3. Fallback: If scrolling fast and nothing matches, find the closest header above the fold
-      if (!activeId) {
-        let closestSection = null;
-        let closestDistance = -Infinity;
-
-        sections.forEach(section => {
-          const rect = section.getBoundingClientRect();
-          // If the heading is above the middle of screen, it's a potential current read match
-          if (rect.top <= window.innerHeight / 2 && rect.top > closestDistance) {
-            closestDistance = rect.top;
-            closestSection = section;
-          }
-        });
-        if (closestSection) activeId = closestSection.getAttribute('id');
-      }
-
-      // 4. Force inject class updating states
-      if (activeId) {
-        navLinks.forEach(link => {
-          const href = link.getAttribute('href');
-          if (href === `#${activeId}`) {
-            link.classList.add('active');
-          } else {
-            link.classList.remove('active');
-          }
-        });
-      }
-    }, observerOptions);
-
-    // 5. Fire observer tracking routine
-    sections.forEach(section => observer.observe(section));
-  });
+  // Double down on execution timing parameters
+  window.addEventListener('DOMContentLoaded', runScrollspy);
+  window.addEventListener('load', runScrollspy);
 </script>
