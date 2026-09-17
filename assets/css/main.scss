@@ -47,6 +47,7 @@
 .cv-item-card {
   display: flex;
   flex-direction: row;
+  column-gap: 20px;
   background: var(--global-bg-color, #ffffff); /* Dynamically uses skin bg */
   border: 1px solid var(--global-border-color, rgba(0, 0, 0, 0.15)); /* Native theme border */
   border-radius: 6px;
@@ -68,7 +69,7 @@
   flex-direction: column; /* Stacks the date and location vertically */
   min-width: 110px;
   max-width: 110px;
-  padding-right: 24px;
+  padding-right: 10px;
 }
 
 .cv-card-date {
