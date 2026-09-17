@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 title: "CV (Under Construction)"
 permalink: /cv/
 author_profile: true
