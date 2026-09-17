@@ -201,3 +201,37 @@
     &:hover { color: #38a1ff; background: rgba(56, 161, 255, 0.1); }
   }
 }
+
+/* --- Active State Style Rules --- */
+.cv-nav-link.active {
+  color: #0076df !important;        /* Focuses your al-folio signature blue */
+  font-weight: 700;                 /* Bolds the active link text */
+  background: rgba(0, 118, 223, 0.04); /* Adds a soft background fill */
+  position: relative;
+
+  /* Moves the text slightly to line up with the hover animation style */
+  @media (min-width: 1024px) {
+    padding-left: 12px;
+    
+    /* Adds a precise highlighted indicator notch over the left border line */
+    &::before {
+      content: "";
+      position: absolute;
+      left: -18px; /* Perfectly covers the cv-sub-nav's border-left offset */
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background-color: #0076df;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+
+  html[data-theme="dark"] & {
+    color: #38a1ff !important;
+    background: rgba(56, 161, 255, 0.08);
+    
+    @media (min-width: 1024px) {
+      &::before { background-color: #38a1ff; }
+    }
+  }
+}
