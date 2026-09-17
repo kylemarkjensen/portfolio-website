@@ -80,12 +80,21 @@
 }
 
 .cv-card-location {
+  display: inline-flex;  /* Treats text and icon like a continuous inline layout block */
+  align-items: center;   /* Centers the icon perfectly vertically with the text */
   font-size: 0.82rem;
   color: #9e9e9e; /* Slightly lighter gray than the date */
   font-style: italic;
+  /* Target the specific FontAwesome icon child inside the wrapper */
+  i {
+    margin-right: 5px;   /* Creates a tiny, explicit space after the icon pin */
+    font-size: 0.78rem;  /* Scales the icon slightly to prevent it from overpowering text */
+    color: #b0b0b0;      /* Optional: Makes the icon slightly softer than the text color */
+  }
   
   html[data-theme="dark"] & {
     color: #888888;
+    i { color: #666666; }
   }
 }
 
