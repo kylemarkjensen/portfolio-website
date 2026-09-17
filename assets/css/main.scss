@@ -62,13 +62,30 @@
   }
 }
 
+/* --- Column wrapper for the Left Side --- */
+.cv-card-left-column {
+  display: flex;
+  flex-direction: column; /* Stacks the date and location vertically */
+  min-width: 110px;
+  max-width: 110px;
+  padding-right: 10px;
+}
+
 .cv-card-date {
   font-weight: 500;
   color: #757575;
-  min-width: 110px;
-  max-width: 110px;
   font-size: 0.9rem;
-  padding-right: 10px;
+  margin-bottom: 4px; /* Creates a small gap between date and location */
+}
+
+.cv-card-location {
+  font-size: 0.82rem;
+  color: #9e9e9e; /* Slightly lighter gray than the date */
+  font-style: italic;
+  
+  html[data-theme="dark"] & {
+    color: #888888;
+  }
 }
 
 .cv-card-content {
