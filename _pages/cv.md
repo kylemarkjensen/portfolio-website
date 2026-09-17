@@ -12,6 +12,7 @@ author_profile: true
     <a href="#education" class="cv-nav-link">Education</a>
     <a href="#experience" class="cv-nav-link">Experience</a>
     <a href="#awards" class="cv-nav-link">Awards</a>
+    <a href="#service" class="cv-nav-link">Service</a>
   </div>
   
 <!-- Main CV Stream Content Column -->
