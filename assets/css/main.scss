@@ -258,3 +258,7 @@
     }
   }
 }
+/* --- Enable Smooth Scrolling Globally --- */
+html {
+  scroll-behavior: smooth;
+}
