@@ -73,6 +73,26 @@ author_profile: true
   <div class="cv-item-card">
     <div class="cv-card-left-column">
     <!-- Left Side Column: Holds both Date and Location -->
+      <div class="cv-card-date">06/2026 - Present</div>
+      <div class="cv-card-location">
+        <i class="fas fa-map-marker-alt"></i> Atlanta, GA </div>
+    </div>
+    <!-- Right Side Column: Content -->
+    <div class="cv-card-content">
+      <h4>Data Administrator Lead</h4>
+      <div class="cv-institution">TReNDS Center</div>
+      <div class="cv-details">
+        <ul>
+          <li>Aligning Research to Impact Autism (ARIA) Initiative</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="cv-item-card">
+    <div class="cv-card-left-column">
+    <!-- Left Side Column: Holds both Date and Location -->
       <div class="cv-card-date">08/2021 - 05/2026</div>
       <div class="cv-card-location">
         <i class="fas fa-map-marker-alt"></i> Atlanta, GA </div>
@@ -85,6 +105,29 @@ author_profile: true
         <ul>
           <li>PIs: Drs. Vince D. Calhoun, Armin Iraji, Jessica A. Turner</li>
         </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+# Awards
+
+<div class="cv-block-container">
+
+  <!-- Card 1 -->
+  <div class="cv-item-card">
+    <div class="cv-card-left-column">
+    <!-- Left Side Column: Holds both Date and Location -->
+      <div class="cv-card-date">2025</div>
+      <div class="cv-card-location">
+        <i class="fas fa-map-marker-alt"></i> Atlanta, GA </div>
+    </div>
+    <!-- Right Side Column: Content -->
+    <div class="cv-card-content">
+      <h4>Ignite Doctoral Research Achievement Award</h4>
+      <div class="cv-institution">Georgia State University</div>
+      <div class="cv-details">
       </div>
     </div>
   </div>
