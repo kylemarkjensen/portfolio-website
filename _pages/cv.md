@@ -18,7 +18,9 @@ author_profile: true
 <!-- Main CV Stream Content Column -->
   <div class="cv-stream-content">
 
-<h2 id="education">Education</h2>
+<!-- SECTION 1: EDUCATION -->
+    <div class="cv-section" id="education">
+      <h2>Education</h2>
 
 <div class="cv-block-container">
 
@@ -77,8 +79,11 @@ author_profile: true
   </div>
 
 </div>
+</div>
 
-<h2 id="experience">Experience</h2>
+<!-- SECTION 2: EXPERIENCE -->
+<div class="cv-section" id="experience">
+      <h2>Experience</h2>
 
 <div class="cv-block-container">
 
@@ -123,8 +128,11 @@ author_profile: true
   </div>
 
 </div>
+</div>
 
-<h2 id="awards">Awards</h2>
+<!-- SECTION 3: Awards -->
+<div class="cv-section" id="awards">
+      <h2>Awards</h2>
 
 <div class="cv-block-container">
 
@@ -146,8 +154,11 @@ author_profile: true
   </div>
 
 </div>
+</div>
 
-<h2 id="service">Service</h2>
+<!-- SECTION 4: Service -->
+<div class="cv-section" id="service">
+      <h2>Service</h2>
 
 <div class="cv-block-container">
 
@@ -168,6 +179,7 @@ author_profile: true
     </div>
   </div>
 
+</div>
 </div>
 
 <!-- Robust Scrollspy Script for academicpages -->
