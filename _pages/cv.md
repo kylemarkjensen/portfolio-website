@@ -145,3 +145,40 @@ author_profile: true
   </div>
 
 </div>
+
+<!-- Native IntersectionObserver Scrollspy Script -->
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    // 1. Grab all h2 section header anchors and side nav links
+    const sections = document.querySelectorAll('h2[id]');
+    const navLinks = document.querySelectorAll('.cv-nav-link');
+
+    // 2. Set up the observer configuration rules
+    const observerOptions = {
+      root: null,
+      rootMargin: '-10% 0px -70% 0px', // Triggers when the section reaches the upper portion of screen
+      threshold: 0
+    };
+
+    // 3. Track active elements
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          
+          // Clear active states and bind to current anchor
+          navLinks.forEach(link => {
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+            } else {
+              link.classList.remove('active');
+            }
+          });
+        }
+      });
+    }, observerOptions);
+
+    // 4. Fire observer loop
+    sections.forEach(section => observer.observe(section));
+  });
+</script>
