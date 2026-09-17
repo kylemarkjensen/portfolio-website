@@ -47,7 +47,7 @@
 .cv-item-card {
   display: flex;
   flex-direction: row;
-  column-gap: 20px;
+  column-gap: 10px;
   background: var(--global-bg-color, #ffffff); /* Dynamically uses skin bg */
   border: 1px solid var(--global-border-color, rgba(0, 0, 0, 0.15)); /* Native theme border */
   border-radius: 6px;
