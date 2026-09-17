@@ -9,67 +9,53 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D. in Psychology, Georgia State University, 2026
-* M.A. in Psychology, New Mexico State University, 2021
-* B.S. in Psychology, Brigham Young University - Idaho, 2017
+# Education
 
-Work experience
-======
-* Jun 2026 - Present: Data Administrator Lead
-  * Georgia State University, TReNDS Center
-  * Supervisor: Dr. Vince D. Calhoun
+<div class="cv-block-container">
+  
+  <!-- Card 1 -->
+  <div class="cv-item-card">
+    <div class="cv-card-date">2022 – Present</div>
+    <div class="cv-card-content">
+      <h4>Ph.D. in Computer Science</h4>
+      <div class="cv-institution">Stanford University</div>
+      <div class="cv-details">
+        Focus on generative models, deep learning, and open-source system performance.
+      </div>
+    </div>
+  </div>
 
-* Aug 2021 - May 2026: Graduate Research Assistant
-  * Georgia State University, Psychology Dept.
-  * PIs: Drs. Vince D. Calhoun, Armin Iraji, Jessica A. Turner
+  <!-- Card 2 -->
+  <div class="cv-item-card">
+    <div class="cv-card-date">2018 – 2022</div>
+    <div class="cv-card-content">
+      <h4>B.S. in Software Engineering</h4>
+      <div class="cv-institution">MIT</div>
+      <div class="cv-details">
+        Graduated with Honors. Thesis on optimization layers for static generation.
+      </div>
+    </div>
+  </div>
 
-* Aug 2020 - Jun 2021: Administrative Assistant
-  * New Mexico State University, Psychology Dept.
-  * Research Participation System Administrator
-  * Department Webmaster
+</div>
 
-* Aug 2019 - May 2021: Graduate Teaching Assistant
-  * New Mexico State University, Psychology Dept.
+# Research Experience
 
-* Sep 2017 - Dec 2018: Adjunct Instructor
-  * Brigham Young University - Idaho, Psychology Dept. 
+<div class="cv-block-container">
 
-* Jan 2018 – Jun 2018: Data Manager
-  * Alere Youth Development, Rexburg, ID
-  * PI: Dr. Scott D. Martin
+  <!-- Card 3 -->
+  <div class="cv-item-card">
+    <div class="cv-card-date">2024 (Summer)</div>
+    <div class="cv-card-content">
+      <h4>Research Engineering Intern</h4>
+      <div class="cv-institution">Google Brain</div>
+      <div class="cv-details">
+        <ul>
+          <li>Developed structural scaling updates for language generation loops.</li>
+          <li>Optimized local execution runtimes by 14%.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-* Sep 2016 - Jul 2017: Undergraduate Teaching Assistant
-  * Brigham Young University - Idaho, Psychology Dept.
-
-Skills
-======
-* Research
-  * Neuroimaging
-  * Genetics
-  * Data Acquisition + Curation + Harmonization + QC + Analysis + Visualization
-  * Mentoring
-* Teaching
-  * Universal Design Learning
-  * Student-Centered Classroom
-  * Active Learning
-  * Online Learning
-* Computers & Coding
-  * MATLAB
-  * Python
-  * R
-  * Bash
-  * High-performance computing
-  * E-Prime
-  * SPSS
-  * Qualtrics
-  * HTML
-* Writing
-  * Academic
-  * Grants
-  * Creative
-* Graphic Design
-  * Adobe CC (Photoshop, Illustrator, InDesign, Fresco)
-  * Web Design
-  * Document Design
+</div>
