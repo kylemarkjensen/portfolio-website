@@ -52,7 +52,7 @@
   border-radius: 6px;
   padding: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
   
   /* Dark mode protection if your academicpages uses it */
   html[data-theme="dark"] & {
