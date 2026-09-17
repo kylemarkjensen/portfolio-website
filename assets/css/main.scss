@@ -184,7 +184,7 @@
   font-size: 0.9rem;
   font-weight: 500;
   color: #666666;
-  text-decoration: none;
+  text-decoration: none !important;
   padding: 4px 8px;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
@@ -194,6 +194,7 @@
     color: #0076df;
     background: rgba(0, 118, 223, 0.05);
     padding-left: 12px; /* Subtle rightward "push" animation on hover */
+    text-decoration: none !important;
   }
 
   html[data-theme="dark"] & {
@@ -241,6 +242,7 @@
   font-weight: 700 !important;                 
   background: rgba(0, 118, 223, 0.06) !important; 
   opacity: 1 !important;
+  text-decoration: none !important;
 
   @media (min-width: 1024px) {
     padding-left: 12px !important;
