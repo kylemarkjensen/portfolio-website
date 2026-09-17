@@ -132,3 +132,72 @@
     }
   }
 }
+
+/* --- Two-Column Layout Grid for Side Navigation --- */
+@media (min-width: 1024px) {
+  .cv-grid-layout {
+    display: grid;
+    /* Main stream content gets 78% width, navigation panel gets 22% width */
+    grid-template-columns: 1fr 180px; 
+    column-gap: 40px;
+    align-items: start;
+  }
+}
+
+/* --- Vertical Right Navigation Utility Stack --- */
+.cv-sub-nav.vertical-right {
+  display: flex;
+  flex-direction: column; /* Stacks links vertically */
+  gap: 12px;
+  padding: 10px 0 10px 16px;
+  margin-bottom: 2rem;
+  border-bottom: none;
+  
+  /* Desktop Rules: Pull to the right side and sticky float */
+  @media (min-width: 1024px) {
+    grid-column: 2; /* Pushes layout box strictly into column 2 */
+    grid-row: 1;    /* Anchors to the top row alignment baseline */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;      /* Buffer zone below your main navigation bar header */
+    border-left: 2px solid rgba(0, 0, 0, 0.06); /* Clean vertical divider line */
+    z-index: 10;
+  }
+
+  html[data-theme="dark"] & {
+    @media (min-width: 1024px) {
+      border-left-color: #333333;
+    }
+  }
+}
+
+/* --- Force the Stream Content to layout column position 1 --- */
+@media (min-width: 1024px) {
+  .cv-stream-content {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+/* --- Navigation Links Restyling --- */
+.cv-nav-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #666666;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  display: block;
+
+  &:hover {
+    color: #0076df;
+    background: rgba(0, 118, 223, 0.05);
+    padding-left: 12px; /* Subtle rightward "push" animation on hover */
+  }
+
+  html[data-theme="dark"] & {
+    color: #bbbbbb;
+    &:hover { color: #38a1ff; background: rgba(56, 161, 255, 0.1); }
+  }
+}
