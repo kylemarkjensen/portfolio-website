@@ -180,8 +180,8 @@ author_profile: true
     // 2. Set up the observer configuration rules
     const observerOptions = {
       root: null,
-      rootMargin: '-10% 0px -70% 0px', // Triggers when the section reaches the upper portion of screen
-      threshold: 0
+      rootMargin: '0px 0px -60% 0px', // Triggers the instant any edge of the h2 enters that 40% top zone
+      threshold: [0, 0.1]
     };
 
     // 3. Track active elements
