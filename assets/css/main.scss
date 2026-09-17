@@ -235,3 +235,24 @@
     }
   }
 }
+/* Force the text and indicator line to render regardless of theme overrides */
+.cv-sub-nav.vertical-right .cv-nav-link.active {
+  color: #0076df !important;        
+  font-weight: 700 !important;                 
+  background: rgba(0, 118, 223, 0.06) !important; 
+  opacity: 1 !important;
+
+  @media (min-width: 1024px) {
+    padding-left: 12px !important;
+    
+    &::before {
+      content: "" !important;
+      position: absolute !important;
+      left: -18px !important;
+      top: 0 !important;
+      bottom: 0 !important;
+      width: 4px !important; /* Thickened slightly to ensure visibility */
+      background-color: #0076df !important;
+    }
+  }
+}
