@@ -170,40 +170,71 @@ author_profile: true
 
 </div>
 
-<!-- Native IntersectionObserver Scrollspy Script -->
-
+<!-- Robust Scrollspy Script for academicpages -->
 <script>
-  window.addEventListener('DOMContentLoaded', () => {
-    // 1. Grab all h2 section header anchors and side nav links
+  window.addEventListener('load', () => {
+    // 1. Target headings and navigation links
     const sections = document.querySelectorAll('h2[id]');
     const navLinks = document.querySelectorAll('.cv-nav-link');
 
-    // 2. Set up the observer configuration rules
+    if (!sections.length || !navLinks.length) return;
+
+    // 2. Optimized Observer Config for deep layout containers
     const observerOptions = {
-      root: null,
-      rootMargin: '0px 0px -60% 0px', // Triggers the instant any edge of the h2 enters that 40% top zone
-      threshold: [0, 0.1]
+      root: null, 
+      // Expand the window tracking grid: checks a broad horizontal slice near top-middle
+      rootMargin: '-5% 0px -55% 0px', 
+      threshold: [0, 0.1, 0.2]
     };
 
-    // 3. Track active elements
+    // Keep track of which sections are currently crossing into the view block
+    const visibleSections = new Map();
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const id = entry.target.getAttribute('id');
-          
-          // Clear active states and bind to current anchor
-          navLinks.forEach(link => {
-            if (link.getAttribute('href') === `#${id}`) {
-              link.classList.add('active');
-            } else {
-              link.classList.remove('active');
-            }
-          });
-        }
+        // Map true/false visibility tracking markers
+        visibleSections.set(entry.target.getAttribute('id'), entry.isIntersecting);
       });
+
+      // Find the first section that is actively intersecting the viewport banner
+      let activeId = null;
+      for (const [id, isIntersecting] of visibleSections.entries()) {
+        if (isIntersecting) {
+          activeId = id;
+          break; // Grab the highest up visible element block
+        }
+      }
+
+      // 3. Fallback: If scrolling fast and nothing matches, find the closest header above the fold
+      if (!activeId) {
+        let closestSection = null;
+        let closestDistance = -Infinity;
+
+        sections.forEach(section => {
+          const rect = section.getBoundingClientRect();
+          // If the heading is above the middle of screen, it's a potential current read match
+          if (rect.top <= window.innerHeight / 2 && rect.top > closestDistance) {
+            closestDistance = rect.top;
+            closestSection = section;
+          }
+        });
+        if (closestSection) activeId = closestSection.getAttribute('id');
+      }
+
+      // 4. Force inject class updating states
+      if (activeId) {
+        navLinks.forEach(link => {
+          const href = link.getAttribute('href');
+          if (href === `#${activeId}`) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      }
     }, observerOptions);
 
-    // 4. Fire observer loop
+    // 5. Fire observer tracking routine
     sections.forEach(section => observer.observe(section));
   });
 </script>
