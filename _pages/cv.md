@@ -4,13 +4,19 @@ title: "CV (Under Construction)"
 permalink: /cv/
 author_profile: true
 ---
-<!-- 1. Page-Specific Sub-Navigation Bar -->
-<div class="cv-sub-nav">
-  <a href="#education" class="cv-nav-link">Education</a>
-  <a href="#experience" class="cv-nav-link">Experience</a>
-  <a href="#awards" class="cv-nav-link">Awards</a>
-</div>
----
+<!-- main right-nav grid wrapper container -->
+<div class="cv-grid-layout">
+  
+<!-- Right-Side Vertical Sticky Bar -->
+  <div class="cv-sub-nav vertical-right">
+    <a href="#education" class="cv-nav-link">Education</a>
+    <a href="#experience" class="cv-nav-link">Experience</a>
+    <a href="#awards" class="cv-nav-link">Awards</a>
+  </div>
+  
+<!-- Main CV Stream Content Column -->
+  <div class="cv-stream-content">
+
 <h2 id="education">Education</h2>
 
 <div class="cv-block-container">
