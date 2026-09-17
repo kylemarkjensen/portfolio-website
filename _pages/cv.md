@@ -41,7 +41,12 @@ author_profile: true
 
   <!-- Card 3 -->
   <div class="cv-item-card">
-    <div class="cv-card-date">Aug 2021 - May 2026</div>
+    <div class="cv-card-left-column">
+    <!-- Left Side Column: Holds both Date and Location -->
+      <div class="cv-card-date">Aug 2021 - May 2026</div>
+      <div class="cv-card-location">Atlanta, GA</div>
+    </div>
+    <!-- Right Side Column: Content -->
     <div class="cv-card-content">
       <h4>Graduate Research Assistant</h4>
       <div class="cv-institution">Georgia State University</div>
