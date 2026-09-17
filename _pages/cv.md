@@ -146,6 +146,29 @@ author_profile: true
 
 </div>
 
+<h2 id="service">Service</h2>
+
+<div class="cv-block-container">
+
+  <!-- Card 1 -->
+  <div class="cv-item-card">
+    <div class="cv-card-left-column">
+    <!-- Left Side Column: Holds both Date and Location -->
+      <div class="cv-card-date">year</div>
+      <div class="cv-card-location">
+        <i class="fas fa-map-marker-alt"></i> Location </div>
+    </div>
+    <!-- Right Side Column: Content -->
+    <div class="cv-card-content">
+      <h4>Activity</h4>
+      <div class="cv-institution">Institution</div>
+      <div class="cv-details">
+      </div>
+    </div>
+  </div>
+
+</div>
+
 <!-- Native IntersectionObserver Scrollspy Script -->
 <script>
   window.addEventListener('DOMContentLoaded', () => {
