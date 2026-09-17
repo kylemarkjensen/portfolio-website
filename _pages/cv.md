@@ -43,7 +43,7 @@ author_profile: true
   <div class="cv-item-card">
     <div class="cv-card-left-column">
     <!-- Left Side Column: Holds both Date and Location -->
-      <div class="cv-card-date">Aug 2021 - May 2026</div>
+      <div class="cv-card-date">08/2021 - 05/2026</div>
       <div class="cv-card-location">
         <i class="fas fa-map-marker-alt"></i> Atlanta, GA </div>
     </div>
