@@ -122,6 +122,52 @@ author_profile: true
             </div>
           </div>
         </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">09/2017 - 12/2018</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Adjunct Instructor</h4>
+            <div class="cv-institution">Brigham Young University - Idaho</div>
+            <div class="cv-details">
+              <ul>
+                <li>Course: PSYCH 111 - General Psychology</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">01/2018 - 06/2018</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Data Manager</h4>
+            <div class="cv-institution">Alere Youth Development</div>
+            <div class="cv-details">
+              <ul>
+                <li>Grant Program; PI: Dr. Scott D. Martin</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">09/2016 - 07/2017</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Undergraduate Teaching Assistant</h4>
+            <div class="cv-institution">Brigham Young University - Idaho</div>
+            <div class="cv-details">
+              <ul>
+                <li>Course: PSYCH 302 - Research Methods</li>
+                <li>Course: PSYCH 322 - Adult Development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     
