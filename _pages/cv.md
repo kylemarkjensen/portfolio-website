@@ -88,9 +88,25 @@ author_profile: true
             </div>
           </div>
         </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">08/2020 - 06/2021</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Las Cruces, NM</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Administrative Assistant</h4>
+            <div class="cv-institution">New Mexico State University</div>
+            <div class="cv-details">
+              <ul>
+                <li>Research Participation System Administrator</li>
+                <li>Department Webmaster</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
+    
     <div class="cv-section" id="awards">
       <h2>Awards</h2>
       <div class="cv-block-container">
