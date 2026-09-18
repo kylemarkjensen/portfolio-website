@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV (Under Construction)"
+title: "CV"
 permalink: /cv/
 author_profile: true
 ---
