@@ -136,12 +136,122 @@ author_profile: true
       <div class="cv-block-container">
         <div class="cv-item-card">
           <div class="cv-card-left-column">
-            <div class="cv-card-date">2025</div>
+            <div class="cv-card-date">05/2025</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Research Excellence Poster Award</h4>
+            <div class="cv-institution">TReNDS Center</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">03/2025</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
           </div>
           <div class="cv-card-content">
             <h4>Ignite Doctoral Research Achievement Award</h4>
             <div class="cv-institution">Georgia State University</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">12/2024</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Distinguished Scholarship Award</h4>
+            <div class="cv-institution">TReNDS Center</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">09/2023</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Competitive Trainee Scholarship</h4>
+            <div class="cv-institution">GSU/GA Tech Center for Advanced Brain Imaging (CABI)</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">07/2021 - 07/2024</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>2CI Neurogenomics Doctoral Fellowship</h4>
+            <div class="cv-institution">Georgia State University</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">2020 - 2021</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Las Cruces, NM</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Outstanding Graduate Assistantship Award</h4>
+            <div class="cv-institution">New Mexico State University</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">05/2017</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Faculty Development & Student Mentored Research Award</h4>
+            <div class="cv-institution">Brigham Young University - Idaho</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">04/2017</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Student Travel Award</h4>
+            <div class="cv-institution">Brigham Young University - Idaho</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">2016 - 2017</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Academic Excellence Scholarship</h4>
+            <div class="cv-institution">Brigham Young University - Idaho</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">07/2012</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Beaverton, OR</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Eagle Scout</h4>
+            <div class="cv-institution">Boy Scouts of America (BSA)</div>
+            <div class="cv-details"></div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">06/2012</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Beaverton, OR</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Health Careers Program Graduate</h4>
+            <div class="cv-institution">Beaverton High School</div>
             <div class="cv-details"></div>
           </div>
         </div>
