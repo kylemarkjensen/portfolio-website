@@ -66,11 +66,6 @@ author_profile: true
           <div class="cv-card-content">
             <h4>Data Administrator Lead</h4>
             <div class="cv-institution">TReNDS Center</div>
-            <div class="cv-details">
-              <ul>
-                <li>Aligning Research to Impact Autism (ARIA) Initiative</li>
-              </ul>
-            </div>
           </div>
         </div>
         <div class="cv-item-card">
@@ -81,11 +76,6 @@ author_profile: true
           <div class="cv-card-content">
             <h4>Graduate Research Assistant</h4>
             <div class="cv-institution">Georgia State University</div>
-            <div class="cv-details">
-              <ul>
-                <li>PIs: Drs. Vince D. Calhoun, Armin Iraji, Jessica A. Turner</li>
-              </ul>
-            </div>
           </div>
         </div>
         <div class="cv-item-card">
@@ -96,12 +86,6 @@ author_profile: true
           <div class="cv-card-content">
             <h4>Administrative Assistant</h4>
             <div class="cv-institution">New Mexico State University</div>
-            <div class="cv-details">
-              <ul>
-                <li>Research Participation System Administrator</li>
-                <li>Department Webmaster</li>
-              </ul>
-            </div>
           </div>
         </div>
         <div class="cv-item-card">
@@ -112,14 +96,6 @@ author_profile: true
           <div class="cv-card-content">
             <h4>Graduate Teaching Assistant</h4>
             <div class="cv-institution">New Mexico State University</div>
-            <div class="cv-details">
-              <ul>
-                <li>Course: PSY 201 - Introduction to Psychology</li>
-                <li>Course: PSY 375 - Psychology and the Brain</li>
-                <li>Course: PSY 383 - Memory</li>
-                <li>Course: PSY 442 - Thinking</li>
-              </ul>
-            </div>
           </div>
         </div>
         <div class="cv-item-card">
@@ -130,11 +106,6 @@ author_profile: true
           <div class="cv-card-content">
             <h4>Adjunct Instructor</h4>
             <div class="cv-institution">Brigham Young University - Idaho</div>
-            <div class="cv-details">
-              <ul>
-                <li>Course: PSYCH 111 - General Psychology</li>
-              </ul>
-            </div>
           </div>
         </div>
         <div class="cv-item-card">
@@ -145,11 +116,6 @@ author_profile: true
           <div class="cv-card-content">
             <h4>Data Manager</h4>
             <div class="cv-institution">Alere Youth Development</div>
-            <div class="cv-details">
-              <ul>
-                <li>Grant Program; PI: Dr. Scott D. Martin</li>
-              </ul>
-            </div>
           </div>
         </div>
         <div class="cv-item-card">
@@ -160,12 +126,6 @@ author_profile: true
           <div class="cv-card-content">
             <h4>Undergraduate Teaching Assistant</h4>
             <div class="cv-institution">Brigham Young University - Idaho</div>
-            <div class="cv-details">
-              <ul>
-                <li>Course: PSYCH 302 - Research Methods</li>
-                <li>Course: PSYCH 322 - Adult Development</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
