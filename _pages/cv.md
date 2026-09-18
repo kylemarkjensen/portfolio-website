@@ -263,15 +263,39 @@ author_profile: true
       <div class="cv-block-container">
         <div class="cv-item-card">
           <div class="cv-card-left-column">
-            <div class="cv-card-date">year</div>
-            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Location</div>
+            <div class="cv-card-date">08/2026 - Present</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
           </div>
           <div class="cv-card-content">
-            <h4>Activity</h4>
-            <div class="cv-institution">Institution</div>
-            <div class="cv-details"></div>
+            <h4>Co-Mentor</h4>
+            <div class="cv-institution">Georgia State University</div>
+            <div class="cv-details">University Assistantship Program</div>
           </div>
         </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">08/2026</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Poster Judge</h4>
+            <div class="cv-institution">TReNDS Center</div>
+            <div class="cv-details">Summer 2026 TReNDS Research Day</div>
+          </div>
+        </div>
+        <div class="cv-item-card">
+          <div class="cv-card-left-column">
+            <div class="cv-card-date">05/2026 - 08/2026</div>
+            <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
+          </div>
+          <div class="cv-card-content">
+            <h4>Mentor</h4>
+            <div class="cv-institution">Georgia State University</div>
+            <div class="cv-details">CASA & D-MAP</div>
+          </div>
+        </div>
+
+        
       </div>
     </div>
 
