@@ -42,7 +42,7 @@ author_profile: true
     <div class="cv-section" id="education">
       <h2>Education</h2>
       <div class="cv-block-container">
-        <div class="cv-item-card">
+        <a href="YOUR_LINK_HERE" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2021 - 05/2026</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -52,7 +52,7 @@ author_profile: true
             <div class="cv-institution">Georgia State University</div>
             <div class="cv-details">Cognitive and Affective Neuroscience</div>
           </div>
-        </div>
+        </a>
         <div class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2019 - 08/2021</div>
