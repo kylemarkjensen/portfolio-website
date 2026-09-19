@@ -5,6 +5,29 @@ permalink: /cv/
 author_profile: true
 ---
 
+<style>
+  .cv-item-card {
+    display: flex;
+    text-decoration: none !important; /* Removes default link underlines */
+    color: inherit !important;        /* Keeps original text colors intact */
+    transition: all 0.25s ease-in-out; /* Smooth transition for hover animations */
+    border-radius: 6px;
+    padding: 10px;                     /* Adjust layout breathing room if needed */
+  }
+
+  /* Hover effect styles */
+  .cv-item-card:hover {
+    background-color: rgba(0, 0, 0, 0.03); /* Subtle backdrop tint */
+    transform: translateY(-2px);           /* Lifts the card slightly up */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Soft drop shadow expansion */
+  }
+
+  /* Optional: changes map icon color on hover to show interactivity */
+  .cv-item-card:hover .cv-card-location i {
+    color: #4a90e2; 
+  }
+</style>
+
 <div class="cv-grid-layout">
   
   <div class="cv-sub-nav vertical-right">
