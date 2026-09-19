@@ -11,19 +11,9 @@ sidebar:
     text: "Brief project overview or metadata here."
 ---
 
-Every project has a beautiful feature showcase page. 
-It's easy to include images in a flexible multi-column layout or format your photos in various widths.
-
-To give your project a background or teaser image in the portfolio collection page, just add the `teaser` tag under `header` in the front matter like so:
-
-```yaml
----
-title: "Project Title"
-collection: portfolio
-header:
-  teaser: "images/cv/grad.JPG"
----
-```
+<a href="/cv/" class="btn btn--info" style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none !important;">
+  <i class="fas fa-arrow-left"></i> Back to CV
+</a>
 
 ### Gallery Showcase
 
