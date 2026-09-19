@@ -21,7 +21,7 @@ To give your project a background or teaser image in the portfolio collection pa
 title: "Project Title"
 collection: portfolio
 header:
-  teaser: "assets/img/12.jpg"
+  teaser: "images/cv/grad.JPG"
 ---
 ```
 
