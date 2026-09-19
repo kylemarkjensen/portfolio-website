@@ -72,7 +72,7 @@ author_profile: true
             <div class="cv-details">Cognitive and Affective Neuroscience</div>
           </div>
         </a>
-        <div class="cv-item-card">
+        <a href="cv/ma/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2019 - 08/2021</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Las Cruces, NM</div>
@@ -82,7 +82,7 @@ author_profile: true
             <div class="cv-institution">New Mexico State University</div>
             <div class="cv-details">Cognitive Psychology</div>
           </div>
-        </div>
+        </a>
         <div class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">09/2012 - 07/2017</div>
