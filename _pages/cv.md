@@ -72,7 +72,7 @@ author_profile: true
             <div class="cv-details">Cognitive and Affective Neuroscience</div>
           </div>
         </a>
-        <a href="cv/ma/" class="cv-item-card">
+        <a href="/cv/ma/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2019 - 08/2021</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Las Cruces, NM</div>
