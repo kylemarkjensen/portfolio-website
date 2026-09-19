@@ -29,7 +29,7 @@ header:
 
 Below is a three-column representation of the project photos.
 
-| ![Road through a tunnel](/assets/img/1.jpg) | ![Artistic leaves fall](/assets/img/3.jpg) | ![Lumberjack grasping needles](/assets/img/5.jpg) |
+| ![Road through a tunnel](/images/cv/grad.jpg) | ![Artistic leaves fall](/images/cv/mentors.jpg) | ![Lumberjack grasping needles](/images/cv/grad_family.jpeg) |
 |:---:|:---:|:---:|
 | A road goes through a tunnel. | Leaves artistically fall in a photoshoot. | A lumberjack grasps pine needles. |
 
