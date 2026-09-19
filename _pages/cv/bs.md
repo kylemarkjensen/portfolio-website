@@ -40,4 +40,4 @@ In July 2017, I successfully completed my Bachelor's in the Health Psychology pr
 
 </div>
 
-I had the opportunity to stay at BYU-I a little longer, teaching introductory psychology classes as an adjunct instructor and serving as a lab and data manager in Dr. Scott Martin's Positive Psychology Lab. In December 2018, my wife finished her Bachelor's in graphic design and we welcomed Paisley into our family.
+I had the opportunity to stay at BYU-I a little longer, teaching introductory psychology classes as an adjunct instructor and serving as a lab and data manager in Dr. Scott Martin's Positive Psychology Lab. In December 2018, my wife finished her Bachelor's in Graphic Design and we welcomed Paisley into our family.
