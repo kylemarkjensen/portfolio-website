@@ -19,9 +19,8 @@ sidebar:
 
 Below is a three-column representation of the project photos.
 
-| ![Road through a tunnel](/images/cv/grad.JPG) | ![Artistic leaves fall](/images/cv/mentors.jpg) | ![Lumberjack grasping needles](/images/cv/grad_family.jpeg) |
-|:---:|:---:|:---:|
-| A road goes through a tunnel. | Leaves artistically fall in a photoshoot. | A lumberjack grasps pine needles. |
+| ![Road through a tunnel](/images/cv/grad.JPG) | ![Lumberjack grasping needles](/images/cv/grad_family.jpeg) |
+|:---:|:---:|
 
 ***
 
