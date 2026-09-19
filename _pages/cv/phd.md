@@ -2,7 +2,7 @@
 title: "Ph.D. in Psychology"
 excerpt: "With background image"
 collection: portfolio
-permalink: /portfolio/project-1/
+permalink: /cv/phd/
 header:
   teaser: "assets/img/12.jpg"
 sidebar:
