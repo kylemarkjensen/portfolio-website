@@ -26,7 +26,7 @@ permalink: /cv/ma/
 ![Main Feature Image](/images/cv/OrganMountains-Large.jpg)
 *Advisor: Dr. Justin MacDonald*
 
-In August 2021, I successfully completed my M.A. in the Cognitive Psychology program within the Psychology Department at NMSU.
+In August 2021, I successfully completed my Master's in the Cognitive Psychology program within the Psychology Department at NMSU.
 
 <p class="notice"> <strong>Thesis:</strong> Towards Thoughtful Planning of ERP Studies: How Participants, Trials, and Effect Magnitude Interact to Influence Statistical Power across Seven ERP Components <a href="https://doi.org/10.1111/psyp.14245">https://doi.org/10.1111/psyp.14245</a></p>
 
@@ -45,4 +45,4 @@ In August 2021, I successfully completed my M.A. in the Cognitive Psychology pro
 
 </div>
 
-My family and I loved our time up in the Organ mountains - it was hard to say goodbye!
+My family and I loved our time in the Organ mountains of New Mexico - it was hard to say goodbye!
