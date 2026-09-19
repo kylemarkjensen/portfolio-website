@@ -37,7 +37,7 @@ Below is a three-column representation of the project photos.
 
 ### Full-Width Feature
 
-![Main Feature Image](/assets/img/5.jpg)
+![Main Feature Image](/images/cv/mentors.jpg)
 *This image can also have a caption below it. It's like magic.*
 
 ***
@@ -52,10 +52,10 @@ For asymmetrical photo arrangements, use direct HTML image elements aligned nati
 
 <div style="display: flex; gap: 15px; flex-wrap: wrap;">
   <div style="flex: 2; min-width: 250px;">
-    <img src="/assets/img/6.jpg" alt="example image 2/3 width" style="border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,0.125);">
+    <img src="/images/cv/grad.JPG" alt="example image 2/3 width" style="border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,0.125);">
   </div>
   <div style="flex: 1; min-width: 150px;">
-    <img src="/assets/img/11.jpg" alt="example image 1/3 width" style="border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,0.125);">
+    <img src="/images/cv/grad_family.jpeg" alt="example image 1/3 width" style="border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,0.125);">
   </div>
 </div>
 
