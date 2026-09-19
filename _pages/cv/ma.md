@@ -1,8 +1,8 @@
 ---
-title: "Ph.D. in Psychology"
+title: "M.A. in Psychology"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/phd/
+permalink: /cv/ma/
 ---
 
 <style>
@@ -21,28 +21,28 @@ permalink: /cv/phd/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University 
+### New Mexico State University 
 
-![Main Feature Image](/images/cv/mentors.jpg)
-*Advisors: Drs. Armin Iraji & Vince Calhoun*
+![Main Feature Image](/images/cv/OrganMountains-Large.jpg)
+*Advisor: Dr. Justin MacDonald*
 
-In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Neuroscience program within the Psychology Department at GSU.
+In August 2021, I successfully completed my M.A. in the Cognitive Psychology program within the Psychology Department at NMSU.
 
-<p class="notice"> <strong>Dissertation:</strong> Data-driven Whole-brain Approaches for Identifying Reliable Functional Imaging Markers of Schizophrenia. <a href="https://doi.org/10.57709/45">https://doi.org/10.57709/45</a></p>
+<p class="notice"> <strong>Thesis:</strong> Towards Thoughtful Planning of ERP Studies: How Participants, Trials, and Effect Magnitude Interact to Influence Statistical Power across Seven ERP Components <a href="https://doi.org/10.1111/psyp.14245">https://doi.org/10.1111/psyp.14245</a></p>
 
 <!-- Flexbox Layout Container for Perfectly Equal Height Images -->
 <div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
   
   <!-- Left Image Wrapper -->
   <div style="flex: 1; display: flex;">
-    <img src="/images/cv/grad.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="/images/cv/NM_Family.jpeg" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
   
   <!-- Right Image Wrapper -->
   <div style="flex: 1; display: flex;">
-    <img src="/images/cv/grad_family.jpeg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="/images/cv/off_to_GSU.jpg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
 
 </div>
 
-I'm grateful for the tremendous support I received from my family, mentors, and fellow lab mates throughout my academic journey!
+My family and I loved our time up in the Organ mountains - it was hard to say goodbye!
