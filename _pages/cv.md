@@ -83,7 +83,7 @@ author_profile: true
             <div class="cv-details">Cognitive Psychology</div>
           </div>
         </a>
-        <div class="cv-item-card">
+        <a href="/cv/bs/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">09/2012 - 07/2017</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
@@ -93,7 +93,7 @@ author_profile: true
             <div class="cv-institution">Brigham Young University - Idaho</div>
             <div class="cv-details">Health Psychology</div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
 
