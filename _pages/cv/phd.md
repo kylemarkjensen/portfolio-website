@@ -15,10 +15,10 @@ sidebar:
   /* Target all images within the primary content body */
   .page__content img {
     border: 1px solid #e1e4e8 !important; /* Crisp, neutral light-grey border frame */
-    border-radius: 6px !important;        /* Smooth, modern rounded corners */
-    padding: 4px;                          /* Creates a clean, professional passport-photo border effect */
+    border-radius: 14px !important;        /* Smooth, modern rounded corners */
+    padding: 5px;                          /* Creates a clean, professional passport-photo border effect */
     background-color: #ffffff;             /* Ensures a clean white gap between the image and the frame border */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Very subtle bottom drop shadow for depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06); /* Very subtle bottom drop shadow for depth */
     transition: transform 0.2s ease-in-out;
   }
 </style>
