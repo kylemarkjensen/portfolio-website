@@ -5,26 +5,45 @@ permalink: /cv/
 author_profile: true
 ---
 
+<!-- Embedded styles managing anchor layout, hover animations, and focus ring removal -->
 <style>
   .cv-item-card {
     display: flex;
     text-decoration: none !important; /* Removes default link underlines */
     color: inherit !important;        /* Keeps original text colors intact */
-    transition: all 0.25s ease-in-out; /* Smooth transition for hover animations */
+    transition: all 0.25s ease-in-out; /* Smooth transition for desktop hover */
     border-radius: 6px;
-    padding: 10px;                     /* Adjust layout breathing room if needed */
+    padding: 10px;                     
+    
+    /* Crucial for iOS/Safari: tells the browser to recognize custom tap behavior */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
   }
 
-  /* Hover effect styles */
-  .cv-item-card:hover {
-    background-color: rgba(0, 0, 0, 0.03); /* Subtle backdrop tint */
-    transform: translateY(-2px);           /* Lifts the card slightly up */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Soft drop shadow expansion */
+  /* 🛠️ REMOVE ORANGE CLICK BOX (Focus Ring Outlines) */
+  .cv-item-card:focus,
+  .cv-item-card:focus-visible,
+  .cv-item-card:active {
+    outline: none !important;
+    box-shadow: none !important; /* Overrides template-level shadow flashes on press */
   }
 
-  /* Optional: changes map icon color on hover to show interactivity */
-  .cv-item-card:hover .cv-card-location i {
-    color: #4a90e2; 
+  /* 💻 Desktop/Mouse Hover Effect */
+  @media (hover: hover) {
+    .cv-item-card:hover {
+      background-color: rgba(0, 0, 0, 0.03); /* Subtle backdrop tint */
+      transform: translateY(-2px);           /* Lifts the card slightly up */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Soft drop shadow expansion */
+    }
+    .cv-item-card:hover .cv-card-location i {
+      color: #4a90e2; 
+    }
+  }
+
+  /* 📱 Smartphone/Touch Active Feedback State */
+  .cv-item-card:active {
+    background-color: rgba(0, 0, 0, 0.06) !important; /* Deeper tint for concrete touch confirmation */
+    transform: scale(0.99);                            /* Slight compression effect under the thumb */
+    transition: all 0.05s ease;                        /* Instantaneous response speed */
   }
 </style>
 
