@@ -44,6 +44,3 @@ In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Ne
   </div>
 
 </div>
-
-The Markdown structure is simple. Keep formatting clean so that the responsive styles native to the template handle mobile layout scaling flawlessly.
-
