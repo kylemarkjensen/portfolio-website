@@ -44,3 +44,5 @@ In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Ne
   </div>
 
 </div>
+
+I'm grateful for the tremendous support I received from my family and fellow lab mates throughout my academic journey.
