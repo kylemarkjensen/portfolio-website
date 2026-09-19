@@ -53,6 +53,21 @@ For asymmetrical photo arrangements, use direct HTML image elements aligned nati
   </div>
 </div>
 
+<!-- Flexbox Layout Container for Perfectly Equal Height Images -->
+<div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
+  
+  <!-- Left Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/grad.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  
+  <!-- Right Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/grad_family.jpeg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+
+</div>
+
 *You can also have artistically styled 2/3 + 1/3 images, like these.*
 
 The Markdown structure is simple. Keep formatting clean so that the responsive styles native to the template handle mobile layout scaling flawlessly.
