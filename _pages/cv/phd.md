@@ -3,12 +3,6 @@ title: "Ph.D. in Psychology"
 excerpt: "With background image"
 collection: portfolio
 permalink: /cv/phd/
-header:
-  teaser: "assets/img/12.jpg"
-sidebar:
-  - title: "Role"
-    image: "assets/img/12.jpg"
-    text: "Brief project overview or metadata here."
 ---
 
 <style>
@@ -27,31 +21,12 @@ sidebar:
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-***
-
-### Full-Width Feature
-
 ![Main Feature Image](/images/cv/mentors.jpg)
-*This image can also have a caption below it. It's like magic.*
+*Advisors: Drs. Armin Iraji & Vince Calhoun*
 
 ***
 
-You can also put regular text between your rows of images. For inline academic citations, `academicpages` utilizes standard Markdown footnotes or a global bibliography instead of theme-specific Liquid syntax. 
-
-Say you wanted to write a bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next layout framework.
-
-### Split Layout (2/3 and 1/3 Content Showcase)
-
-For asymmetrical photo arrangements, use direct HTML image elements aligned natively within the `academicpages` content framework:
-
-<div style="display: flex; gap: 15px; flex-wrap: wrap;">
-  <div style="flex: 2; min-width: 250px;">
-    <img src="/images/cv/grad.JPG" alt="example image 2/3 width" style="border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,0.125);">
-  </div>
-  <div style="flex: 1; min-width: 150px;">
-    <img src="/images/cv/grad_family.jpeg" alt="example image 1/3 width" style="border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,0.125);">
-  </div>
-</div>
+<p class="notice"> Dissertation: Data-driven Whole-brain Approaches for Identifying Reliable Functional Imaging Markers of Schizophrenia. https://doi.org/10.57709/45 </p>
 
 <!-- Flexbox Layout Container for Perfectly Equal Height Images -->
 <div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
@@ -67,8 +42,6 @@ For asymmetrical photo arrangements, use direct HTML image elements aligned nati
   </div>
 
 </div>
-
-*You can also have artistically styled 2/3 + 1/3 images, like these.*
 
 The Markdown structure is simple. Keep formatting clean so that the responsive styles native to the template handle mobile layout scaling flawlessly.
 
