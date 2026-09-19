@@ -11,16 +11,46 @@ sidebar:
     text: "Brief project overview or metadata here."
 ---
 
-<a href="/cv/" class="btn btn--info" style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none !important;">
+<style>
+  .cv-floating-back-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+    padding: 10px 16px;
+    background-color: #ffffff;
+    color: #333333 !important;
+    border: 1px solid #e1e4e8;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .cv-floating-back-btn:hover {
+    background-color: #f6f8fa;
+    transform: translateX(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  /* Hides it if it overlaps your sidebar profile on larger desktop layouts */
+  @media (max-width: 1024px) {
+    .cv-floating-back-btn {
+      position: relative;
+      top: 0;
+      left: 0;
+      margin-bottom: 20px;
+      display: inline-flex;
+    }
+  }
+</style>
+
+<a href="/cv/" class="cv-floating-back-btn">
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
-
-### Gallery Showcase
-
-Below is a three-column representation of the project photos.
-
-| ![Road through a tunnel](/images/cv/grad.JPG) | ![Lumberjack grasping needles](/images/cv/grad_family.jpeg) |
-|:---:|:---:|
 
 ***
 
