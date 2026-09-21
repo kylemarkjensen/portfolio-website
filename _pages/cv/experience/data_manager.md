@@ -2,7 +2,7 @@
 title: "Data Administrator Lead"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/data_manager
+permalink: /cv/experience/data_manager/
 ---
 
 <style>
