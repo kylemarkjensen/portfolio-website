@@ -39,12 +39,17 @@ During my Ph.D. at GSU, I worked as a graduate research assistant in the followi
   
   <!-- Left Image Wrapper -->
   <div style="flex: 1; display: flex;">
-    <img src="/images/cv/grad.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="/images/cv/Kyle_EEG.jpeg" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+
+  <!-- Middle Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/Kyle_Emma_EEG.jpeg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
   
   <!-- Right Image Wrapper -->
   <div style="flex: 1; display: flex;">
-    <img src="/images/cv/grad_family.jpeg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="/images/cv/TReNDS_poster.JPG" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
 
 </div>
