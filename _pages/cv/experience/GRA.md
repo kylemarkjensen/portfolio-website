@@ -23,6 +23,8 @@ permalink: /cv/experience/GRA/
 
 ### Georgia State University (August 2021 - May 2026)
 
+![Main Feature Image](/images/cv/TReNDS.JPG)
+
 *Lab: Image Analysis Lab*
 *PI: Dr. Armin Iraji*
 
