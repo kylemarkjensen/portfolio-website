@@ -1,8 +1,8 @@
 ---
-title: "Ph.D. in Psychology"
+title: "Graduate Research Assistant"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/phd/
+permalink: /cv/experience/GRA/
 ---
 
 <style>
@@ -23,8 +23,15 @@ permalink: /cv/phd/
 
 ### Georgia State University (August 2021 - May 2026)
 
-![Main Feature Image](/images/cv/mentors.jpg)
-*Advisors: Drs. Armin Iraji & Vince Calhoun*
+*Lab: Image Analysis Lab*
+*PI: Dr. Armin Iraji*
+
+*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
+(TReNDS)*
+*PI: Dr. Vince D. Calhoun*
+
+*Lab: Imaging Genetics and Informatics Lab (IGIL)*
+*PI: Dr. Jessica A. Turner*
 
 In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Neuroscience program within the Psychology Department at GSU.
 
