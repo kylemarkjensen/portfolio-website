@@ -25,19 +25,17 @@ permalink: /cv/experience/GRA/
 
 ![Main Feature Image](/images/cv/TReNDS.JPG)
 
+During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
+
+*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
+(TReNDS; lab photo above)*
+*PI: Dr. Vince D. Calhoun*
+
 *Lab: Image Analysis Lab*
 *PI: Dr. Armin Iraji*
 
-*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS)*
-*PI: Dr. Vince D. Calhoun*
-
 *Lab: Imaging Genetics and Informatics Lab (IGIL)*
 *PI: Dr. Jessica A. Turner*
-
-In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Neuroscience program within the Psychology Department at GSU.
-
-<p class="notice"> <strong>Dissertation:</strong> Data-driven Whole-brain Approaches for Identifying Reliable Functional Imaging Markers of Schizophrenia. <a href="https://doi.org/10.57709/45">https://doi.org/10.57709/45</a></p>
 
 <!-- Flexbox Layout Container for Perfectly Equal Height Images -->
 <div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
