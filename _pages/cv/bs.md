@@ -21,7 +21,7 @@ permalink: /cv/bs/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Brigham Young University - Idaho
+### Brigham Young University - Idaho (September 2012 - July 2017)
 
 In July 2017, I successfully completed my Bachelor's in the Health Psychology program within the Psychology Department at BYU-I.
 
