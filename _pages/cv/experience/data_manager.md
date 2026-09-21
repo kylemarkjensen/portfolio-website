@@ -21,7 +21,7 @@ permalink: /cv/experience/data_manager
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Tri-Institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS; June 2026 - Present)
+### Tri-Institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS)
 
 In June 2026, I began my current role at the TReNDS Center, where I serve as the lead data manager for the Atlanta site within the Aligning Research to Impact Autism (ARIA) IMPACT Network.
 See the article below to learn more about this project:
