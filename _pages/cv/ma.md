@@ -21,7 +21,7 @@ permalink: /cv/ma/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### New Mexico State University 
+### New Mexico State University (August 2019 - August 2021)
 
 ![Main Feature Image](/images/cv/OrganMountains-Large.jpg)
 *Advisor: Dr. Justin MacDonald*
