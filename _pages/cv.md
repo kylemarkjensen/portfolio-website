@@ -100,7 +100,7 @@ author_profile: true
     <div class="cv-section" id="experience">
       <h2>Experience</h2>
       <div class="cv-block-container">
-        <div class="cv-item-card">
+        <a href="/cv/experience/data_manager/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">06/2026 - Present</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -109,8 +109,8 @@ author_profile: true
             <h4>Data Administrator Lead</h4>
             <div class="cv-institution">TReNDS Center</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/experience/GRA/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2021 - 05/2026</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -119,8 +119,8 @@ author_profile: true
             <h4>Graduate Research Assistant</h4>
             <div class="cv-institution">Georgia State University</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/experience/admin_assist/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2020 - 06/2021</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Las Cruces, NM</div>
@@ -129,8 +129,8 @@ author_profile: true
             <h4>Administrative Assistant</h4>
             <div class="cv-institution">New Mexico State University</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/experience/GTA/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2019 - 05/2021</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Las Cruces, NM</div>
@@ -139,8 +139,8 @@ author_profile: true
             <h4>Graduate Teaching Assistant</h4>
             <div class="cv-institution">New Mexico State University</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/experience/adjunct/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">09/2017 - 12/2018</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
@@ -149,8 +149,8 @@ author_profile: true
             <h4>Adjunct Instructor</h4>
             <div class="cv-institution">Brigham Young University - Idaho</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/experience/dm_byui/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">01/2018 - 06/2018</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
@@ -159,8 +159,8 @@ author_profile: true
             <h4>Data Manager</h4>
             <div class="cv-institution">Alere Youth Development</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/experience/undergrad_TA/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">09/2016 - 07/2017</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
@@ -169,7 +169,7 @@ author_profile: true
             <h4>Undergraduate Teaching Assistant</h4>
             <div class="cv-institution">Brigham Young University - Idaho</div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
     
