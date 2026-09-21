@@ -21,7 +21,7 @@ permalink: /cv/experience/data_manager/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Tri-Institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS)
+### Tri-Institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS) at Georgia State University, Georgia Institute of Technology, and Emory University
 
 In June 2026, I began my current role at the TReNDS Center, where I serve as the lead data manager for the Atlanta site within the Aligning Research to Impact Autism (ARIA) IMPACT Network.
 See the article below to learn more about this project:
@@ -29,3 +29,5 @@ See the article below to learn more about this project:
 <iframe src="https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network" width="100%" height="500px" style="border:none;">
   <p>Your browser does not support iframes.</p>
 </iframe>
+
+https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network
