@@ -28,11 +28,11 @@ permalink: /cv/experience/GRA/
 During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
 
 *Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS; lab photo above); PI: Dr. Vince D. Calhoun*
+(TReNDS; lab photo above); <a href="https://cas.gsu.edu/profile/vince-calhoun/">PI: Dr. Vince D. Calhoun</a>*
 
-*Lab: Image Analysis Lab; PI: Dr. Armin Iraji*
+*Lab: Image Analysis Lab; <a href="https://cas.gsu.edu/profile/armin-iraji/">PI: Dr. Armin Iraji</a>*
 
-*Lab: Imaging Genetics and Informatics Lab (IGIL); PI: Dr. Jessica A. Turner*
+*Lab: Imaging Genetics and Informatics Lab (IGIL); <a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545">PI: Dr. Jessica A. Turner</a>*
 
 <!-- Flexbox Layout Container for Perfectly Equal Height Images -->
 <div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
@@ -54,4 +54,6 @@ During my Ph.D. at GSU, I worked as a graduate research assistant in the followi
 
 </div>
 
-I'm grateful for the tremendous support I received from my family, mentors, and fellow lab mates throughout my academic journey!
+<iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
+  <p>Your browser does not support iframes.</p>
+</iframe>
