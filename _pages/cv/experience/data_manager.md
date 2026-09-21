@@ -30,4 +30,4 @@ See the article below to learn more about this project:
   <p>Your browser does not support iframes.</p>
 </iframe>
 
-https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network
+<p class="notice"> <strong>Link to Article:</strong> <a href="https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network">https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network</a></p>
