@@ -21,7 +21,7 @@ permalink: /cv/phd/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University 
+### Georgia State University (August 2021 - May 2026)
 
 ![Main Feature Image](/images/cv/mentors.jpg)
 *Advisors: Drs. Armin Iraji & Vince Calhoun*
