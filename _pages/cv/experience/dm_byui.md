@@ -1,8 +1,8 @@
 ---
-title: "Ph.D. in Psychology"
+title: "Data Manager"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/phd/
+permalink: /cv/experience/dm_byui/
 ---
 
 <style>
