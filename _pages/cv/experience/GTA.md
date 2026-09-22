@@ -23,3 +23,26 @@ permalink: /cv/experience/GTA/
 
 ### New Mexico State University (August 2019 - May 2021)
 
+*Course: PSY 383 - Memory*
+<ul>
+  <li>Supervising Professor: Dr. Melissa Guynn</li>
+  <li>1 section/1 semester</li>
+</ul>
+
+*Course: PSY 375 - Psychology and the Brain*
+<ul>
+  <li>Supervising Professor: Dr. James Kroger</li>
+  <li>2 sections/2 semesters</li>
+</ul>
+
+*Course: PSY 442 - Thinking*
+<ul>
+  <li>Supervising Professor: Dr. James Kroger</li>
+  <li>1 section/1 semester</li>
+</ul>
+
+*Course: PSY 201 - Introduction to Psychology*
+<ul>
+  <li>Supervising Professor: Bryan White</li>
+  <li>2 sections/2 semesters</li>
+</ul>
