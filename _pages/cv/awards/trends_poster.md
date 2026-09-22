@@ -25,7 +25,7 @@ permalink: /cv/awards/trends_poster/
 
 This $50 award is awarded bi-annually to the highest scoring poster presentation in the graduate student category at the TReNDS Research Day for Georgia State University, GA Tech, and Emory University. In this presentation I described my work on a multi-scale functional brain atlas (see poster below):
 
-<iframe src="/files/OHBM_2025_NeuroMark_2-2_Poster_compressed.pdf/" width="100%" height="600px">
+<iframe src="{{ site.url }}{{ site.baseurl }}/files/OHBM_2025_NeuroMark_2-2_Poster_compressed.pdf/" width="100%" height="600px">
     <p>This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="/files/OHBM_2025_NeuroMark_2-2_Poster_compressed.pdf/">Download PDF</a>.</p>
+    <a href="{{ site.url }}{{ site.baseurl }}/files/OHBM_2025_NeuroMark_2-2_Poster_compressed.pdf/">Download PDF</a>.</p>
 </iframe>
