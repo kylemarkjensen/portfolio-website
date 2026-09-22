@@ -23,5 +23,14 @@ permalink: /cv/experience/undergrad_TA/
 
 ### Brigham Young University - Idaho (September 2016 - July 2017)
 
-*Supervising Professor: Dr. Scott Martin*
+*Course: PSYCH 302 - Research Methods*
+<ul>
+  <li>Supervising Professor: Dr. Scott Martin</li>
+  <li>6 sections/3 semesters</li>
+</ul>
 
+*Course: PSYCH 322 - Adult Development*
+<ul>
+  <li>Supervising Professor: Dr. Scott Martin</li>
+  <li>4 sections/2 semesters</li>
+</ul>
