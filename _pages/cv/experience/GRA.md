@@ -34,26 +34,6 @@ During my Ph.D. at GSU, I worked as a graduate research assistant in the followi
 
 *Lab: Imaging Genetics and Informatics Lab (IGIL); PI:<a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545"> Dr. Jessica A. Turner</a>*
 
-<!-- Flexbox Layout Container for Perfectly Equal Height Images -->
-<div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
-  
-  <!-- Left Image Wrapper -->
-  <div style="flex: 1; display: flex;">
-    <img src="/images/cv/Kyle_EEG.jpeg" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-
-  <!-- Middle Image Wrapper -->
-  <div style="flex: 1; display: flex;">
-    <img src="/images/cv/Kyle_Emma_EEG.jpeg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-  
-  <!-- Right Image Wrapper -->
-  <div style="flex: 1; display: flex;">
-    <img src="/images/cv/TReNDS_poster.JPG" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-
-</div>
-
 <iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
   <p>Your browser does not support iframes.</p>
 </iframe>
