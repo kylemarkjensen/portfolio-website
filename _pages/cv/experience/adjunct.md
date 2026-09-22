@@ -1,8 +1,8 @@
 ---
-title: "Ph.D. in Psychology"
+title: "Adjunct Instructor"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/phd/
+permalink: /cv/experience/adjunct/
 ---
 
 <style>
@@ -21,28 +21,9 @@ permalink: /cv/phd/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+### Brigham Young University - Idaho (September 2017 - December 2018)
 
-![Main Feature Image](/images/cv/mentors.jpg)
-*Advisors: Drs. Armin Iraji & Vince Calhoun*
+/* insert dept photo */
+*Department of Psychology*
 
-In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Neuroscience program within the Psychology Department at GSU.
-
-<p class="notice"> <strong>Dissertation:</strong> Data-driven Whole-brain Approaches for Identifying Reliable Functional Imaging Markers of Schizophrenia. <a href="https://doi.org/10.57709/45">https://doi.org/10.57709/45</a></p>
-
-<!-- Flexbox Layout Container for Perfectly Equal Height Images -->
-<div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
-  
-  <!-- Left Image Wrapper -->
-  <div style="flex: 1; display: flex;">
-    <img src="/images/cv/grad.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-  
-  <!-- Right Image Wrapper -->
-  <div style="flex: 1; display: flex;">
-    <img src="/images/cv/grad_family.jpeg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-
-</div>
-
-I'm grateful for the tremendous support I received from my family, mentors, and fellow lab mates throughout my academic journey!
+For four consecutive semesters, beginning in the Fall 2017 semester, I taught an introductory psychology course (PSYCH 111: General Psychology) at BYU-I. This was an in-person lecture style course (~120 students per section), for which I developed all course curriculum and materials, including slides, assignments, and assessments (see <a href="/teaching/">Teaching</a>). 
