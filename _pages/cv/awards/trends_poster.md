@@ -27,5 +27,5 @@ This $50 award is awarded bi-annually to the highest scoring poster presentation
 
 <iframe src="{{ site.url }}/files/OHBM_2025_NeuroMark_2-2_Poster_compressed.pdf" width="100%" height="600px">
     <p>This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="{{ site.url }}/files/OHBM_2025_NeuroMark_2-2_Poster_compressed.pdf/">Download PDF</a>.</p>
+    <a href="{{ site.url }}/files/OHBM_2025_NeuroMark_2-2_Poster_compressed.pdf">Download PDF</a>.</p>
 </iframe>
