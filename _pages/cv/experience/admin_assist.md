@@ -2,7 +2,7 @@
 title: "Administrative Assistant"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/admin_assist
+permalink: /cv/experience/admin_assist/
 ---
 
 <style>
