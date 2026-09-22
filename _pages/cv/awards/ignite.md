@@ -1,8 +1,8 @@
 ---
-title: "Data Administrator Lead"
+title: "GSU Ignite Doctoral Research Achievement Award"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/data_manager/
+permalink: /cv/awards/ignite/
 ---
 
 <style>
@@ -21,12 +21,20 @@ permalink: /cv/experience/data_manager/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Tri-Institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS) at Georgia State University, Georgia Institute of Technology, and Emory University
+### Georgia State University (awarded March 27, 2025)
 
-In June 2026, I began my current role at the TReNDS Center, where I serve as the lead data manager for the Atlanta site within the Aligning Research to Impact Autism (ARIA) IMPACT Network.
-See the article below to learn more about this initiative:
-<p class="notice"> <strong>Link to Article:</strong> <a href="https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network">https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network</a></p>
+![Main Feature Image](/images/cv/ignite.PNG)
 
-<iframe src="https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network" width="100%" height="500px" style="border:none;">
+This is a university-wide merit-based award of $3,000 awarded annually to a single Ph.D. student across all programs and levels.
+See the media articles below to learn more about this award:
+<p class="notice"> <strong>Link to Article:</strong> <a href="https://news.gsu.edu/2025/04/02/georgia-state-university-honors-research-scholarly-excellence-at-2025-ignite-awards">https://news.gsu.edu/2025/04/02/georgia-state-university-honors-research-scholarly-excellence-at-2025-ignite-awards</a></p>
+
+<iframe src="https://news.gsu.edu/2025/04/02/georgia-state-university-honors-research-scholarly-excellence-at-2025-ignite-awards" width="100%" height="500px" style="border:none;">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+<p class="notice"> <strong>Link to Article:</strong> <a href="https://president.gsu.edu/2025/03/31/ignite-awards-2025-celebrating-excellence-in-research/">https://president.gsu.edu/2025/03/31/ignite-awards-2025-celebrating-excellence-in-research/</a></p>
+
+<iframe src="https://president.gsu.edu/2025/03/31/ignite-awards-2025-celebrating-excellence-in-research/" width="100%" height="500px" style="border:none;">
   <p>Your browser does not support iframes.</p>
 </iframe>
