@@ -25,7 +25,7 @@ permalink: /cv/awards/ignite/
 
 ![Main Feature Image](/images/cv/ignite.PNG)
 
-This is a university-wide merit-based award of $3,000 awarded annually to a single Ph.D. student across all programs and levels.
+This is a university-wide merit-based research award of $3,000 awarded annually to a single Ph.D. student across all programs and levels.
 See the media articles below to learn more about this award:
 <p class="notice"> <strong>Link to Article:</strong> <a href="https://news.gsu.edu/2025/04/02/georgia-state-university-honors-research-scholarly-excellence-at-2025-ignite-awards">https://news.gsu.edu/2025/04/02/georgia-state-university-honors-research-scholarly-excellence-at-2025-ignite-awards</a></p>
 
