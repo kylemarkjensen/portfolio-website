@@ -25,3 +25,17 @@ permalink: /cv/awards/trends_scholar/
 
 This $200 award is awarded annually to a single graduate student affiliated with the TReNDS Center at Georgia State University, GA Tech, and Emory University. 
 
+<!-- Flexbox Layout Container for Perfectly Equal Height Images -->
+<div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
+  
+  <!-- Left Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/D-MAP_Presentation.jpg" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  
+  <!-- Right Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/Distinguished_Scholar_Award.jpg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+
+</div>
