@@ -1,8 +1,8 @@
 ---
-title: "Ph.D. in Psychology"
+title: "Administrative Assistant"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/phd/
+permalink: /cv/experience/admin_assist
 ---
 
 <style>
@@ -21,28 +21,23 @@ permalink: /cv/phd/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+### New Mexico State University (August 2020 - June 2021)
 
-![Main Feature Image](/images/cv/mentors.jpg)
-*Advisors: Drs. Armin Iraji & Vince Calhoun*
+*Role: Research Participation System Administrator*
+<ul>
+  <li>Assist researchers in recruiting, recording, and reporting research participation</li>
+  <li>Assist instructors in setting up course reporting</li>
+  <li>Assist students in setting up research participation accounts</li>
+  <li>Communicate with students, faculty, and SONA Systems to troubleshoot errors</li>
+  <li>Perform system maintenance related to data management</li>
+</ul>
 
-In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Neuroscience program within the Psychology Department at GSU.
 
-<p class="notice"> <strong>Dissertation:</strong> Data-driven Whole-brain Approaches for Identifying Reliable Functional Imaging Markers of Schizophrenia. <a href="https://doi.org/10.57709/45">https://doi.org/10.57709/45</a></p>
-
-<!-- Flexbox Layout Container for Perfectly Equal Height Images -->
-<div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
-  
-  <!-- Left Image Wrapper -->
-  <div style="flex: 1; display: flex;">
-    <img src="/images/cv/grad.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-  
-  <!-- Right Image Wrapper -->
-  <div style="flex: 1; display: flex;">
-    <img src="/images/cv/grad_family.jpeg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-
-</div>
-
-I'm grateful for the tremendous support I received from my family, mentors, and fellow lab mates throughout my academic journey!
+*Role: Department Webmaster*
+<ul>
+  <li>Became familiar with WordPress Content Management System</li>
+  <li>Maintained and updated content on the department website</li>
+  <li>Gathered and used faculty and student feedback to redesign department website</li>
+  <li>Attended trainings for Cascade Content Management System</li>
+  <li>Migrated department website to Cascade CMS</li>
+</ul>
