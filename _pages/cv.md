@@ -176,7 +176,7 @@ author_profile: true
     <div class="cv-section" id="awards">
       <h2>Awards</h2>
       <div class="cv-block-container">
-        <div class="cv-item-card">
+        <a href="/cv/awards/trends_poster/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">05/2025</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -186,8 +186,8 @@ author_profile: true
             <div class="cv-institution">TReNDS Center</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/ignite/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">03/2025</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -197,8 +197,8 @@ author_profile: true
             <div class="cv-institution">Georgia State University</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/trends_scholar/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">12/2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -208,8 +208,8 @@ author_profile: true
             <div class="cv-institution">TReNDS Center</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/CABI/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">09/2023</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -219,8 +219,8 @@ author_profile: true
             <div class="cv-institution">GSU/GA Tech Center for Advanced Brain Imaging (CABI)</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/2CI/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">07/2021 - 07/2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -230,8 +230,8 @@ author_profile: true
             <div class="cv-institution">Georgia State University</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/outstanding_GA/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">2020 - 2021</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Las Cruces, NM</div>
@@ -241,8 +241,8 @@ author_profile: true
             <div class="cv-institution">New Mexico State University</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/FDSMR/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">05/2017</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
@@ -252,8 +252,8 @@ author_profile: true
             <div class="cv-institution">Brigham Young University - Idaho</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/travel/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">04/2017</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
@@ -263,8 +263,8 @@ author_profile: true
             <div class="cv-institution">Brigham Young University - Idaho</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/byui_excellence/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">2016 - 2017</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
@@ -274,8 +274,8 @@ author_profile: true
             <div class="cv-institution">Brigham Young University - Idaho</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/eagle/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">07/2012</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Beaverton, OR</div>
@@ -285,8 +285,8 @@ author_profile: true
             <div class="cv-institution">Boy Scouts of America (BSA)</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/awards/health_careers/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">06/2012</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Beaverton, OR</div>
@@ -296,14 +296,14 @@ author_profile: true
             <div class="cv-institution">Beaverton High School</div>
             <div class="cv-details"></div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
 
     <div class="cv-section" id="service">
       <h2>Service</h2>
       <div class="cv-block-container">
-        <div class="cv-item-card">
+        <a href="/cv/service/mentoring/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2026 - Present</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -313,8 +313,8 @@ author_profile: true
             <div class="cv-institution">Georgia State University</div>
             <div class="cv-details">University Assistantship Program</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/reviewer/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2026</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -324,8 +324,8 @@ author_profile: true
             <div class="cv-institution">TReNDS Center</div>
             <div class="cv-details">Summer 2026 TReNDS Research Day</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/mentoring/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">05/2026 - 08/2026</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -335,8 +335,8 @@ author_profile: true
             <div class="cv-institution">Georgia State University</div>
             <div class="cv-details">CASA & D-MAP</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/mentoring/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">04/2026</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -346,8 +346,8 @@ author_profile: true
             <div class="cv-institution">TReNDS Center</div>
             <div class="cv-details">Spring 2026 TReNDS Research Day</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/reviewer/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">04/2026</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -357,8 +357,8 @@ author_profile: true
             <div class="cv-institution">TReNDS Center</div>
             <div class="cv-details">Spring 2026 TReNDS Research Day</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/mentoring/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">12/2025</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -368,8 +368,8 @@ author_profile: true
             <div class="cv-institution">TReNDS Center</div>
             <div class="cv-details">Fall 2025 TReNDS Research Day</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/ATL_science_festival/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">03/2025</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -379,8 +379,8 @@ author_profile: true
             <div class="cv-institution">Atlanta Science Festival</div>
             <div class="cv-details">Neuroscience Booth</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/reviewer/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">12/2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -390,8 +390,8 @@ author_profile: true
             <div class="cv-institution">TReNDS Center</div>
             <div class="cv-details">Fall 2024 TReNDS Research Day</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/CABI_EEG/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -401,8 +401,8 @@ author_profile: true
             <div class="cv-institution">GSU/GA Tech Center for Advanced Brain Imaging</div>
             <div class="cv-details">Media Development</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/AD_walk/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">11/2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -412,8 +412,8 @@ author_profile: true
             <div class="cv-institution">Walk to End Alzheimer's</div>
             <div class="cv-details">TReNDS Center</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/Brain_Blast/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">10/2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -423,8 +423,8 @@ author_profile: true
             <div class="cv-institution">TReNDS Center</div>
             <div class="cv-details">Brain Blast: A Brain Health Exploration</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/CABI_EEG/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">02/2024 & 04/2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -434,8 +434,8 @@ author_profile: true
             <div class="cv-institution">GSU/GA Tech CABI</div>
             <div class="cv-details">Student Field Trip EEG Demos</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/reviewer/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -445,8 +445,8 @@ author_profile: true
             <div class="cv-institution">Journal of International Medical Research</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/ATL_science_festival/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">03/2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -457,8 +457,8 @@ author_profile: true
             <div class="cv-details">Neuroscience Booth</div>
             <div class="cv-details">CABI EEG Demo</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/reviewer/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">2023</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -468,8 +468,8 @@ author_profile: true
             <div class="cv-institution">Schizophrenia Bulletin</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/reviewer/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">2022</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -479,8 +479,8 @@ author_profile: true
             <div class="cv-institution">Georgia State University</div>
             <div class="cv-details">Aging Research Conference</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/webmaster/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">2020 - 2021</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Las Cruces, NM</div>
@@ -490,8 +490,8 @@ author_profile: true
             <div class="cv-institution">NMSU Psychology Equity, Diversity, & Inclusion Committee</div>
             <div class="cv-details"></div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/pos_psych_lab/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">2017 - 2019</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
@@ -501,8 +501,8 @@ author_profile: true
             <div class="cv-institution">Brigham Young University - Idaho</div>
             <div class="cv-details">Positive Psychology Lab</div>
           </div>
-        </div>
-        <div class="cv-item-card">
+        </a>
+        <a href="/cv/service/pos_psych_lab/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">2016 - 2017</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Rexburg, ID</div>
@@ -512,7 +512,7 @@ author_profile: true
             <div class="cv-institution">Brigham Young University - Idaho</div>
             <div class="cv-details">Positive Psychology Lab</div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
 
