@@ -1,8 +1,8 @@
 ---
-title: "Graduate Research Assistant"
+title: "TReNDS Center Research Excellence Poster Award"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/GRA/
+permalink: /cv/awards/trends_poster/
 ---
 
 <style>
@@ -21,19 +21,11 @@ permalink: /cv/experience/GRA/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+### TReNDS Center (awarded May 9, 2025)
 
-![Main Feature Image](/images/cv/TReNDS.JPG)
+This $50 award is awarded bi-annually to the highest scoring poster presentation in the graduate student category at the TReNDS Research Day for Georgia State University, GA Tech, and Emory University.
 
-During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
-
-*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS; lab photo above); PI:<a href="https://cas.gsu.edu/profile/vince-calhoun/"> Dr. Vince D. Calhoun</a>*
-
-*Lab: Image Analysis Lab; PI:<a href="https://cas.gsu.edu/profile/armin-iraji/"> Dr. Armin Iraji</a>*
-
-*Lab: Imaging Genetics and Informatics Lab (IGIL); PI:<a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545"> Dr. Jessica A. Turner</a>*
-
-<iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
-  <p>Your browser does not support iframes.</p>
+<iframe src="./files/OHBM_2025_NeuroMark_2-2_Poster_compressed.pdf" width="100%" height="600px">
+    <p>This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="./files/OHBM_2025_NeuroMark_2-2_Poster_compressed.pdf">Download PDF</a>.</p>
 </iframe>
