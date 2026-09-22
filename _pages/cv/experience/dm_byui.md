@@ -24,7 +24,7 @@ permalink: /cv/experience/dm_byui/
 ### Alere Youth Development (January 2018 - June 2018)
 *Rexburg, Idaho*
 <ul>
-  <li>Program Director: Melissa Arter; Faculty PI: Dr. Scott Martin</li>
+  <li>Program Director: Melissa Arter; BYU-I Affiliated Faculty PI: Dr. Scott Martin</li>
   <li>Administrative position overseeing 5-10 student interns in data collection and data entry</li>
   <li>Created and supervised assignments</li>
   <li>Trained RAs on data analysis and report writing</li>
