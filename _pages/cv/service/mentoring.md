@@ -89,18 +89,19 @@ Building mentor/mentee relationships is helpful when it comes time to form thesi
       <div class="cv-block-container">
         <a href="poster#" class="cv-item-card">
           <div class="cv-card-content">
-            <h4>Georgia State University:</h4>
+            <h4>Student: Corey Martin Jr.</h4>
             <div class="cv-details">Martin, C. J., Fu, Z., Calhoun, V. D., Iraji, A., Jensen, K. M. (2026). Functional Network Connectivity Differences Associated with Depression and Lifetime Cannabis Use. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.</div>
+          </div>
+        </a>
+        <a href="poster#" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Student: Tariq Omar</h4>
+            <div class="cv-details">Omar, T., Fu, Z., Calhoun, V. D., Iraji, A., Jensen, K. M. (2026). Functional Network Connectivity Abnormalities Associated with Alzheimer’s Disease and Insomnia in the UK Biobank. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.</div>
           </div>
         </a>
       </div>
     </div>
 </div>
-
-Georgia State University:
-Martin, C. J., Fu, Z., Calhoun, V. D., Iraji, A., Jensen, K. M. (2026). Functional Network Connectivity Differences Associated with Depression and Lifetime Cannabis Use. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.
-
-Omar, T., Fu, Z., Calhoun, V. D., Iraji, A., Jensen, K. M. (2026). Functional Network Connectivity Abnormalities Associated with Alzheimer’s Disease and Insomnia in the UK Biobank. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.
 
 Kadri, S. O., Khasayeva, N., Ballem, R., Bajracharya, P., Jensen, K. M., & Iraji, A. (2025). Analysis of Brain Functional Network Connectivity Features Across Clinical Diagnostic Groups. Poster presentation at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.
 
@@ -110,10 +111,8 @@ Kumar, S., Kinsey, S., Jensen, K. M., Calhoun, V., & Iraji, A. (2024). Motion ma
 
 Kumar, S., Jensen, K. M., Calhoun, V., & Iraji, A. (2023). Motion correction or vindication? Motion-related signals contain meaningful brain network information. Research talk at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.
 
-New Mexico State University:
 Gamboa, R. N., Fleeks, A., Jensen, K. M., & Kroger, J. K. (2019). Speeding up digitization using a 3D camera. Poster presentation at New Mexico INBRE Summer Research Conference, Las Cruces, NM, USA.
 
-Brigham Young University - Idaho:
 Heck, C., Jensen, K. M., Astin, J., & Martin, S. D. (2019). Online or in-person? Using a complex positive emotion to investigate methodology effectiveness. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.
 
 Astin, J., Jensen, K. M., Martin, S. D., Heck, C., & Higgins, H. (2019). Sources of accommodation: The influence of nature v. social elicitors of awe. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.
