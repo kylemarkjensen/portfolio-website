@@ -1,8 +1,8 @@
 ---
-title: "Graduate Research Assistant"
+title: "Second Century Initiative (2CI) Neurogenomics Doctoral Fellowship"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/GRA/
+permalink: /cv/awards/2CI/
 ---
 
 <style>
@@ -21,19 +21,8 @@ permalink: /cv/experience/GRA/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+### Georgia State University (awarded March 2021; renewed July 2022, July 2023, and July 2024)
 
-![Main Feature Image](/images/cv/TReNDS.JPG)
+![Main Feature Image](/images/cv/Brains_and_Behavior.JPG)
 
-During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
-
-*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS; lab photo above); PI:<a href="https://cas.gsu.edu/profile/vince-calhoun/"> Dr. Vince D. Calhoun</a>*
-
-*Lab: Image Analysis Lab; PI:<a href="https://cas.gsu.edu/profile/armin-iraji/"> Dr. Armin Iraji</a>*
-
-*Lab: Imaging Genetics and Informatics Lab (IGIL); PI:<a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545"> Dr. Jessica A. Turner</a>*
-
-<iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+During the first four years of my Ph.D. at GSU, I secured research funding through this competitive neurogenomics fellowship ($22,000 annual stipend plus full-tuition remission).
