@@ -1,8 +1,8 @@
 ---
-title: "Graduate Research Assistant"
+title: "Faculty Development and Student Mentored Research Award"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/GRA/
+permalink: /cv/awards/FDSMR/
 ---
 
 <style>
@@ -21,19 +21,8 @@ permalink: /cv/experience/GRA/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+### Brigham Young University - Idaho (awarded May 2017)
 
-![Main Feature Image](/images/cv/TReNDS.JPG)
+![Main Feature Image](/images/cv/APS_2017.jpg)
 
-During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
-
-*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS; lab photo above); PI:<a href="https://cas.gsu.edu/profile/vince-calhoun/"> Dr. Vince D. Calhoun</a>*
-
-*Lab: Image Analysis Lab; PI:<a href="https://cas.gsu.edu/profile/armin-iraji/"> Dr. Armin Iraji</a>*
-
-*Lab: Imaging Genetics and Informatics Lab (IGIL); PI:<a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545"> Dr. Jessica A. Turner</a>*
-
-<iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+During my Bachelors at BYU-I, I volunteered as a an undergraduate research assistant in Dr. Scott Martin's Positive Psychology Lab and this award partially covered the costs of my travel to attend the Association for Psychological Science (APS) annual convention in Boston, MA, where our lab presented on the influence of altruism on experiences of feeling awe.
