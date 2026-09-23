@@ -25,4 +25,4 @@ permalink: /cv/awards/CABI/
 
 ![Main Feature Image](/images/cv/Brain_Products_CABI_Photo.jpeg)
 
-I was one of two recipients of the competitive trainee scholarship of $750 which was awarded to early career researchers at GSU/GA Tech to attend the Brain Products Academy "Simultaneous EEG-fMRI: From Theory to Practice" workshop held at CABI in Atlanta, GA. See certificate of completion below:
+I was one of two recipients of the competitive trainee scholarship of $750 which was awarded to early career researchers at GSU/GA Tech to attend the three day Brain Products Academy "Simultaneous EEG-fMRI: From Theory to Practice" workshop held at CABI in Atlanta, GA on October 2-4, 2023. See certificate of completion below:
