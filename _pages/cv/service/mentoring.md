@@ -62,7 +62,7 @@ permalink: /cv/service/mentoring/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-<bold>I'm very experienced as a mentee:</bold> Over the course of my graduate studies, I had five different primary advisors (and many additional faculty and senior students) who exposed me to many different mentoring styles. 
+<p><bold>I'm very experienced as a mentee:</bold> Over the course of my graduate studies, I had five different primary advisors (and many additional faculty and senior students) who exposed me to many different mentoring styles.</p> 
 
 <bold>I am also experienced as a mentor:</bold> I have mentored many students as an adjunct instructor, lab manager, and graduate research assistant. I believe that mentorship looks different across labs, but there are some basic principles founded on mutual respect which I think are important universally.
 
