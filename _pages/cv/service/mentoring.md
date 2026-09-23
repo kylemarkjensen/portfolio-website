@@ -41,7 +41,20 @@ Additionally, I would highlight the following lessons I've learned:
 
 Building mentor/mentee relationships is helpful when it comes time to form thesis and dissertation committees. It also facilitates collaboration and helps to open doors, it can even give you a place to go if things aren’t working out. I encourage students to connect with professors by taking classes outside their home department, volunteering in outreach, and participating in and attending local research events as often as they can.
 
-### Here are some examples of student projects in which I provided mentorship:
+<div class="cv-stream-content">
+
+    <div class="cv-section" id="GSU">
+      <h2>Here are some examples of student projects in which I provided mentorship:</h2>
+      <div class="cv-block-container">
+        <a href="poster#" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Georgia State University:</h4>
+            <div class="cv-details">Martin, C. J., Fu, Z., Calhoun, V. D., Iraji, A., Jensen, K. M. (2026). Functional Network Connectivity Differences Associated with Depression and Lifetime Cannabis Use. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.</div>
+          </div>
+        </a>
+      </div>
+    </div>
+</div>
 
 Georgia State University:
 Martin, C. J., Fu, Z., Calhoun, V. D., Iraji, A., Jensen, K. M. (2026). Functional Network Connectivity Differences Associated with Depression and Lifetime Cannabis Use. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.
