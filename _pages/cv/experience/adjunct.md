@@ -23,7 +23,7 @@ permalink: /cv/experience/adjunct/
 
 ### Brigham Young University - Idaho (September 2017 - December 2018)
 
-/* insert dept photo */
+![Main Feature Image](/images/cv/byui_psych_dept_fall_2017.jpg)
 *Department of Psychology*
 
 For four consecutive semesters, beginning in the Fall 2017 semester, I taught an introductory psychology course (PSYCH 111: General Psychology) at BYU-I (8 sections in total). This was an in-person lecture style course (~120 students per section), for which I developed all course curriculum and materials, including slides, assignments, and assessments (see <a href="/teaching/">Teaching</a>). 
