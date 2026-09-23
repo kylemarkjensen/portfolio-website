@@ -1,8 +1,8 @@
 ---
-title: "Graduate Research Assistant"
+title: "Outstanding Graduate Assistantship Award"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/GRA/
+permalink: /cv/awards/outstanding_GA/
 ---
 
 <style>
@@ -21,19 +21,6 @@ permalink: /cv/experience/GRA/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+### New Mexico State University (awarded June 3, 2020)
 
-![Main Feature Image](/images/cv/TReNDS.JPG)
-
-During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
-
-*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS; lab photo above); PI:<a href="https://cas.gsu.edu/profile/vince-calhoun/"> Dr. Vince D. Calhoun</a>*
-
-*Lab: Image Analysis Lab; PI:<a href="https://cas.gsu.edu/profile/armin-iraji/"> Dr. Armin Iraji</a>*
-
-*Lab: Imaging Genetics and Informatics Lab (IGIL); PI:<a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545"> Dr. Jessica A. Turner</a>*
-
-<iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+During my Masters at NMSU, I was recognized by the graduate school for my outstanding performance as a graduate teaching assistant and awarded $2,000 for the 2020-2021 academic year (in addition to my base stipend).
