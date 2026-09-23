@@ -1,8 +1,8 @@
 ---
-title: "Data Administrator Lead"
+title: "Eagle Scout"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/data_manager/
+permalink: /cv/awards/eagle/
 ---
 
 <style>
@@ -21,12 +21,6 @@ permalink: /cv/experience/data_manager/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Tri-Institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS) at Georgia State University, Georgia Institute of Technology, and Emory University
+### Boy Scouts of America (BSA; awarded July 2012)
 
-In June 2026, I began my current role at the TReNDS Center, where I serve as the lead data manager for the Atlanta site within the Aligning Research to Impact Autism (ARIA) IMPACT Network.
-See the article below to learn more about this initiative:
-<p class="notice"> <strong>Link to Article:</strong> <a href="https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network">https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network</a></p>
-
-<iframe src="https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network" width="100%" height="500px" style="border:none;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+This is the highest rank attainable in the BSA program, one of the largest youth organizations in the US, centered on leadership and service.
