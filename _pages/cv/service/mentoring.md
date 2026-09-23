@@ -62,23 +62,23 @@ permalink: /cv/service/mentoring/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-<p><bold>I'm very experienced as a mentee:</bold> Over the course of my graduate studies, I had five different primary advisors (and many additional faculty and senior students) who exposed me to many different mentoring styles.</p> 
+**I'm very experienced as a mentee:** Over the course of my graduate studies, I had five different primary advisors (and many additional faculty and senior students) who exposed me to many different mentoring styles.</p> 
 
-<bold>I am also experienced as a mentor:</bold> I have mentored many students as an adjunct instructor, lab manager, and graduate research assistant. I believe that mentorship looks different across labs, but there are some basic principles founded on mutual respect which I think are important universally.
+**I am also experienced as a mentor:** I have mentored many students as an adjunct instructor, lab manager, and graduate research assistant. I believe that mentorship looks different across labs, but there are some basic principles founded on mutual respect which I think are important universally.
 
 While there are many great mentorship resources out there (for example, see some of the <a href="https://www.apa.org/education-career/training/high-impact-mentoring-series">APA's resources</a>), here are some of the principles for building meaningful mentor-mentee connections which I value most:
 
--<bold>Communicate openly:</bold> frequency is key, especially at the start
--<bold>Inspire:</bold> help to create a vision or imagined possibility that generates excitement for the mentee
--<bold>Affirm, affirm, affirm:</bold> never assume that the mentee outgrows imposter syndrome
--<bold>Gently reshape and redirect unrealistic aspirations:</bold> sometimes creativity needs to abide the realities of an imperfect world
--<bold>Demystify the system:</bold> help students to navigate their new roles in professional settings by explaining how things work "behind the scenes"
+*__Communicate openly:__ frequency is key, especially at the start
+*__Inspire:__ help to create a vision or imagined possibility that generates excitement for the mentee
+*__Affirm, affirm, affirm:__ never assume that the mentee outgrows imposter syndrome
+*__Gently reshape and redirect unrealistic aspirations:__ sometimes creativity needs to abide the realities of an imperfect world
+*__Demystify the system:__ help students to navigate their new roles in professional settings by explaining how things work "behind the scenes"
 
 Additionally, I would highlight the following lessons I've learned:
 
-<bold>Mentorship takes time:</bold> There is no shortcut or substitute for time. I do my best to optimize my mentoring load so that I can serve as many students as I can realistically provide quality mentorship to.
+**Mentorship takes time:** There is no shortcut or substitute for time. I do my best to optimize my mentoring load so that I can serve as many students as I can realistically provide quality mentorship to.
 
-<bold>Mentorship extends beyond immediate supervisors or advisors.</bold> I don’t want to downplay the great mentorship I received from my graduate advisors, but some of the best mentorship I received actually came from faculty other than my primary advisors. It’s important to seek out mentorship from a wide variety of sources, including other faculty in your department and from outside your department. When I was working on my Masters degree at NMSU I took a professional development class as an elective taught by <a href="https://www.elbaserrano.com/">Dr. Elba Serrano</a>. That course was incredibly impactful and guided me through my graduate school journey.
+**Mentorship extends beyond immediate supervisors or advisors.** I don’t want to downplay the great mentorship I received from my graduate advisors, but some of the best mentorship I received actually came from faculty other than my primary advisors. It’s important to seek out mentorship from a wide variety of sources, including other faculty in your department and from outside your department. When I was working on my Masters degree at NMSU I took a professional development class as an elective taught by <a href="https://www.elbaserrano.com/">Dr. Elba Serrano</a>. That course was incredibly impactful and guided me through my graduate school journey.
 
 Building mentor/mentee relationships is helpful when it comes time to form thesis and dissertation committees. It also facilitates collaboration and helps to open doors, it can even give you a place to go if things aren’t working out. I encourage students to connect with professors by taking classes outside their home department, volunteering in outreach, and participating in and attending local research events as often as they can.
 
