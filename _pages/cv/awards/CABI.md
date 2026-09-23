@@ -1,8 +1,8 @@
 ---
-title: "Graduate Research Assistant"
+title: "CABI Competitive Trainee Scholarship"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/GRA/
+permalink: /cv/awards/CABI/
 ---
 
 <style>
@@ -21,19 +21,8 @@ permalink: /cv/experience/GRA/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+### GSU/GA Tech Center for Advanced Brain Imaging (CABI; awarded September 8, 2023)
 
-![Main Feature Image](/images/cv/TReNDS.JPG)
+![Main Feature Image](/images/cv/Brain_Products_CABI_Photo.jpeg)
 
-During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
-
-*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS; lab photo above); PI:<a href="https://cas.gsu.edu/profile/vince-calhoun/"> Dr. Vince D. Calhoun</a>*
-
-*Lab: Image Analysis Lab; PI:<a href="https://cas.gsu.edu/profile/armin-iraji/"> Dr. Armin Iraji</a>*
-
-*Lab: Imaging Genetics and Informatics Lab (IGIL); PI:<a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545"> Dr. Jessica A. Turner</a>*
-
-<iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+I was one of two recipients of the competitive trainee scholarship of $750 which was awarded to early career researchers at GSU/GA Tech to attend the Brain Products Academy "Simultaneous EEG-fMRI: From Theory to Practice" workshop held at CABI in Atlanta, GA. See certificate of completion below:
