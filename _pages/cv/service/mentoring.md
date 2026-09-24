@@ -85,19 +85,19 @@ Building mentor/mentee relationships is helpful when it comes time to form thesi
     <div class="cv-section" id="projects">
       <h2>Here are some examples of student research projects in which I provided mentorship:</h2>
       <div class="cv-block-container">
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Corey_Martin_SURS_Poster.pdf" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Corey Martin Jr.</h4>
             <div class="cv-details">Martin, C. J., Fu, Z., Calhoun, V. D., Iraji, A., <strong>Jensen, K. M.</strong> (2026). Functional Network Connectivity Differences Associated with Depression and Lifetime Cannabis Use. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.</div>
           </div>
         </a>
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Tariq_Omar_SURS_Poster.pdf" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Tariq Omar</h4>
             <div class="cv-details">Omar, T., Fu, Z., Calhoun, V. D., Iraji, A., <strong>Jensen, K. M.</strong> (2026). Functional Network Connectivity Abnormalities Associated with Alzheimer’s Disease and Insomnia in the UK Biobank. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.</div>
           </div>
         </a>
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Susan_GSURC_poster.pdf" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Susan Oluwatominiyi Kadri</h4>
             <div class="cv-details">Kadri, S. O., Khasayeva, N., Ballem, R., Bajracharya, P., <strong>Jensen, K. M.</strong>, & Iraji, A. (2025). Analysis of Brain Functional Network Connectivity Features Across Clinical Diagnostic Groups. Poster presentation at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.</div>
@@ -112,43 +112,43 @@ Building mentor/mentee relationships is helpful when it comes time to form thesi
             <div class="cv-details">Kumar, S., <strong>Jensen, K. M.</strong>, Calhoun, V., & Iraji, A. (2023). Motion correction or vindication? Motion-related signals contain meaningful brain network information. Research talk at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.</div>
           </div>
         </a>
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Digitization_Poster.pdf" class="cv-item-card">
           <div class="cv-card-content">
-            <h4>Rebecca N. Gamboa</h4>
+            <h4>Rebekah N. Gamboa</h4>
             <div class="cv-details">Gamboa, R. N., Fleeks, A., <strong>Jensen, K. M.</strong>, & Kroger, J. K. (2019). Speeding up digitization using a 3D camera. Poster presentation at New Mexico INBRE Summer Research Conference, Las Cruces, NM, USA.</div>
           </div>
         </a>
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Heck_WPA19.pdf" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Courtney Heck</h4>
             <div class="cv-details">Heck, C., <strong>Jensen, K. M.</strong>, Astin, J., & Martin, S. D. (2019). Online or in-person? Using a complex positive emotion to investigate methodology effectiveness. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.</div>
           </div>
         </a>
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Astin_2019.pdf" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Jade Astin</h4>
             <div class="cv-details">Astin, J., <strong>Jensen, K. M.</strong>, Martin, S. D., Heck, C., & Higgins, H. (2019). Sources of accommodation: The influence of nature v. social elicitors of awe. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.</div>
           </div>
         </a>
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Hunt_WPA19.pdf" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Adam Hunt</h4>
             <div class="cv-details">Hunt, A., <strong>Jensen, K. M.</strong>, & Martin, S. D. (2019). Reconstructing schemas: Accommodation and self-reflection following awe related experiences. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.</div>
           </div>
         </a>
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Hardy_WPA19.pdf" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Derek Hardy</h4>
             <div class="cv-details">Hardy, D., Martin, S. D., & <strong>Jensen, K. M.</strong> (2019). Religious & conservative college student’s perceptions on prescription stimulant usage. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.</div>
           </div>
         </a>
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Peterson_APS18.pdf" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Madeline Peterson</h4>
             <div class="cv-details">Peterson, M., Raddatz, M. C., <strong>Jensen, K. M.</strong>, Rasmussen, V., Ivie, L., Martin, S. D., & Higgins, H. (2018). Redefining awe and elevation: A pilot study. Poster presentation at the 30th Annual Association for Psychological Science Convention, San Francisco, CA, USA.</div>
           </div>
         </a>
-        <a href="poster#" class="cv-item-card">
+        <a href="{{ site.url }}/files/Raddatz_APS18.pdf" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Megan C. Raddatz</h4>
             <div class="cv-details">Raddatz, M. C., Peterson, M., Rasmussen, V., <strong>Jensen, K. M.</strong>, Higgins, H., & Martin, S. D. (2018). A new pathway to awe: A pilot study. Poster presentation at the 30th Annual Association for Psychological Science Convention, San Francisco, CA, USA.</div>
