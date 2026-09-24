@@ -30,12 +30,12 @@ I was awarded this merit-based full-tuition scholarship for the Spring/Fall 2016
   
   <!-- Left Image Wrapper -->
   <div style="flex: 1; display: flex;">
-    <img src="/images/cv/snowy_path_2.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="/images/cv/snowy_path_1.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
 
   <!-- middle Image Wrapper -->
   <div style="flex: 1; display: flex;">
-    <img src="/images/cv/snowy_path_1.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="/images/cv/snowy_path_2.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
   
   <!-- Right Image Wrapper -->
