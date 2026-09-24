@@ -88,13 +88,13 @@ Building mentor/mentee relationships is helpful when it comes time to form thesi
         <a href="poster#" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Corey Martin Jr.</h4>
-            <div class="cv-details">Martin, C. J., Fu, Z., Calhoun, V. D., Iraji, A., **Jensen, K. M.** (2026). Functional Network Connectivity Differences Associated with Depression and Lifetime Cannabis Use. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.</div>
+            <div class="cv-details">Martin, C. J., Fu, Z., Calhoun, V. D., Iraji, A., <strong>Jensen, K. M.</strong> (2026). Functional Network Connectivity Differences Associated with Depression and Lifetime Cannabis Use. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.</div>
           </div>
         </a>
         <a href="poster#" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Tariq Omar</h4>
-            <div class="cv-details">Omar, T., Fu, Z., Calhoun, V. D., Iraji, A., **Jensen, K. M.** (2026). Functional Network Connectivity Abnormalities Associated with Alzheimer’s Disease and Insomnia in the UK Biobank. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.</div>
+            <div class="cv-details">Omar, T., Fu, Z., Calhoun, V. D., Iraji, A., <strong>Jensen, K. M.</strong> (2026). Functional Network Connectivity Abnormalities Associated with Alzheimer’s Disease and Insomnia in the UK Biobank. Poster presentation at the Georgia State University Summer Undergraduate Research Symposium (SURS), Atlanta, GA, USA.</div>
           </div>
         </a>
         <a href="poster#" class="cv-item-card">
