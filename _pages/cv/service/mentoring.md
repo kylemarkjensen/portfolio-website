@@ -62,17 +62,15 @@ permalink: /cv/service/mentoring/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-**I'm very experienced as a mentee:** Over the course of my graduate studies, I had five different primary advisors (and many additional faculty and senior students) who exposed me to many different mentoring styles.</p> 
-
-**I am also experienced as a mentor:** I have mentored many students as an adjunct instructor, lab manager, and graduate research assistant. I believe that mentorship looks different across labs, but there are some basic principles founded on mutual respect which I think are important universally.
+I'm experienced as a mentee. Over the course of my graduate studies, I had five different primary advisors (and many additional faculty and senior students) who exposed me to many different mentoring styles. I am also experienced as a mentor. I have mentored many students as an adjunct instructor, lab manager, and graduate research assistant. I believe that mentorship looks different across labs, but there are some basic principles founded on mutual respect which I think are important universally.
 
 While there are many great mentorship resources out there (for example, see some of the <a href="https://www.apa.org/education-career/training/high-impact-mentoring-series">APA's resources</a>), here are some of the principles for building meaningful mentor-mentee connections which I value most:
 
-*__Communicate openly:__ frequency is key, especially at the start
-*__Inspire:__ help to create a vision or imagined possibility that generates excitement for the mentee
-*__Affirm, affirm, affirm:__ never assume that the mentee outgrows imposter syndrome
-*__Gently reshape and redirect unrealistic aspirations:__ sometimes creativity needs to abide the realities of an imperfect world
-*__Demystify the system:__ help students to navigate their new roles in professional settings by explaining how things work "behind the scenes"
+* __Communicate openly:__ frequency is key, especially at the start
+* __Inspire:__ help to create a vision or imagined possibility that generates excitement for the mentee
+* __Affirm, affirm, affirm:__ never assume that the mentee outgrows imposter syndrome
+* __Gently reshape and redirect unrealistic aspirations:__ sometimes creativity needs to abide the realities of an imperfect world
+* __Demystify the system:__ help students to navigate their new roles in professional settings by explaining how things work "behind the scenes"
 
 Additionally, I would highlight the following lessons I've learned:
 
