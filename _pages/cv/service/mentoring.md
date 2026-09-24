@@ -83,7 +83,7 @@ Building mentor/mentee relationships is helpful when it comes time to form thesi
 <div class="cv-stream-content">
 
     <div class="cv-section" id="projects">
-      <h2>Here are some examples of student research projects in which I provided mentorship:</h2>
+      <h2>Here are some examples of student research projects that I provided mentorship on:</h2>
       <div class="cv-block-container">
         <a href="{{ site.url }}/files/Corey_Martin_SURS_Poster.pdf" class="cv-item-card">
           <div class="cv-card-content">
