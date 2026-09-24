@@ -24,3 +24,25 @@ permalink: /cv/awards/byui_excellence/
 ### Brigham Young University - Idaho (2016 - 2017)
 
 I was awarded this merit-based full-tuition scholarship for the Spring/Fall 2016 and Winter/Spring 2017 semesters during my Bachelors at BYU-I.
+
+<!-- Flexbox Layout Container for Perfectly Equal Height Images -->
+<div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
+  
+  <!-- Left Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/snowy_path_2.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+
+  <!-- middle Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/snowy_hair.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  
+  <!-- Right Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/snowy_path_1.JPG" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+
+</div>
+
+Here are some photos I took while walking a mile uphill in a snow storm to get to school. Although it sounds like a classic trope, the winters in Eastern Idaho are long and harsh and I think they instill a certain amount of grit in BYU-I students.
