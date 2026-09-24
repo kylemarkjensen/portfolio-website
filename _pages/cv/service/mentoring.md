@@ -103,26 +103,57 @@ Building mentor/mentee relationships is helpful when it comes time to form thesi
             <div class="cv-details">Kadri, S. O., Khasayeva, N., Ballem, R., Bajracharya, P., Jensen, K. M., & Iraji, A. (2025). Analysis of Brain Functional Network Connectivity Features Across Clinical Diagnostic Groups. Poster presentation at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.</div>
           </div>
         </a>
+        <a href="https://doi.org/10.1109/embc53108.2024.10782518" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Sam Kumar</h4>
+            <div class="cv-details">Kumar, S., Kinsey, S., Jensen, K. M., Bajracharya, P., Calhoun, V. D., & Iraji, A. (2024). Beyond Artifacts: Rethinking Motion-Related Signals in Resting-State fMRI Analysis. IEEE Engineering in Medicine and Biology Society Conference (EMBC), Orlando, FL, USA.</div>
+            <div class="cv-details">Kumar, S., Kinsey, S., Jensen, K. M., & Iraji, A. (2024). Moving Beyond Artifacts: Reassessing Motion-Related Signals in Resting-State fMRI Analysis. Poster presentation at Georgia State University Computer Science Demo Day, Atlanta, GA, USA.</div>
+            <div class="cv-details">Kumar, S., Kinsey, S., Jensen, K. M., Calhoun, V., & Iraji, A. (2024). Motion matters: Investigating Motion-related signals in resting-state fMRI. Research talk at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.</div>
+            <div class="cv-details">Kumar, S., Jensen, K. M., Calhoun, V., & Iraji, A. (2023). Motion correction or vindication? Motion-related signals contain meaningful brain network information. Research talk at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.</div>
+          </div>
+        </a>
+        <a href="poster#" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Rebecca N. Gamboa</h4>
+            <div class="cv-details">Gamboa, R. N., Fleeks, A., Jensen, K. M., & Kroger, J. K. (2019). Speeding up digitization using a 3D camera. Poster presentation at New Mexico INBRE Summer Research Conference, Las Cruces, NM, USA.</div>
+          </div>
+        </a>
+        <a href="poster#" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Courtney Heck</h4>
+            <div class="cv-details">Heck, C., Jensen, K. M., Astin, J., & Martin, S. D. (2019). Online or in-person? Using a complex positive emotion to investigate methodology effectiveness. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.</div>
+          </div>
+        </a>
+        <a href="poster#" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Jade Astin</h4>
+            <div class="cv-details">Astin, J., Jensen, K. M., Martin, S. D., Heck, C., & Higgins, H. (2019). Sources of accommodation: The influence of nature v. social elicitors of awe. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.</div>
+          </div>
+        </a>
+        <a href="poster#" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Adam Hunt</h4>
+            <div class="cv-details">Hunt, A., Jensen, K. M., & Martin, S. D. (2019). Reconstructing schemas: Accommodation and self-reflection following awe related experiences. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.</div>
+          </div>
+        </a>
+        <a href="poster#" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Derek Hardy</h4>
+            <div class="cv-details">Hardy, D., Martin, S. D., & Jensen, K. M. (2019). Religious & conservative college student’s perceptions on prescription stimulant usage. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.</div>
+          </div>
+        </a>
+        <a href="poster#" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Madeline Peterson</h4>
+            <div class="cv-details">Peterson, M., Raddatz, M. C., Jensen, K. M., Rasmussen, V., Ivie, L., Martin, S. D., & Higgins, H. (2018). Redefining awe and elevation: A pilot study. Poster presentation at the 30th Annual Association for Psychological Science Convention, San Francisco, CA, USA.</div>
+          </div>
+        </a>
+        <a href="poster#" class="cv-item-card">
+          <div class="cv-card-content">
+            <h4>Megan C. Raddatz</h4>
+            <div class="cv-details">Raddatz, M. C., Peterson, M., Rasmussen, V., Jensen, K. M., Higgins, H., & Martin, S. D. (2018). A new pathway to awe: A pilot study. Poster presentation at the 30th Annual Association for Psychological Science Convention, San Francisco, CA, USA.</div>
+          </div>
+        </a>
       </div>
     </div>
 </div>
-
-Kumar, S., Kinsey, S., Jensen, K. M., & Iraji, A. (2024). Moving Beyond Artifacts: Reassessing Motion-Related Signals in Resting-State fMRI Analysis. Poster presentation at Georgia State University Computer Science Demo Day, Atlanta, GA, USA.
-
-Kumar, S., Kinsey, S., Jensen, K. M., Calhoun, V., & Iraji, A. (2024). Motion matters: Investigating Motion-related signals in resting-state fMRI. Research talk at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.
-
-Kumar, S., Jensen, K. M., Calhoun, V., & Iraji, A. (2023). Motion correction or vindication? Motion-related signals contain meaningful brain network information. Research talk at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.
-
-Gamboa, R. N., Fleeks, A., Jensen, K. M., & Kroger, J. K. (2019). Speeding up digitization using a 3D camera. Poster presentation at New Mexico INBRE Summer Research Conference, Las Cruces, NM, USA.
-
-Heck, C., Jensen, K. M., Astin, J., & Martin, S. D. (2019). Online or in-person? Using a complex positive emotion to investigate methodology effectiveness. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.
-
-Astin, J., Jensen, K. M., Martin, S. D., Heck, C., & Higgins, H. (2019). Sources of accommodation: The influence of nature v. social elicitors of awe. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.
-
-Hunt, A., Jensen, K. M., & Martin, S. D. (2019). Reconstructing schemas: Accommodation and self-reflection following awe related experiences. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.
-
-Hardy, D., Martin, S. D., & Jensen, K. M. (2019). Religious & conservative college student’s perceptions on prescription stimulant usage. Poster presentation at the 99th Annual Western Psychological Association Convention, Pasadena, CA, USA.
-
-Peterson, M., Raddatz, M. C., Jensen, K. M., Rasmussen, V., Ivie, L., Martin, S. D., & Higgins, H. (2018). Redefining awe and elevation: A pilot study. Poster presentation at the 30th Annual Association for Psychological Science Convention, San Francisco, CA, USA.
-
-Raddatz, M. C., Peterson, M., Rasmussen, V., Jensen, K. M., Higgins, H., & Martin, S. D. (2018). A new pathway to awe: A pilot study. Poster presentation at the 30th Annual Association for Psychological Science Convention, San Francisco, CA, USA.
