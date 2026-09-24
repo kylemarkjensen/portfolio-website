@@ -62,7 +62,7 @@ permalink: /cv/service/mentoring/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-I'm experienced as a mentee. Over the course of my graduate studies, I had five different primary advisors (and many additional faculty and senior students) who exposed me to many different mentoring styles. I am also experienced as a mentor. I have mentored many students as an adjunct instructor, lab manager, and graduate research assistant (<a href="#projects">see examples below</a>). I believe that mentorship looks different across labs, but there are some basic principles founded on mutual respect which I think are important universally.
+I'm experienced as a mentee. Over the course of my graduate studies, I had five different primary advisors (and many additional faculty and senior students) who exposed me to many different mentoring styles. I am also experienced as a mentor. I have mentored many students as an adjunct instructor, lab manager, graduate research assistant, and in my current research support role at the TReNDS Center (<a href="#projects">see examples below</a>). I believe that mentorship looks different across labs, but there are some basic principles founded on mutual respect which I think are important universally.
 
 While there are many great mentorship resources out there (for example, see some of the <a href="https://www.apa.org/education-career/training/high-impact-mentoring-series">APA's resources</a>), here are some of the principles for building meaningful mentor-mentee connections which I value most:
 
