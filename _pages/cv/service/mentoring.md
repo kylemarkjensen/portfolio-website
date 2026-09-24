@@ -106,9 +106,9 @@ Building mentor/mentee relationships is helpful when it comes time to form thesi
         <a href="https://doi.org/10.1109/embc53108.2024.10782518" class="cv-item-card">
           <div class="cv-card-content">
             <h4>Sam Kumar</h4>
-            <div class="cv-details">Kumar, S., Kinsey, S., Jensen, K. M., Bajracharya, P., Calhoun, V. D., & Iraji, A. (2024). Beyond Artifacts: Rethinking Motion-Related Signals in Resting-State fMRI Analysis. IEEE Engineering in Medicine and Biology Society Conference (EMBC), Orlando, FL, USA.</div>
-            <div class="cv-details">Kumar, S., Kinsey, S., Jensen, K. M., & Iraji, A. (2024). Moving Beyond Artifacts: Reassessing Motion-Related Signals in Resting-State fMRI Analysis. Poster presentation at Georgia State University Computer Science Demo Day, Atlanta, GA, USA.</div>
-            <div class="cv-details">Kumar, S., Kinsey, S., Jensen, K. M., Calhoun, V., & Iraji, A. (2024). Motion matters: Investigating Motion-related signals in resting-state fMRI. Research talk at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.</div>
+            <div class="cv-details" style="margin-bottom: 10px;">Kumar, S., Kinsey, S., Jensen, K. M., Bajracharya, P., Calhoun, V. D., & Iraji, A. (2024). Beyond Artifacts: Rethinking Motion-Related Signals in Resting-State fMRI Analysis. IEEE Engineering in Medicine and Biology Society Conference (EMBC), Orlando, FL, USA.</div>
+            <div class="cv-details" style="margin-bottom: 10px;">Kumar, S., Kinsey, S., Jensen, K. M., & Iraji, A. (2024). Moving Beyond Artifacts: Reassessing Motion-Related Signals in Resting-State fMRI Analysis. Poster presentation at Georgia State University Computer Science Demo Day, Atlanta, GA, USA.</div>
+            <div class="cv-details" style="margin-bottom: 10px;">Kumar, S., Kinsey, S., Jensen, K. M., Calhoun, V., & Iraji, A. (2024). Motion matters: Investigating Motion-related signals in resting-state fMRI. Research talk at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.</div>
             <div class="cv-details">Kumar, S., Jensen, K. M., Calhoun, V., & Iraji, A. (2023). Motion correction or vindication? Motion-related signals contain meaningful brain network information. Research talk at Georgia State Undergraduate Research Conference (GSURC), Atlanta, GA, USA.</div>
           </div>
         </a>
