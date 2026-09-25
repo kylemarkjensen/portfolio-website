@@ -32,7 +32,7 @@ permalink: /cv/service/CABI_EEG/
   </div>
 </div>
 
-During my Ph.D. at GSU, I was actively engaged in data acquisition for a concurrent EEG-fMRI study at the GSU/GA Tech Center for Advanced Brain Imaging (CABI). I spent a considerable amount of time at CABI and got to know the team well. I was also engaged in several educational and public outreach efforts, including:
+During my Ph.D. at GSU, I was actively engaged in data acquisition for a concurrent EEG-fMRI study at the <a href="https://cabi.gsu.edu/">GSU/GA Tech Center for Advanced Brain Imaging (CABI)</a>. I spent a considerable amount of time at CABI and got to know the team well. I was also engaged in several educational and public outreach efforts, including:
 
 * Assisting with the creation of a neuroimaging informational video for student field trips, visitor tours, collaborators, etc. (Dec 2024)
 
