@@ -21,7 +21,7 @@ permalink: /cv/service/ATL_science_festival/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-![Main Feature Image](/images/cv/ATL_science_festival)
+![Main Feature Image](/images/cv/ATL_science_festival.jpeg)
 
 During my Ph.D. at GSU, I had several opportunities to attend and volunteer in the famous Atlanta Science Festival. I've highlighted my involvement as a volunteer/exhibitor below:
 
