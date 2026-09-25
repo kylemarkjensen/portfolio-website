@@ -43,7 +43,7 @@ In addition, I served as a station leader for the sleep research station at "Bra
 
 <!-- Left Image Wrapper -->
   <div style="flex: 1; display: flex;">
-    <img src="/images/cv/Brain_Blast_2024.png" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="/images/cv/Brain_blast_2024.png" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
   
   <!-- Right Image Wrapper -->
