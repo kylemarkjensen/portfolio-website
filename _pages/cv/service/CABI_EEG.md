@@ -20,7 +20,7 @@ permalink: /cv/service/CABI_EEG/
 <a href="/cv/" class="btn btn--info" style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none !important;">
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
-
+<div style="display: flex; gap: 10px; width: 100%;">
 <!-- Left Image Wrapper -->
   <div style="flex: 1; display: flex;">
     <img src="/images/cv/Kyle_EEG.jpeg" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
@@ -30,6 +30,7 @@ permalink: /cv/service/CABI_EEG/
   <div style="flex: 1; display: flex;">
     <img src="/images/cv/Kyle_Emma_EEG.jpeg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
+</div>
 
 During my Ph.D. at GSU, I was actively engaged in data acquisition for a concurrent EEG-fMRI study at the GSU/GA Tech Center for Advanced Brain Imaging (CABI). I spent a considerable amount of time at CABI and got to know the team well. I was also engaged in several educational and public outreach efforts, including:
 
@@ -41,6 +42,7 @@ During my Ph.D. at GSU, I was actively engaged in data acquisition for a concurr
 
 In addition, I served as a station leader for the sleep research station at "Brain Blast: A Brain Health Exploration", where I organized and presented an EEG demonstration as part of a broader public health initiative in the Atlanta area.
 
+<div style="display: flex; gap: 10px; width: 100%;">
 <!-- Left Image Wrapper -->
   <div style="flex: 1; display: flex;">
     <img src="/images/cv/Brain_blast_2024.png" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
@@ -55,7 +57,7 @@ In addition, I served as a station leader for the sleep research station at "Bra
   <div style="flex: 1; display: flex;">
     <img src="/images/cv/Brain_Blast_3.JPG" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
-  
+  </div>
   <!-- Right Image Wrapper -->
   <div style="flex: 1; display: flex;">
     <img src="/images/cv/Brain_Blast_2.jpeg" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
