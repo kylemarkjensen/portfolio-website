@@ -26,7 +26,7 @@ permalink: /cv/service/ATL_science_festival/
   
   <!-- Left Image Wrapper -->
   <div style="flex: 1; display: block;" markdown="1">
- During my Ph.D. at GSU, I had several opportunities to attend and volunteer in the famous Atlanta Science Festival. I've highlighted my involvement as a volunteer/exhibitor below:
+ During my Ph.D. at GSU, I had several opportunities to attend and volunteer in the famous Atlanta Science Festival. I love bringing my family with me to science outreach events! I've highlighted my involvement as a volunteer/exhibitor below:
 
 *Volunteer/Exhibitor: GSU/GA Tech/Emory Neuroscience Booth at the Exploration Expo at Piedmont Park (March 22, 2025)*
 
