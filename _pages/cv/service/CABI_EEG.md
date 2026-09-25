@@ -40,7 +40,7 @@ During my Ph.D. at GSU, I was actively engaged in data acquisition for a concurr
 
 * Giving an EEG Demonstration at CABI as part of the <a href="/cv/service/ATL_science_festival/">Atlanta Science Festival</a> (03/09/2024)
 
-In addition, I served as a station leader for the sleep research station at "Brain Blast: A Brain Health Exploration", where I organized and presented an EEG demonstration as part of a broader public health initiative in the Atlanta area.
+In addition, I served as a station leader for the sleep research station at "Brain Blast: A Brain Health Exploration", where I organized and presented an EEG demonstration as part of a broader public health initiative in the Atlanta area (October 2024).
 
 <div style="display: flex; gap: 10px; width: 100%;">
 <!-- Left Image Wrapper -->
