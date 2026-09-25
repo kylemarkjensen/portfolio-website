@@ -413,7 +413,7 @@ author_profile: true
             <div class="cv-details">TReNDS Center</div>
           </div>
         </a>
-        <a href="/cv/service/Brain_Blast/" class="cv-item-card">
+        <a href="/cv/service/CABI_EEG/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">10/2024</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
