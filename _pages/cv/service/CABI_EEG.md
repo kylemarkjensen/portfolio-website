@@ -33,11 +33,11 @@ permalink: /cv/service/CABI_EEG/
 
 During my Ph.D. at GSU, I was actively engaged in data acquisition for a concurrent EEG-fMRI study at the GSU/GA Tech Center for Advanced Brain Imaging (CABI). I spent a considerable amount of time at CABI and got to know the team well. I was also engaged in several educational and public outreach efforts, including:
 
-*Assisting with the creation of a neuroimaging informational video for student field trips, visitor tours, collaborators, etc. (Dec 2024)*
+* Assisting with the creation of a neuroimaging informational video for student field trips, visitor tours, collaborators, etc. (Dec 2024)
 
-*Giving EEG Demonstrations for student field trips (Paideia High School, 04/25/2024; GSU Behavioral Neuroscience Field Trip, 02/09/2024)*
+* Giving EEG Demonstrations for student field trips (Paideia High School, 04/25/2024; GSU Behavioral Neuroscience Field Trip, 02/09/2024)
 
-*Giving an EEG Demonstration at CABI as part of the <a href="/cv/service/ATL_science_festival/">Atlanta Science Festival</a> (03/09/2024)*
+* Giving an EEG Demonstration at CABI as part of the <a href="/cv/service/ATL_science_festival/">Atlanta Science Festival</a> (03/09/2024)
 
 In addition, I served as a station leader for the sleep research station at "Brain Blast: A Brain Health Exploration", where I organized and presented an EEG demonstration as part of a broader public health initiative in the Atlanta area.
 
