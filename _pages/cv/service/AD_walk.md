@@ -41,6 +41,6 @@ permalink: /cv/service/AD_walk/
 
 During my Ph.D. at GSU, I had the opportunity to participate along with many others from the TReNDS Center in showing our support to the many individuals impacted by Alzheimer's disease (AD) by joining the Walk to End Alzheimer's in Atlanta (Fall 2024). Many of us at TReNDS research AD-related changes in the brain with a hope that our findings will help inform and support efforts towards improving early diagnosis and treatment outcomes.
 
-<iframe src="https://act.alz.org/site/SPageServer?pagename=walk_homepage" width="100%" height="500px" style="border:none;">
+<iframe src="https://act.alz.org/site/SPageServer?pagename=walk_about" width="100%" height="500px" style="border:none;">
   <p>Your browser does not support iframes.</p>
 </iframe>
