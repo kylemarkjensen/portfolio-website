@@ -1,8 +1,8 @@
 ---
-title: "Graduate Research Assistant"
+title: "Atlanta Science Festival"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/GRA/
+permalink: /cv/service/ATL_science_festival/
 ---
 
 <style>
@@ -21,19 +21,16 @@ permalink: /cv/experience/GRA/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+![Main Feature Image](/images/cv/ATL_science_festival)
 
-![Main Feature Image](/images/cv/TReNDS.JPG)
+During my Ph.D. at GSU, I had several opportunities to attend and volunteer in the famous Atlanta Science Festival. I've highlighted my involvement as a volunteer/exhibitor below:
 
-During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
+*Volunteer/Exhibitor: GSU/GA Tech/Emory Neuroscience Booth at the Exploration Expo at Piedmont Park (March 22, 2025)*
 
-*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS; lab photo above); PI:<a href="https://cas.gsu.edu/profile/vince-calhoun/"> Dr. Vince D. Calhoun</a>*
+*Volunteer/Exhibitor: GSU/GA Tech/Emory Neuroscience Booth at the Exploration Expo at Piedmont Park (March 23, 2024)*
 
-*Lab: Image Analysis Lab; PI:<a href="https://cas.gsu.edu/profile/armin-iraji/"> Dr. Armin Iraji</a>*
+*EEG Demo at GSU/GA Tech Center for Advanced Brain Imaging (also see <a href="/cv/service/CABI_EEG/">CABI EEG</a>; March 9, 2024)*
 
-*Lab: Imaging Genetics and Informatics Lab (IGIL); PI:<a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545"> Dr. Jessica A. Turner</a>*
-
-<iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
+<iframe src="https://atlantasciencefestival.org/" width="100%" height="500px" style="border:none;">
   <p>Your browser does not support iframes.</p>
 </iframe>
