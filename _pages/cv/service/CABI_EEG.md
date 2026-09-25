@@ -1,8 +1,8 @@
 ---
-title: "Graduate Research Assistant"
+title: "Involvement at CABI"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/GRA/
+permalink: /cv/service/CABI_EEG/
 ---
 
 <style>
@@ -21,19 +21,13 @@ permalink: /cv/experience/GRA/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+During my Ph.D. at GSU, I was actively engaged in data acquisition for a concurrent EEG-fMRI study at the GSU/GA Tech Center for Advanced Brain Imaging (CABI). I spent a considerable amount of time at CABI and got to know the team well. I was also engaged in several educational and public outreach efforts, including:
 
-![Main Feature Image](/images/cv/TReNDS.JPG)
+*Assisting with the creation of a neuroimaging informational video for student field trips, visitor tours, collaborators, etc. (Dec 2024)*
 
-During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
+*Giving EEG Demonstrations for student field trips (Paideia High School, 04/25/2024; GSU Behavioral Neuroscience Field Trip, 02/09/2024)*
 
-*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS; lab photo above); PI:<a href="https://cas.gsu.edu/profile/vince-calhoun/"> Dr. Vince D. Calhoun</a>*
+*Giving an EEG Demonstration at CABI as part of the <a href="/cv/service/ATL_science_festival/">Atlanta Science Festival</a> (03/09/2024)*
 
-*Lab: Image Analysis Lab; PI:<a href="https://cas.gsu.edu/profile/armin-iraji/"> Dr. Armin Iraji</a>*
+In addition, I served as a station leader for the sleep research station at "Brain Blast: A Brain Health Exploration", where I organized and presented an EEG demonstration as part of a broader public health initiative in the Atlanta area.
 
-*Lab: Imaging Genetics and Informatics Lab (IGIL); PI:<a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545"> Dr. Jessica A. Turner</a>*
-
-<iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
