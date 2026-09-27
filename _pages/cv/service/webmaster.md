@@ -1,8 +1,8 @@
 ---
-title: "Graduate Research Assistant"
+title: "Diversity & Inclusion Committee Webmaster"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/experience/GRA/
+permalink: /cv/service/webmaster/
 ---
 
 <style>
@@ -21,19 +21,12 @@ permalink: /cv/experience/GRA/
   <i class="fas fa-arrow-left"></i> Back to CV
 </a>
 
-### Georgia State University (August 2021 - May 2026)
+### New Mexico State University (September 2020 - August 2021)
 
-![Main Feature Image](/images/cv/TReNDS.JPG)
+During my Masters at NMSU, I served as a webmaster for the graduate student diversity and inclusion committee within the psychology department. My involvement included:
 
-During my Ph.D. at GSU, I worked as a graduate research assistant in the following labs:
+* Attending and contributing to bi-weekly student led discussions on diversity and inclusion
 
-*Lab: Tri-Institutional Center for Translational Research in Neuroimaging and Data Science
-(TReNDS; lab photo above); PI:<a href="https://cas.gsu.edu/profile/vince-calhoun/"> Dr. Vince D. Calhoun</a>*
+* Working to facilitate an inclusive environment in the Psychology Department at NMSU by identifying areas in need of improvement and brainstorming solutions (e.g., contributing to the development of an EDI climate survey)
 
-*Lab: Image Analysis Lab; PI:<a href="https://cas.gsu.edu/profile/armin-iraji/"> Dr. Armin Iraji</a>*
-
-*Lab: Imaging Genetics and Informatics Lab (IGIL); PI:<a href="https://medicine.osu.edu/find-a-researcher/jessica-turner-100473545"> Dr. Jessica A. Turner</a>*
-
-<iframe src="https://trendscenter.org/" width="100%" height="500px" style="border:none;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+* Building and maintaining the first EDI webpage for the NMSU Psychology Department
