@@ -20,11 +20,7 @@ I love to explore. I believe that it’s important to expand our range of vision
 ### Research Interests
 I love to study <span id="typed-element" style="color: #0076df; font-weight: bold;"></span>
 {% raw %}
-<!-- Use an inline onload handler to guarantee the library is fully ready before running your code -->
-<script 
-  src="https://jsdelivr.net" 
-  onload="initializeTyped()">
-</script>
+<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
 
 <script>
   function initializeTyped() {
