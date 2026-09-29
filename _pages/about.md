@@ -13,3 +13,6 @@ I collect, curate, and utilize brain imaging data, applying advanced analytic ap
 
 I love to learn and I love to share my discoveries. I am passionate about teaching and mentoring and I do all I can to help others succeed. 
 
+### Data-Driven Psychology
+
+I love to explore. I believe that it’s important to expand our range of vision and be open to new ideas and information we may not expect; great discoveries and scientific advancement often result from unexpected sources. I try to search for truth through a wide variety of modalities and methods, although much of my work can be categorized as data-driven.
