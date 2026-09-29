@@ -18,10 +18,9 @@ I love to learn and I love to share my discoveries. I am passionate about teachi
 I love to explore. I believe that it’s important to expand our range of vision and be open to new ideas and information we may not expect; great discoveries and scientific advancement often result from unexpected sources. I try to search for truth through a wide variety of modalities and methods, although much of my work can be categorized as data-driven.
 
 ### Research Interests
-<span id="typed-text" style="color: #0076df; font-weight: bold;"></span>
+<span id="typed-element" style="color: #0076df; font-weight: bold;"></span>
 
 {% raw %}
-<script src="https://unpkg.com"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var typed = new Typed('#typed-text', {
