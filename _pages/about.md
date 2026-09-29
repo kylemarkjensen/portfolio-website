@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 <!-- Initialize Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 <script>
   var typed = new Typed('#typed-element', {
     strings: ['biology', 'human brain', 'mental illness', 'gestalt psychology', 'neuroimaging', 'cognitive neuroscience', 'neuroinformatics', 'functional networks', 'development'],
@@ -29,5 +30,3 @@ I love to explore. I believe that it’s important to expand our range of vision
 
 ### Research Interests
 <span id="typed-element" style="color: #0076df; font-weight: bold;"></span>
-
-<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
