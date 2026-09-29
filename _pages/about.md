@@ -11,7 +11,7 @@ redirect_from:
 <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 <script>
   var typed = new Typed('#typed-element', {
-    strings: ['biology', 'human brain', 'mental illness', 'gestalt psychology', 'neuroimaging', 'cognitive neuroscience', 'neuroinformatics', 'functional networks', 'development'],
+    strings: ['biology.', 'the human brain.', 'mental illness.', 'gestalt psychology.', 'neuroimaging.', 'cognitive neuroscience.', 'neuroinformatics.', 'functional networks.', 'development.'],
     typeSpeed: 50,
     backSpeed: 30,
     loop: true
