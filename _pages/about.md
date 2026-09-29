@@ -28,7 +28,9 @@ I love to explore. I believe that it’s important to expand our range of vision
       'mental illness',
       'gestalt psychology',
       'neuroimaging',
+      'cognitive neuroscience',
       'neuroinformatics',
+      'networks';
       'development'
     ],
     typeSpeed: 50,
