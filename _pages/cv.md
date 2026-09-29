@@ -127,10 +127,19 @@ author_profile: true
   
   <div class="cv-stream-content">
 
+
+  <div class="cv-modal-window">
+    <button id="cvModalClose" class="cv-modal-close-btn">&times;</button>
+    <div id="cvModalBody" class="cv-modal-body">
+      <!-- The iframe will be created and injected here dynamically via JavaScript -->
+    </div>
+  </div>
+</div>
+
     <div class="cv-section" id="education">
       <h2>Education</h2>
       <div class="cv-block-container">
-        <a href="#" data-modal-url="/cv/phd/" class="cv-item-card cv-modal-trigger">
+        <div data-modal-url="/cv/phd/" class="cv-item-card cv-modal-trigger">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2021 - 05/2026</div>
             <div class="cv-card-location"><i class="fas fa-map-marker-alt"></i> Atlanta, GA</div>
@@ -140,7 +149,7 @@ author_profile: true
             <div class="cv-institution">Georgia State University</div>
             <div class="cv-details">Cognitive and Affective Neuroscience</div>
           </div>
-        </a>
+        </div>
         <a href="/cv/ma/" class="cv-item-card">
           <div class="cv-card-left-column">
             <div class="cv-card-date">08/2019 - 08/2021</div>
@@ -585,16 +594,6 @@ author_profile: true
       </div>
     </div>
 
-  </div>
-</div>
-
-<!-- Reusable Pop-Up Window Structure with an iFrame -->
-<div id="cvModalOverlay" class="cv-modal-overlay">
-  <div class="cv-modal-window">
-    <button id="cvModalClose" class="cv-modal-close-btn">&times;</button>
-    <div id="cvModalBody" class="cv-modal-body">
-      <!-- The iframe will be created and injected here dynamically via JavaScript -->
-    </div>
   </div>
 </div>
 
