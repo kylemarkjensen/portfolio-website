@@ -18,27 +18,33 @@ I love to learn and I love to share my discoveries. I am passionate about teachi
 I love to explore. I believe that it’s important to expand our range of vision and be open to new ideas and information we may not expect; great discoveries and scientific advancement often result from unexpected sources. I try to search for truth through a wide variety of modalities and methods, although much of my work can be categorized as data-driven.
 
 ### Research Interests
-{% raw %}
 I love to study <span id="typed-element" style="color: #0076df; font-weight: bold;"></span>
+{% raw %}
+<!-- Use an inline onload handler to guarantee the library is fully ready before running your code -->
+<script 
+  src="https://jsdelivr.net" 
+  onload="initializeTyped()">
+</script>
+
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
+  function initializeTyped() {
     var typed = new Typed('#typed-element', {
       strings: [
-        'biology.', 
-        'the human brain.', 
-        'mental illness.', 
-        'gestalt psychology.', 
-        'neuroimaging.', 
-        'cognitive neuroscience.', 
-        'neuroinformatics.', 
-        'functional networks.', 
-        'development.'
+        'biology', 
+        'human brain', 
+        'mental illness', 
+        'gestalt psychology', 
+        'neuroimaging', 
+        'cognitive neuroscience', 
+        'neuroinformatics', 
+        'functional networks', 
+        'development'
       ],
       typeSpeed: 50,
       backSpeed: 30,
       backDelay: 1500,
       loop: true
     });
-  });
+  }
 </script>
 {% endraw %}
