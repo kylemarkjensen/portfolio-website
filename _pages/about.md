@@ -33,7 +33,7 @@ I love to explore. I believe that it’s important to expand our range of vision
       'neuroimaging',
       'cognitive neuroscience',
       'neuroinformatics',
-      'networks';
+      'networks',
       'development'
     ],
     typeSpeed: 50,
