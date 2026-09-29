@@ -20,6 +20,8 @@ I love to explore. I believe that it’s important to expand our range of vision
 ### Research Interests
 <span id="typed-text" style="color: #0076df; font-weight: bold;"></span>
 
+{% raw %}
+<script src="https://unpkg.com"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var typed = new Typed('#typed-text', {
@@ -38,6 +40,7 @@ I love to explore. I believe that it’s important to expand our range of vision
     backSpeed: 30,
     backDelay: 1500,
     loop: true
-  });
+    });
   });
 </script>
+{% endraw %}
