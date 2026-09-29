@@ -16,3 +16,24 @@ I love to learn and I love to share my discoveries. I am passionate about teachi
 ### Data-Driven Psychology
 
 I love to explore. I believe that it’s important to expand our range of vision and be open to new ideas and information we may not expect; great discoveries and scientific advancement often result from unexpected sources. I try to search for truth through a wide variety of modalities and methods, although much of my work can be categorized as data-driven.
+
+### Research Interests
+<span id="typed-text" style="color: #0076df; font-weight: bold;"></span>
+
+<script>
+  var typed = new Typed('#typed-text', {
+    strings: [
+      'biology',
+      'human brain',
+      'mental illness',
+      'gestalt psychology',
+      'neuroimaging',
+      'neuroinformatics',
+      'development'
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 1500,
+    loop: true
+  });
+</script>
