@@ -20,7 +20,7 @@ I love to explore. I believe that it’s important to expand our range of vision
 ### Research Interests
 <span id="typed-element" style="color: #0076df; font-weight: bold;"></span>
 
-<script src="https://jsdelivr.net"></script>
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 
 <!-- Initialize Typed.js -->
 <script>
