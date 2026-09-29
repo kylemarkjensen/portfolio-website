@@ -7,6 +7,16 @@ redirect_from:
   - /about.html
 ---
 
+<!-- Initialize Typed.js -->
+<script>
+  var typed = new Typed('#typed-element', {
+    strings: ['biology', 'human brain', 'mental illness', 'gestalt psychology', 'neuroimaging', 'cognitive neuroscience', 'neuroinformatics', 'functional networks', 'development'],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
+  });
+</script>
+
 I’m an experimental psychologist and clinical neuroimaging enthusiast with 10+ years of experience in academic research, teaching, and mentoring students.
 
 I collect, curate, and utilize brain imaging data, applying advanced analytic approaches and developing neuroinformatics tools for establishing brain-based biomarkers of neurological and psychiatric illness. I am passionate about teaching and mentoring and making neuroscience accessible to everyone - through open access initiatives, responsible and organized data management, and by clearly communicating and disseminating key research findings.
@@ -21,13 +31,3 @@ I love to explore. I believe that it’s important to expand our range of vision
 <span id="typed-element" style="color: #0076df; font-weight: bold;"></span>
 
 <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
-
-<!-- Initialize Typed.js -->
-<script>
-  var typed = new Typed('#typed-element', {
-    strings: ['biology', 'human brain', 'mental illness', 'gestalt psychology', 'neuroimaging', 'cognitive neuroscience', 'neuroinformatics', 'functional networks', 'development'],
-    typeSpeed: 50,
-    backSpeed: 30,
-    loop: true
-  });
-</script>
