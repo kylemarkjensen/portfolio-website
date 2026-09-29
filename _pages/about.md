@@ -21,8 +21,9 @@ I love to explore. I believe that it’s important to expand our range of vision
 <span id="typed-text" style="color: #0076df; font-weight: bold;"></span>
 
 <script>
-  var typed = new Typed('#typed-text', {
-    strings: [
+  document.addEventListener("DOMContentLoaded", function() {
+    var typed = new Typed('#typed-text', {
+      strings: [
       'biology',
       'human brain',
       'mental illness',
@@ -37,5 +38,6 @@ I love to explore. I believe that it’s important to expand our range of vision
     backSpeed: 30,
     backDelay: 1500,
     loop: true
+  });
   });
 </script>
