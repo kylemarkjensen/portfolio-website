@@ -262,3 +262,75 @@
 html {
   scroll-behavior: smooth;
 }
+/* Pop-up background backdrop */
+.cv-modal-overlay {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly darker backdrop */
+  z-index: 2000;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+}
+
+/* The actual pop-up box - scaled up for full page viewing */
+.cv-modal-window {
+  background: #ffffff;
+  padding: 0; /* Clear padding so iframe occupies the full container space */
+  border-radius: 8px;
+  width: 90%;
+  max-width: 850px; /* Wider window to view sub-pages comfortably */
+  height: 85%; /* Tall window for vertical page scrolling */
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  overflow: hidden; /* Clips iframe corners to match border-radius */
+  animation: fadeInModal 0.2s ease-out;
+}
+
+/* Close button (X) - Styled with a solid background layer so it pops above iframe content */
+.cv-modal-close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 2010;
+}
+.cv-modal-close-btn:hover {
+  background: #f5f5f5;
+  color: #000;
+}
+
+/* Container expanding to fill the modal window */
+.cv-modal-body {
+  width: 100%;
+  height: 100%;
+}
+
+/* The dynamic iframe frame styling */
+.cv-modal-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #ffffff;
+}
+
+/* Smooth pop-up appearance animation */
+@keyframes fadeInModal {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
