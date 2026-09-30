@@ -42,5 +42,7 @@ I love to study <span id="typed-element" style="color: #0076df; font-weight: bol
       loop: true
     });
   }
+
+  document.addEventListener('DOMContentLoaded', initializeTyped);
 </script>
 {% endraw %}
