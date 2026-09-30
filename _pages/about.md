@@ -20,8 +20,7 @@ I love to explore. I believe that it’s important to expand our range of vision
 ### Research Interests
 I love to study <span id="typed-element" style="color: #0076df; font-weight: bold;"></span>
 {% raw %}
-<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-
+<script src="https://unpkg.com"></script>
 <script>
   function initializeTyped() {
     var typed = new Typed('#typed-element', {
