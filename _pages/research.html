@@ -11,7 +11,7 @@ author_profile: true
 
 <h2>NeuroMark</h2>
 
-<p>A major theme of much of my research has been centered around the <a href="https://doi.org/10.1016/j.nicl.2020.102375">NeuroMark</a> initiative, aimed towards establishing a common reference space across neuroimaging analyses. I've contributed to the development of several NeuroMark templates (see <a href="https://github.com/trendscenter/gift/blob/master/doc/web/wiki/neuromark/README.md">NeuroMark Templates</a>), but my most notable contribution has been towards the development of the <a href="https://github.com/trendscenter/gift/blob/master/doc/web/wiki/neuromark/functionalMRI/Neuromark_fMRI_2.2_modelorder_multi.md">NeuroMark Multi-Scale Functional Brain Atlas</a>. This work builds upon the brilliant work of <a href="https://doi.org/10.1002/hbm.26472">Dr. Iraji and colleagues</a>, expanding their valuable neuroimaging resource by manually and meticulously organizing and describing data-derived brain networks from more than 100,000 resting-state fMRI scans in a way that is hopefully more familiar and accessible to a broader neuroimaging community. To date, this resource has been used in at least 40 studies and I hope that it will continue to be useful for helping to standardize results and expand our understanding of the functional brain (read more about it <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11419112/">here</a>).</p>
+<p>A major theme of my research has been centered around the <a href="https://doi.org/10.1016/j.nicl.2020.102375">NeuroMark</a> initiative, aimed towards establishing a common reference space across neuroimaging analyses. I've contributed to the development of several <a href="https://github.com/trendscenter/gift/blob/master/doc/web/wiki/neuromark/README.md">NeuroMark templates</a>, but my most notable contribution has been towards the development of the <a href="https://github.com/trendscenter/gift/blob/master/doc/web/wiki/neuromark/functionalMRI/Neuromark_fMRI_2.2_modelorder_multi.md">NeuroMark Multi-Scale Functional Brain Atlas</a>. This work builds upon the brilliant work of <a href="https://doi.org/10.1002/hbm.26472">Dr. Iraji and colleagues</a>, expanding their valuable neuroimaging resource by manually and meticulously organizing and describing data-derived brain networks from more than 100,000 resting-state fMRI scans in a way that is hopefully more familiar and accessible to a broader neuroimaging community. To date, this resource has been used in at least 40 studies and I hope that it will continue to be useful for helping to standardize results and expand our understanding of the functional brain (read more about it <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11419112/">here</a>).</p>
 
 <img src="/images/research/Graphic_Abstract.png" alt="NeuroMark Graphic Abstract">
 
@@ -49,154 +49,70 @@ author_profile: true
 <p class="notice"> <strong>Figures from:</strong> NeuroMark-SZ: A Holistic Resting-State-fMRI-Based Model for Divergent Functional Circuitry in Schizophrenia <a href="https://doi.org/10.64898/2026.03.12.710902">https://doi.org/10.64898/2026.03.12.710902</a></p>
 
 <style>
-.custom-carousel {
-  position: relative;
-  max-width: 100%;
-  margin: 20px auto;
-  overflow: hidden;
-  border-radius: 4px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  background-color: #ffffff; /* FIX: White background */
-  border: 1px solid #e5e5e5;  /* Subtle border to define the box on white pages */
-}
-.carousel-slides {
-  position: relative;
-  height: 450px;
-  width: 100%;
-}
-.carousel-slide {
-  display: none;
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.carousel-slide.active-slide {
-  display: block !important;
-}
-.carousel-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.carousel-btn {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: auto;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 22px;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black so it pops on white */
-  border: none;
-  user-select: none;
-  transition: 0.3s ease;
-  z-index: 10;
-}
-.btn-next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.btn-prev {
-  left: 0;
-  border-radius: 0 3px 3px 0;
-}
-.carousel-btn:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-  /* Dots Styling */
-.carousel-dots {
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 8px;
-  z-index: 15;
-}
-.carousel-dot {
-  cursor: pointer;
-  height: 12px;
-  width: 12px;
-  background-color: rgba(0, 0, 0, 0.3); /* Dark gray tint to stay visible on white backgrounds */
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-}
-.carousel-dot:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-.carousel-dot.active-dot {
-  background-color: #000000; /* Crisp black fill for active image indicator */
-  transform: scale(1.2);
-}
+.custom-carousel { position: relative; max-width: 100%; margin: 20px auto; overflow: hidden; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; border: 1px solid #e5e5e5; }
+.carousel-slides { position: relative; height: 450px; width: 100%; }
+.carousel-slide { display: none; width: 100%; height: 100%; }
+.carousel-slide.active-slide { display: block !important; }
+.carousel-slide img { width: 100%; height: 100%; object-fit: contain; }
+.carousel-btn { cursor: pointer; position: absolute; top: 50%; transform: translateY(-50%); width: auto; padding: 16px; color: white; font-weight: bold; font-size: 22px; background-color: rgba(0, 0, 0, 0.4); border: none; user-select: none; transition: 0.3s ease; z-index: 10; }
+.btn-next { right: 0; border-radius: 3px 0 0 3px; }
+.btn-prev { left: 0; border-radius: 0 3px 3px 0; }
+.carousel-btn:hover { background-color: rgba(0, 0, 0, 0.7); }
+.carousel-dots { position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 15; }
+.carousel-dot { cursor: pointer; height: 12px; width: 12px; background-color: rgba(0, 0, 0, 0.2); border-radius: 50%; display: inline-block; transition: background-color 0.3s ease, transform 0.3s ease; border: 1px solid rgba(255, 255, 255, 0.8); }
+.carousel-dot:hover { background-color: rgba(0, 0, 0, 0.5); }
+.carousel-dot.active-dot { background-color: #000000; transform: scale(1.2); }
 </style>
 
 <script>
 (function() {
   let currentIndex = 0;
   let slideTimer;
-  const slideInterval = 5000; 
-  
+  const slideInterval = 5000;
   const container = document.getElementById("carouselContainer");
   const slides = document.querySelectorAll(".carousel-slide");
   const prevBtn = document.querySelector(".btn-prev");
   const nextBtn = document.querySelector(".btn-next");
   const dotsContainer = document.getElementById("dotsContainer");
-
   if (slides.length === 0) return;
-
-  // Generate dots dynamically based on the total number of images
+  dotsContainer.innerHTML = "";
   slides.forEach((_, index) => {
     const dot = document.createElement("span");
     dot.classList.add("carousel-dot");
     if (index === 0) dot.classList.add("active-dot");
-    
     dot.addEventListener("click", () => {
       currentIndex = index;
       updateCarousel();
+      startTimer();
     });
     dotsContainer.appendChild(dot);
   });
-
   const dots = document.querySelectorAll(".carousel-dot");
-
   function updateCarousel() {
-    // Update active slide
     slides.forEach(slide => slide.classList.remove("active-slide"));
     slides[currentIndex].classList.add("active-slide");
-
-    // Update active dot
     dots.forEach(dot => dot.classList.remove("active-dot"));
     if (dots[currentIndex]) dots[currentIndex].classList.add("active-dot");
   }
-
   function nextSlide() {
     currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
     updateCarousel();
   }
-
   function prevSlide() {
     currentIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
     updateCarousel();
   }
-
   function startTimer() {
+    stopTimer();
     slideTimer = setInterval(nextSlide, slideInterval);
   }
-
   function stopTimer() {
     clearInterval(slideTimer);
   }
-
   prevBtn.addEventListener("click", () => { prevSlide(); startTimer(); });
   nextBtn.addEventListener("click", () => { nextSlide(); startTimer(); });
-
   container.addEventListener("mouseenter", stopTimer);
   container.addEventListener("mouseleave", startTimer);
-
   startTimer();
 })();
 </script>
