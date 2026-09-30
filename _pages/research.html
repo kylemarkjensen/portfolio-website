@@ -22,7 +22,7 @@ author_profile: true
 
 <!-- Photo Carousel Section -->
 
-<div class="custom-carousel">
+<div class="custom-carousel" id="carouselContainer">
   <div class="carousel-slides">
     <div class="carousel-slide active-slide">
       <img src="/images/research/slides/analysis_pipeline_slide.png" alt="Analysis Pipeline">
@@ -37,6 +37,7 @@ author_profile: true
       <img src="/images/research/slides/sz_model_slide.png" alt="NeuroMark Model for SZ">
     </div>
   </div>
+  
   <!-- Navigation Arrows -->
   <button class="carousel-btn btn-prev">&#10094;</button>
   <button class="carousel-btn btn-next">&#10095;</button>
@@ -190,8 +191,8 @@ author_profile: true
     clearInterval(slideTimer);
   }
 
-  prevBtn.addEventListener("click", prevSlide);
-  nextBtn.addEventListener("click", nextSlide);
+  prevBtn.addEventListener("click", () => { nextSlide(); startTimer(); });
+  prevBtn.addEventListener("click", () => { prevSlide(); startTimer(); });
 
   container.addEventListener("mouseenter", stopTimer);
   container.addEventListener("mouseleave", startTimer);
