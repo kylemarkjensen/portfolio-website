@@ -38,6 +38,9 @@ author_profile: true
   <!-- Navigation Arrows -->
   <button class="carousel-btn btn-prev">&#10094;</button>
   <button class="carousel-btn btn-next">&#10095;</button>
+
+  <!-- Dot Indicators Container -->
+  <div class="carousel-dots" id="dotsContainer"></div>
 </div>
 
 <p class="notice"> <strong>Figures from:</strong> NeuroMark-SZ: A Holistic Resting-State-fMRI-Based Model for Divergent Functional Circuitry in Schizophrenia <a href="https://doi.org/10.64898/2026.03.12.710902">https://doi.org/10.64898/2026.03.12.710902</a></p>
@@ -98,62 +101,98 @@ author_profile: true
 .carousel-btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+  /* Dots Styling */
+.carousel-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 15;
+}
+.carousel-dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  background-color: rgba(0, 0, 0, 0.3); /* Dark gray tint to stay visible on white backgrounds */
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.carousel-dot:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.carousel-dot.active-dot {
+  background-color: #000000; /* Crisp black fill for active image indicator */
+  transform: scale(1.2);
+}
 </style>
 
 <script>
 (function() {
   let currentIndex = 0;
   let slideTimer;
-  const slideInterval = 5000; // Time per slide in milliseconds (5000ms = 5 seconds)
+  const slideInterval = 5000; 
   
   const container = document.getElementById("carouselContainer");
   const slides = document.querySelectorAll(".carousel-slide");
   const prevBtn = document.querySelector(".btn-prev");
   const nextBtn = document.querySelector(".btn-next");
+  const dotsContainer = document.getElementById("dotsContainer");
 
   if (slides.length === 0) return;
 
-  function updateSlides(index) {
-    slides.forEach(slide => {
-      slide.classList.remove("active-slide");
+  // Generate dots dynamically based on the total number of images
+  slides.forEach((_, index) => {
+    const dot = document.createElement("span");
+    dot.classList.add("carousel-dot");
+    if (index === 0) dot.classList.add("active-dot");
+    
+    dot.addEventListener("click", () => {
+      currentIndex = index;
+      updateCarousel();
     });
-    slides[index].classList.add("active-slide");
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = document.querySelectorAll(".carousel-dot");
+
+  function updateCarousel() {
+    // Update active slide
+    slides.forEach(slide => slide.classList.remove("active-slide"));
+    slides[currentIndex].classList.add("active-slide");
+
+    // Update active dot
+    dots.forEach(dot => dot.classList.remove("active-dot"));
+    if (dots[currentIndex]) dots[currentIndex].classList.add("active-dot");
   }
 
   function nextSlide() {
     currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
-    updateSlides(currentIndex);
+    updateCarousel();
   }
 
   function prevSlide() {
     currentIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
-    updateSlides(currentIndex);
+    updateCarousel();
   }
 
-  // Start the automatic rotation
   function startTimer() {
     slideTimer = setInterval(nextSlide, slideInterval);
   }
 
-  // Stop the automatic rotation
   function stopTimer() {
     clearInterval(slideTimer);
   }
 
-  // Button Click Events
-  prevBtn.addEventListener("click", function() {
-    prevSlide();
-  });
+  prevBtn.addEventListener("click", prevSlide);
+  nextBtn.addEventListener("click", nextSlide);
 
-  nextBtn.addEventListener("click", function() {
-    nextSlide();
-  });
-
-  // Pause on hover
   container.addEventListener("mouseenter", stopTimer);
   container.addEventListener("mouseleave", startTimer);
 
-  // Initialize
   startTimer();
 })();
 </script>
