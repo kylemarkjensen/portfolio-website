@@ -48,26 +48,25 @@ author_profile: true
   overflow: hidden;
   border-radius: 4px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  background-color: #000000; /* Dark background to frame vertical/smaller photos cleanly */
 }
 .carousel-slides {
   position: relative;
-  height: auto;               /* Removes the fixed height restriction */
-  max-height: 500px;          /* Prevents the carousel from getting too tall */
-  background-color: #f0f0f0;  /* Adds a neutral background for mismatched sizes */
-}
-.carousel-slide img {
+  height: 450px; /* Fixes container height so the page layout doesn't jump */
   width: 100%;
-  height: auto;
-  max-height: 500px;
-  object-fit: contain;        /* SHOWS THE FULL IMAGE: No more cropping! */
+}
+.carousel-slide {
+  display: none; /* Hidden by default */
+  width: 100%;
+  height: 100%;
 }
 .carousel-slide.active {
-  display: block;
+  display: block; /* Shown only when active */
 }
 .carousel-slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Keeps image ratios consistent without distortion */
+  object-fit: contain; /* FIX: Shows the FULL image, no cropping or stretching */
 }
 .carousel-prev, .carousel-next {
   cursor: pointer;
@@ -83,6 +82,7 @@ author_profile: true
   border: none;
   user-select: none;
   transition: 0.3s ease;
+  z-index: 10;
 }
 .carousel-next {
   right: 0;
@@ -98,17 +98,31 @@ author_profile: true
 </style>
 
 <script>
-let slideIndex = 0;
+// Scoped variable to prevent layout conflicts
+if (typeof slideIndex === 'undefined') {
+  var slideIndex = 0;
+}
+
 function showSlides(n) {
   const slides = document.getElementsByClassName("carousel-slide");
+  if (slides.length === 0) return;
+  
   if (n >= slides.length) { slideIndex = 0; }
   if (n < 0) { slideIndex = slides.length - 1; }
+  
   for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
     slides[i].classList.remove("active");
   }
+  
+  slides[slideIndex].style.display = "block";
   slides[slideIndex].classList.add("active");
 }
+
 function moveSlide(n) {
   showSlides(slideIndex += n);
 }
+
+// Initialize on load
+showSlides(slideIndex);
 </script>
