@@ -33,8 +33,8 @@ I love to study <span id="typed-element" style="color: #0076df; font-weight: bol
         'cognitive neuroscience.', 
         'neuroinformatics.', 
         'functional networks.', 
-        'human development.'
-        'sensation and perception.'
+        'human development.',
+        'sensation and perception.',
         'emotion.'
       ],
       typeSpeed: 50,
