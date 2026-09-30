@@ -26,7 +26,7 @@ I love to study <span id="typed-element" style="color: #0076df; font-weight: bol
     var typed = new Typed('#typed-element', {
       strings: [
         'biology', 
-        'human brain', 
+        'the human brain', 
         'mental illness', 
         'gestalt psychology', 
         'neuroimaging', 
