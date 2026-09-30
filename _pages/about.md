@@ -29,13 +29,13 @@ I love to study <span id="typed-element" style="color: #0076df; font-weight: bol
         'the human brain.', 
         'mental illness.', 
         'gestalt psychology.', 
-        'neuroimaging.', 
         'cognitive neuroscience.', 
+        'neuroimaging.', 
         'neuroinformatics.', 
         'functional networks.', 
-        'human development.',
         'perception.',
-        'emotion.'
+        'emotion.',
+        'human development.'
       ],
       typeSpeed: 50,
       backSpeed: 30,
