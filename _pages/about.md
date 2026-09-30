@@ -25,15 +25,15 @@ I love to study <span id="typed-element" style="color: #0076df; font-weight: bol
   function initializeTyped() {
     var typed = new Typed('#typed-element', {
       strings: [
-        'biology', 
-        'the human brain', 
-        'mental illness', 
-        'gestalt psychology', 
-        'neuroimaging', 
-        'cognitive neuroscience', 
-        'neuroinformatics', 
-        'functional networks', 
-        'development'
+        'biology.', 
+        'the human brain.', 
+        'mental illness.', 
+        'gestalt psychology.', 
+        'neuroimaging.', 
+        'cognitive neuroscience.', 
+        'neuroinformatics.', 
+        'functional networks.', 
+        'development.'
       ],
       typeSpeed: 50,
       backSpeed: 30,
