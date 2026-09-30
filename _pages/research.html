@@ -103,6 +103,10 @@ author_profile: true
 <script>
 (function() {
   let currentIndex = 0;
+  let slideTimer;
+  const slideInterval = 5000; // Time per slide in milliseconds (5000ms = 5 seconds)
+  
+  const container = document.getElementById("carouselContainer");
   const slides = document.querySelectorAll(".carousel-slide");
   const prevBtn = document.querySelector(".btn-prev");
   const nextBtn = document.querySelector(".btn-next");
@@ -116,14 +120,40 @@ author_profile: true
     slides[index].classList.add("active-slide");
   }
 
-  prevBtn.addEventListener("click", function() {
+  function nextSlide() {
+    currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
+    updateSlides(currentIndex);
+  }
+
+  function prevSlide() {
     currentIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
     updateSlides(currentIndex);
+  }
+
+  // Start the automatic rotation
+  function startTimer() {
+    slideTimer = setInterval(nextSlide, slideInterval);
+  }
+
+  // Stop the automatic rotation
+  function stopTimer() {
+    clearInterval(slideTimer);
+  }
+
+  // Button Click Events
+  prevBtn.addEventListener("click", function() {
+    prevSlide();
   });
 
   nextBtn.addEventListener("click", function() {
-    currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
-    updateSlides(currentIndex);
+    nextSlide();
   });
+
+  // Pause on hover
+  container.addEventListener("mouseenter", stopTimer);
+  container.addEventListener("mouseleave", startTimer);
+
+  // Initialize
+  startTimer();
 })();
 </script>
