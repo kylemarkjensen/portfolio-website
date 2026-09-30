@@ -33,7 +33,7 @@ I love to study <span id="typed-element" style="color: #0076df; font-weight: bol
         'cognitive neuroscience.', 
         'neuroinformatics.', 
         'functional networks.', 
-        'development.'
+        'human development.'
       ],
       typeSpeed: 50,
       backSpeed: 30,
