@@ -34,6 +34,8 @@ I love to study <span id="typed-element" style="color: #0076df; font-weight: bol
         'neuroinformatics.', 
         'functional networks.', 
         'human development.'
+        'sensation and perception.'
+        'emotion.'
       ],
       typeSpeed: 50,
       backSpeed: 30,
