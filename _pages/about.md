@@ -18,7 +18,7 @@ I love to learn and I love to share my discoveries. I am passionate about teachi
 I love to explore. I believe that it’s important to expand our range of vision and be open to new ideas and information we may not expect; great discoveries and scientific advancement often result from unexpected sources. I try to search for truth through a wide variety of modalities and methods, although much of my work can be categorized as data-driven.
 
 ### Research Interests
-I love to study <span id="typed-element" style="color: #0076df; font-weight: bold;"></span>
+I love to study <span id="typed-element" style="color: #52adc8; font-weight: bold;"></span>
 {% raw %}
 <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
 <script>
