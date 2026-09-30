@@ -191,8 +191,8 @@ author_profile: true
     clearInterval(slideTimer);
   }
 
-  prevBtn.addEventListener("click", () => { nextSlide(); startTimer(); });
   prevBtn.addEventListener("click", () => { prevSlide(); startTimer(); });
+  nextBtn.addEventListener("click", () => { nextSlide(); startTimer(); });
 
   container.addEventListener("mouseenter", stopTimer);
   container.addEventListener("mouseleave", startTimer);
