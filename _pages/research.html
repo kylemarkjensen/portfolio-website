@@ -15,3 +15,97 @@ author_profile: true
 
 <h2>Schizophrenia and Psychosis</h2>
 <p>Another common theme of my research can be described as efforts towards better identifying and understanding psychiatric and neurological disorders. Many of my publications have focused specifically on schizophrenia and psychosis, employing the data-driven NeuroMark approach to identify consistent patterns of disrupted network activity in resting-state fMRI.</p>
+
+<!-- Photo Carousel Section -->
+<hr>
+<h2>NeuroMark-SZ</h2>
+
+<div class="custom-carousel">
+  <div class="carousel-slides">
+    <div class="carousel-slide active">
+      <img src="/images/research/slides/analysis_pipeline_slide.png" alt="Analysis Pipeline">
+    </div>
+    <div class="carousel-slide">
+      <img src="/images/research/slides/avg_spatial_map_fnc_slide.png" alt="Average Spatial Maps & FNC">
+    </div>
+    <div class="carousel-slide">
+      <img src="/images/research/slides/group_diff_slide.png" alt="SZ-Control Group Differences in FNC">
+    </div>
+    <div class="carousel-slide">
+      <img src="/images/research/slides/sz_model_slide.png" alt="NeuroMark Model for SZ">
+    </div>
+  </div>
+  <!-- Navigation Arrows -->
+  <button class="carousel-prev" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="carousel-next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+<style>
+.custom-carousel {
+  position: relative;
+  max-width: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.carousel-slides {
+  position: relative;
+  height: 400px; /* Adjust this value to scale the slider height */
+}
+.carousel-slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.carousel-slide.active {
+  display: block;
+}
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps image ratios consistent without distortion */
+}
+.carousel-prev, .carousel-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  user-select: none;
+  transition: 0.3s ease;
+}
+.carousel-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.carousel-prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+.carousel-prev:hover, .carousel-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+</style>
+
+<script>
+let slideIndex = 0;
+function showSlides(n) {
+  const slides = document.getElementsByClassName("carousel-slide");
+  if (n >= slides.length) { slideIndex = 0; }
+  if (n < 0) { slideIndex = slides.length - 1; }
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+  slides[slideIndex].classList.add("active");
+}
+function moveSlide(n) {
+  showSlides(slideIndex += n);
+}
+</script>
