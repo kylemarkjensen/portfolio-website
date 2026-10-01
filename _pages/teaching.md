@@ -1,8 +1,8 @@
 ---
+layout: archive
 title: "Teaching"
-excerpt: "With background image"
-collection: portfolio
 permalink: /teaching/
+author_profile: true
 ---
 
 <style>
