@@ -52,8 +52,8 @@ overall instructor and course ratings increased despite my increased teaching lo
 Importantly, my ratings are consistently higher across all three sections in Fall 2018 than in Fall 2017, demonstrating a
 stable overall positive trajectory of improvement within a 1-year time frame (Dec 2017 - Dec 2018).*
 
-Qualitative Summary:
-Strengths:
+#### Qualitative Summary:
+##### Strengths:
 * Clear Structure and Expectations: Students consistently noted that my course was well-organized, expectations
 were clear, and that the syllabus and schedule were straightforward.
 * Effective Exam Preparation: Students appreciated my study guides, test review sessions, and fair exams.
@@ -62,7 +62,7 @@ and test questions, which they reported reduced their test anxiety and made conc
 * Approachable and Caring: Students described me as kind, respectful, easy to communicate with, flexible, and
 genuinely concerned about student success and learning.
 
-Areas for Improvement:
+##### Areas for Improvement:
 * Delivery and Engagement: Some students critiqued my presentation skills and expressed a desire for more
 opportunities for group work, class discussion, and additional hands-on activities like the chicken lab.
 * Additional Insight: Some students felt that my approach to focusing on material in the textbook was too
