@@ -17,42 +17,58 @@ author_profile: true
 </style>
 
 <style>
-  /* Bold Keyframes for Left-to-Right / Right-to-Left entry paths */
-  @keyframes dynamicSlideInLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(-60px); /* Clear sweep distance from the left */
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  @keyframes dynamicSlideInRight {
-    0% {
-      opacity: 0;
-      transform: translateX(60px);  /* Clear sweep distance from the right */
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  /* Set initial hidden state for anything we want to scroll-animate */
+  /* Safe fallback default: Everything is visible by default so content ALWAYS loads */
   .scroll-animate {
-    opacity: 0;
-    will-change: transform, opacity;
+    opacity: 1;
+    transform: none;
   }
 
-  /* Classes added dynamically by JavaScript ONLY when scrolled into the viewport */
-  .reveal-left-act {
-    animation: dynamicSlideInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  }
+  /* Modern Scroll-Driven Animations: Only runs if the browser supports it */
+  @supports (animation-timeline: view()) {
+    @keyframes dynamicSlideInLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(-60px);
+      }
+      40% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
 
-  .reveal-right-act {
-    animation: dynamicSlideInRight 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    @keyframes dynamicSlideInRight {
+      0% {
+        opacity: 0;
+        transform: translateX(60px);
+      }
+      40% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /* Apply scroll tracking properties safely */
+    .scroll-animate {
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+      animation-fill-mode: both;
+    }
+
+    .reveal-left {
+      animation-name: dynamicSlideInLeft;
+    }
+
+    .reveal-right {
+      animation-name: dynamicSlideInRight;
+    }
   }
   
   /* Base styles for large screens (Desktop) */
@@ -128,58 +144,37 @@ author_profile: true
 <!-- Responsive Flexbox Container: Columns stack on mobile, side-by-side on desktop -->
 <div class="responsive-flex-container">
   
-<!-- Left Text Wrapper (Data attribute handles choice of engine direction) -->
-  <div class="text-wrapper scroll-animate" data-direction="left" markdown="1">
+ <!-- Left Text Wrapper -->
+  <div class="text-wrapper scroll-animate reveal-left" markdown="1">
  <p class="intro-text">Teaching is an integral part of who I am as a person; to explain why I teach is more of a biography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.</p>
   </div>
   
   <!-- Right Image Wrapper -->
-  <div class="image-wrapper scroll-animate" data-direction="right">
+  <div class="image-wrapper scroll-animate reveal-right">
     <img src="/images/Brain_Puzzle_cropped.jpg" alt="brain puzzle image">
   </div>
 
 </div>
 
-<h3 class="scroll-animate reveal-left">I am a lifelong learner.</h3>
-<p class="scroll-animate reveal-left">While knowledge and experience are attributes inherently required of my position and role, I do not consider myself to be some kind of all-knowing sage. Rather, I am an individual informed by relevant first-hand experience, who is adequately prepared to share with fellow students a unique perspective on knowledge which my field has deemed accurate, valuable, and useful. I am an ally who is prepared to share with students my own secrets to success. I am prepared to train students to develop the same skills which I have developed, or to help them identify desirable knowledge or skills which I may not possess and then direct them to sources where they can get the help that they need.</p>
+### I am a lifelong learner. {: .scroll-animate .reveal-left}
+While knowledge and experience are attributes inherently required of my position and role, I do not consider myself to be some kind of all-knowing sage. Rather, I am an individual informed by relevant first-hand experience, who is adequately prepared to share with fellow students a unique perspective on knowledge which my field has deemed accurate, valuable, and useful. I am an ally who is prepared to share with students my own secrets to success. I am prepared to train students to develop the same skills which I have developed, or to help them identify desirable knowledge or skills which I may not possess and then direct them to sources where they can get the help that they need.
+{: .scroll-animate .reveal-left}
 
-<h3 class="scroll-animate reveal-left">I am a bridge.</h3>
-<p class="scroll-animate reveal-left">I must help bridge the gap between my students and future employers, whether those employers are in industry or academia. This role highlights my duty to know what employers expect from their employees so that I can accurately represent and communicate the expectations of possible employers to students in a way that is accessible to them through clear course and learning objectives. I also have a duty to help students to meet those expectations by structuring the course to provide opportunities to gain the knowledge they need and develop the skills which will be required of them. This is done through preparation for and participation in class. Then, I must accurately evaluate how well a student achieves those objectives so that their performance and progress can be communicated back to those employers in the form of grades and recommendations.</p> 
+### I am a bridge. {: .scroll-animate .reveal-left}
+I must help bridge the gap between my students and future employers, whether those employers are in industry or academia. This role highlights my duty to know what employers expect from their employees so that I can accurately represent and communicate the expectations of possible employers to students in a way that is accessible to them through clear course and learning objectives. I also have a duty to help students to meet those expectations by structuring the course to provide opportunities to gain the knowledge they need and develop the skills which will be required of them. This is done through preparation for and participation in class. Then, I must accurately evaluate how well a student achieves those objectives so that their performance and progress can be communicated back to those employers in the form of grades and recommendations.
+{: .scroll-animate .reveal-left}
 
-<p class="scroll-animate reveal-left">I also serve as a bridge between a student and new ideas. I hope to help students expand their minds as they consider new perspectives and possibilities. I do not wish to mold them into any one way of thinking, but rather to help them learn to be agents for themselves by more fully realizing their own autonomy in light of new knowledge. What does this look like in the classroom? Students will be given more than one way to solve a problem, answer a question, or complete an assessment. Specifically, in my lectures, I try to avoid phrasing questions with only one specific answer in mind. For example, rather than asking students to regurgitate a textbook definition of the psychological construct of personality, I could ask them, “What does personality mean to you?” or “How would you describe your best friend’s personality?” followed up by asking them to make connections to what the field of psychology teaches about personality. I strive to encourage and reward unique perspectives from students who think outside the box. This technique for asking open ended questions and rewarding thoughtful responses extends to my quizzes and exams in the form of short answer questions graded with specification rubrics. While there are certain things which students must know and demonstrate, I believe that there can be flexibility in how they do it.</p>
+I also serve as a bridge between a student and new ideas. I hope to help students expand their minds as they consider new perspectives and possibilities. I do not wish to mold them into any one way of thinking, but rather to help them learn to be agents for themselves by more fully realizing their own autonomy in light of new knowledge. What does this look like in the classroom? Students will be given more than one way to solve a problem, answer a question, or complete an assessment. Specifically, in my lectures, I try to avoid phrasing questions with only one specific answer in mind. For example, rather than asking students to regurgitate a textbook definition of the psychological construct of personality, I could ask them, “What does personality mean to you?” or “How would you describe your best friend’s personality?” followed up by asking them to make connections to what the field of psychology teaches about personality. I strive to encourage and reward unique perspectives from students who think outside the box. This technique for asking open ended questions and rewarding thoughtful responses extends to my quizzes and exams in the form of short answer questions graded with specification rubrics. While there are certain things which students must know and demonstrate, I believe that there can be flexibility in how they do it.
+{: .scroll-animate .reveal-left}
 
-<h3 class="scroll-animate reveal-left">I am an advocate.</h3>
-<p class="scroll-animate reveal-left">I advocate on behalf of employers and institutions to my students, and I advocate on behalf of my students to employers and institutions. My courses can be simplified into 3 parts: Preparation, participation, and demonstration. Preparation and participation are the tools I primarily use to advocate for employers and institutions. Through preparatory readings, short lectures, in-class activities emphasizing active learning and group interaction, and various forms of formative assessment, I help students learn the things employers and institutions expect them to know and develop the skills they are expected to have.</p> 
+### I am an advocate. {: .scroll-animate .reveal-left}
+I advocate on behalf of employers and institutions to my students, and I advocate on behalf of my students to employers and institutions. My courses can be simplified into 3 parts: Preparation, participation, and demonstration. Preparation and participation are the tools I primarily use to advocate for employers and institutions. Through preparatory readings, short lectures, in-class activities emphasizing active learning and group interaction, and various forms of formative assessment, I help students learn the things employers and institutions expect them to know and develop the skills they are expected to have.
+{: .scroll-animate .reveal-left}
 
-<p class="scroll-animate reveal-left">I do not give busy work or use lectures, activities, assignments, or assessments simply as filler for a course. My time is precious, and my students’ time is precious. For this reason, all forms of formative and summative assessment appropriately align with and thoroughly accomplish course and learning objectives. It is my greatest hope that students will care about the topics and skills which compose my courses and I hope that they will find each part of the course to be relevant, meaningful, and enjoyable.</p>
+I do not give busy work or use lectures, activities, assignments, or assessments simply as filler for a course. My time is precious, and my students’ time is precious. For this reason, all forms of formative and summative assessment appropriately align with and thoroughly accomplish course and learning objectives. It is my greatest hope that students will care about the topics and skills which compose my courses and I hope that they will find each part of the course to be relevant, meaningful, and enjoyable.
+{: .scroll-animate .reveal-left}
 
-<p class="scroll-animate reveal-left">Demonstration is a tool I use to advocate for my students. Demonstration is a method for following up on a student’s preparation and participation. It is an assessment of how well students have achieved course and learning objectives and it is clearly related to specific objectives. Transparency with students ensures that there will be no surprises – unless of course the objective of an assessment requires the student to adapt innovative solutions to an unexpected challenge. By producing deliverables in the form of projects and summative assessment, students can demonstrate in a tangible, observable, and objective way the great things that they will bring to the table if they are hired or funded. Top marks in my class will distinguish a student and be meaningful to the student and to employers as they reflect engagement and effort more than innate ability or aptitude. Top marks will be a realistic and achievable goal for every student as I strive to realize the potential in everyone.</p>
+Demonstration is a tool I use to advocate for my students. Demonstration is a method for following up on a student’s preparation and participation. It is an assessment of how well students have achieved course and learning objectives and it is clearly related to specific objectives. Transparency with students ensures that there will be no surprises – unless of course the objective of an assessment requires the student to adapt innovative solutions to an unexpected challenge. By producing deliverables in the form of projects and summative assessment, students can demonstrate in a tangible, observable, and objective way the great things that they will bring to the table if they are hired or funded. Top marks in my class will distinguish a student and be meaningful to the student and to employers as they reflect engagement and effort more than innate ability or aptitude. Top marks will be a realistic and achievable goal for every student as I strive to realize the potential in everyone.
+{: .scroll-animate .reveal-left}
 
 </div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-const observerOptions = {
-root: null,
-rootMargin: "0px 0px -8% 0px", // Triggers when the top of the element rolls slightly up into view
-threshold: 0.01
-};
-const observer = new IntersectionObserver((entries, observer) => {
-entries.forEach(entry => {
-if (entry.isIntersecting) {
-const element = entry.target;
-const direction = element.getAttribute('data-direction');
-// Inject the correct sweep class dynamically only on intersection context
-if (direction === 'left') {
-element.classList.add('reveal-left-act');
-} else if (direction === 'right') {
-element.classList.add('reveal-right-act');
-}
-observer.unobserve(element); // Drop tracker to preserve DOM operational memory
-}
-});
-}, observerOptions);
-// Track targets exclusively via class signature
-document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
-});
-</script>
