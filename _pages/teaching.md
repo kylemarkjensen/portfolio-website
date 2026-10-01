@@ -40,14 +40,6 @@ author_profile: true
     }
   }
 
-  /* Structural wrapper applying cascade animations sequentially */
-  .animated-page-wrapper .responsive-flex-container,
-  .animated-page-wrapper h3,
-  .animated-page-wrapper p {
-    opacity: 0; /* Keeps them hidden until their specific animation trigger window opens */
-    animation: subtleFadeInUp 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  }
-
   /* Base container hide rule */
   .animated-page-wrapper h3,
   .animated-page-wrapper p,
