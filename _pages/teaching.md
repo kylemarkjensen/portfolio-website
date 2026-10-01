@@ -23,7 +23,7 @@ author_profile: true
     flex-flow: row wrap; /* Side-by-side by default */
     gap: 16px;
     width: 100%;
-    align-items: flex-start; /* Shrinks the container and image height to match the text tightly */
+    align-items: stretch; /* Forces wrappers to be equal height */
     margin: 25px 0;
   }
 
@@ -45,13 +45,17 @@ author_profile: true
   .image-wrapper {
     flex: 1;
     min-width: 300px;
-    display: flex;
+    position: relative;       /* Allows the child image to anchor to this wrapper's height */
+    min-height: 100%;
   }
 
   .image-wrapper img {
+    position: absolute;       /* Frees image from structural sizing, forcing it to look at the wrapper */
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;             /* Allows the height to dynamically scale with the flexbox */
-    object-fit: cover;
+    height: 100%;
+    object-fit: cover;        /* Crops image cleanly to match text height perfectly */
   }
 
   /* Responsive styles for small screens (Mobile phones) */
@@ -61,8 +65,13 @@ author_profile: true
       flex-flow: column-reverse nowrap; 
     }
     
+    .image-wrapper {
+      min-height: 250px;     /* Gives it a fixed structure on mobile */
+    }
+    
     .image-wrapper img {
-      height: 250px; /* Prevents the image from becoming stretched or giant on mobile */
+      position: relative;     /* Restores normal layout flowing for mobile screens */
+      height: 250px;
     }
   }
 </style>
