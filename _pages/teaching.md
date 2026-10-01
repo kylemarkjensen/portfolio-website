@@ -123,6 +123,9 @@ author_profile: true
   }
 </style>
 
+<!-- Page layout wrapped in an animation scope container -->
+<div class="animated-page-wrapper" markdown="1">
+
 <!-- Responsive Flexbox Container: Columns stack on mobile, side-by-side on desktop -->
 <div class="responsive-flex-container">
   
@@ -152,4 +155,4 @@ I advocate on behalf of employers and institutions to my students, and I advocat
 I do not give busy work or use lectures, activities, assignments, or assessments simply as filler for a course. My time is precious, and my students’ time is precious. For this reason, all forms of formative and summative assessment appropriately align with and thoroughly accomplish course and learning objectives. It is my greatest hope that students will care about the topics and skills which compose my courses and I hope that they will find each part of the course to be relevant, meaningful, and enjoyable.
 
 Demonstration is a tool I use to advocate for my students. Demonstration is a method for following up on a student’s preparation and participation. It is an assessment of how well students have achieved course and learning objectives and it is clearly related to specific objectives. Transparency with students ensures that there will be no surprises – unless of course the objective of an assessment requires the student to adapt innovative solutions to an unexpected challenge. By producing deliverables in the form of projects and summative assessment, students can demonstrate in a tangible, observable, and objective way the great things that they will bring to the table if they are hired or funded. Top marks in my class will distinguish a student and be meaningful to the student and to employers as they reflect engagement and effort more than innate ability or aptitude. Top marks will be a realistic and achievable goal for every student as I strive to realize the potential in everyone.
-
+</div>
