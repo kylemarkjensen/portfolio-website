@@ -71,7 +71,7 @@ While knowledge and experience are attributes inherently required of my position
   
   <!-- Right Image Wrapper (Will wrap to the top on small screens) -->
   <div class="image-wrapper">
-    <img src="/images/Brain_Puzzle.jpg" alt="brain puzzle image" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="/images/Brain_Puzzle_cropped.jpg" alt="brain puzzle image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
 
 </div>
