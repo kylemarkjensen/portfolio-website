@@ -18,10 +18,14 @@ author_profile: true
 
 <style>
   /* Bold Keyframes for Left-to-Right / Right-to-Left entry paths */
-  @keyframes dynamicSlideInLeft {
+  @keyframes scrollSlideInLeft {
     0% {
       opacity: 0;
-      transform: translateX(-50px); /* Distinct, wide slide from the left */
+      transform: translateX(-100px); /* Wide sweep distance */
+    }
+    40% {
+      opacity: 1;
+      transform: translateX(0);     /* Fully locked in place early in the viewport */
     }
     100% {
       opacity: 1;
@@ -29,10 +33,14 @@ author_profile: true
     }
   }
 
-  @keyframes dynamicSlideInRight {
+  @keyframes scrollSlideInRight {
     0% {
       opacity: 0;
-      transform: translateX(50px);  /* Distinct, wide slide from the right */
+      transform: translateX(100px);  /* Wide sweep distance from the right side */
+    }
+    40% {
+      opacity: 1;
+      transform: translateX(0);
     }
     100% {
       opacity: 1;
@@ -40,52 +48,28 @@ author_profile: true
     }
   }
 
-  /* Base container hide rule */
+  /* Global Scroll-Driven configuration for headers, text blocks, and wrappers */
   .animated-page-wrapper h3,
   .animated-page-wrapper p,
   .text-wrapper,
   .image-wrapper {
-    opacity: 0;
-    animation-duration: 0.8s; /* Increased duration to make the longer movement readable */
-    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); /* Sharp, fast-start snap curve */
-    animation-fill-mode: forwards;
+    /* Links the animation progress directly to the element's visibility in the viewport */
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%; /* Triggers as soon as the element peeks out from the bottom */
+    animation-fill-mode: both;
   }
 
-  /* --- LEFT-TO-RIGHT INTRO HEADER SWEEP --- */
-  
-  /* Left Text Side: Slides aggressively from the left immediately */
-  .text-wrapper {
-    animation-name: dynamicSlideInLeft;
-    animation-delay: 0.1s;
-  }
-
-  /* Right Image Side: Follows after a slight delay, snapping in from the right */
-  .image-wrapper {
-    animation-name: dynamicSlideInRight;
-    animation-delay: 0.4s; /* Creates the distinct left-to-right eye path gap */
-  }
-
-  /* --- LOWER BODY TEXT CASCADE --- */
+  /* Assign sweeping directions */
+  .text-wrapper,
   .animated-page-wrapper h3,
   .animated-page-wrapper p {
-    animation-name: dynamicSlideInLeft; /* Content flows down and right sequentially */
+    animation-name: scrollSlideInLeft;
   }
 
-  /* Block 2: Lifelong Learner Section */
-  .animated-page-wrapper h3:nth-of-type(1) { animation-delay: 0.65s; }
-  .animated-page-wrapper p:nth-of-type(2)  { animation-delay: 0.75s; }
+  .image-wrapper {
+    animation-name: scrollSlideInRight;
+  }
 
-  /* Block 3: Bridge Section */
-  .animated-page-wrapper h3:nth-of-type(2) { animation-delay: 0.85s; }
-  .animated-page-wrapper p:nth-of-type(3)  { animation-delay: 0.95s; }
-  .animated-page-wrapper p:nth-of-type(4)  { animation-delay: 1.05s; }
-
-  /* Block 4: Advocate Section */
-  .animated-page-wrapper h3:nth-of-type(3) { animation-delay: 1.15s; }
-  .animated-page-wrapper p:nth-of-type(5)  { animation-delay: 1.25s; }
-  .animated-page-wrapper p:nth-of-type(6)  { animation-delay: 1.35s; }
-  .animated-page-wrapper p:nth-of-type(7)  { animation-delay: 1.45s; }
-  
   /* Base styles for large screens (Desktop) */
   .responsive-flex-container {
     display: flex;
@@ -139,6 +123,17 @@ author_profile: true
       flex-flow: column-reverse nowrap; 
     }
     
+    /* Fallback override for small viewports to keep text readable on quick scrolling */
+    .animated-page-wrapper h3,
+    .animated-page-wrapper p,
+    .text-wrapper,
+    .image-wrapper {
+      animation-range: entry 0% cover 20%;
+    }
+
+    .text-wrapper {
+      display: block;         /* Reverts to standard block flow on mobile */
+    }
     .image-wrapper {
       min-height: 250px;     /* Gives it a fixed structure on mobile */
     }
