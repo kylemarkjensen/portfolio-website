@@ -35,7 +35,8 @@ I love to study <span id="typed-element" style="color: #52adc8; font-weight: bol
         'functional networks.', 
         'perception.',
         'emotion.',
-        'human development.'
+        'human development.',
+        'genetics.'
       ],
       typeSpeed: 50,
       backSpeed: 30,
