@@ -17,15 +17,26 @@ author_profile: true
 </style>
 
 <style>
-  /* Core layout fade keyframes */
-  @keyframes subtleFadeInUp {
+  /* Bold Keyframes for Left-to-Right / Right-to-Left entry paths */
+  @keyframes dynamicSlideInLeft {
     0% {
       opacity: 0;
-      transform: translateY(15px); /* Gentle upward drift */
+      transform: translateX(-50px); /* Distinct, wide slide from the left */
     }
     100% {
       opacity: 1;
-      transform: translateY(0);    /* Settles into exact layout slot */
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes dynamicSlideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);  /* Distinct, wide slide from the right */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
     }
   }
 
@@ -37,27 +48,51 @@ author_profile: true
     animation: subtleFadeInUp 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   }
 
-  /* --- Cascading Delay Map --- */
+  /* Base container hide rule */
+  .animated-page-wrapper h3,
+  .animated-page-wrapper p,
+  .text-wrapper,
+  .image-wrapper {
+    opacity: 0;
+    animation-duration: 0.8s; /* Increased duration to make the longer movement readable */
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); /* Sharp, fast-start snap curve */
+    animation-fill-mode: forwards;
+  }
+
+  /* --- LEFT-TO-RIGHT INTRO HEADER SWEEP --- */
   
-  /* Block 1: Intro Row */
-  .animated-page-wrapper .responsive-flex-container {
+  /* Left Text Side: Slides aggressively from the left immediately */
+  .text-wrapper {
+    animation-name: dynamicSlideInLeft;
     animation-delay: 0.1s;
   }
 
+  /* Right Image Side: Follows after a slight delay, snapping in from the right */
+  .image-wrapper {
+    animation-name: dynamicSlideInRight;
+    animation-delay: 0.4s; /* Creates the distinct left-to-right eye path gap */
+  }
+
+  /* --- LOWER BODY TEXT CASCADE --- */
+  .animated-page-wrapper h3,
+  .animated-page-wrapper p {
+    animation-name: dynamicSlideInLeft; /* Content flows down and right sequentially */
+  }
+
   /* Block 2: Lifelong Learner Section */
-  .animated-page-wrapper h3:nth-of-type(1) { animation-delay: 0.25s; }
-  .animated-page-wrapper p:nth-of-type(2)  { animation-delay: 0.35s; }
+  .animated-page-wrapper h3:nth-of-type(1) { animation-delay: 0.65s; }
+  .animated-page-wrapper p:nth-of-type(2)  { animation-delay: 0.75s; }
 
   /* Block 3: Bridge Section */
-  .animated-page-wrapper h3:nth-of-type(2) { animation-delay: 0.45s; }
-  .animated-page-wrapper p:nth-of-type(3)  { animation-delay: 0.55s; }
-  .animated-page-wrapper p:nth-of-type(4)  { animation-delay: 0.65s; }
+  .animated-page-wrapper h3:nth-of-type(2) { animation-delay: 0.85s; }
+  .animated-page-wrapper p:nth-of-type(3)  { animation-delay: 0.95s; }
+  .animated-page-wrapper p:nth-of-type(4)  { animation-delay: 1.05s; }
 
   /* Block 4: Advocate Section */
-  .animated-page-wrapper h3:nth-of-type(3) { animation-delay: 0.75s; }
-  .animated-page-wrapper p:nth-of-type(5)  { animation-delay: 0.85s; }
-  .animated-page-wrapper p:nth-of-type(6)  { animation-delay: 0.95s; }
-  .animated-page-wrapper p:nth-of-type(7)  { animation-delay: 1.05s; }
+  .animated-page-wrapper h3:nth-of-type(3) { animation-delay: 1.15s; }
+  .animated-page-wrapper p:nth-of-type(5)  { animation-delay: 1.25s; }
+  .animated-page-wrapper p:nth-of-type(6)  { animation-delay: 1.35s; }
+  .animated-page-wrapper p:nth-of-type(7)  { animation-delay: 1.45s; }
   
   /* Base styles for large screens (Desktop) */
   .responsive-flex-container {
