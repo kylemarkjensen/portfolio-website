@@ -35,7 +35,7 @@ author_profile: true
 
   /* Custom styling for the introduction paragraph */
   .intro-text {
-    font-size: 1.15rem;       /* Makes the text a little bigger */
+    font-size: 2rem;       /* Makes the text a little bigger */
     font-style: italic;       /* Makes the text italicized */
     color: #4a5568;           /* Slightly lighter/different slate-gray color to stand out */
     line-height: 1.6;
