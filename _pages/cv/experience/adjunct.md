@@ -56,21 +56,21 @@ stable overall positive trajectory of improvement within a 1-year time frame (De
 
 ### <span style="font-size: 1.2em; font-weight: 600; color: #4a5568; letter-spacing: 0.5px;">Qualitative Summary:</span>
 <span style="display: inline-block; background-color: #e6f4ea; color: #137333; padding: 4px 12px; border-radius: 16px; font-weight: bold; font-size: 1em; margin-top: 14px; margin-bottom: 2px;">Strengths</span>
-* Clear Structure and Expectations: Students consistently noted that my course was well-organized, expectations
+* <span style="color: #3182ce;">Clear Structure and Expectations:</span> Students consistently noted that my course was well-organized, expectations
 were clear, and that the syllabus and schedule were straightforward.
-* Effective Exam Preparation: Students appreciated my study guides, test review sessions, and fair exams.
-* Relatable Examples & Humor: Students appreciated my use of pop culture references and humor in my lectures
+* <span style="color: #3182ce;">Effective Exam Preparation:</span> Students appreciated my study guides, test review sessions, and fair exams.
+* <span style="color: #3182ce;">Relatable Examples & Humor:</span> Students appreciated my use of pop culture references and humor in my lectures
 and test questions, which they reported reduced their test anxiety and made concepts easier to remember.
-* Approachable and Caring: Students described me as kind, respectful, easy to communicate with, flexible, and
+* <span style="color: #3182ce;">Approachable and Caring:</span> Students described me as kind, respectful, easy to communicate with, flexible, and
 genuinely concerned about student success and learning.
 
 <span style="display: inline-block; background-color: #fce8e6; color: #c5221f; padding: 4px 12px; border-radius: 16px; font-weight: bold; font-size: 1em; margin-top: 12px; margin-bottom: 2px;">Areas for Improvement</span>
-* Delivery and Engagement: Some students critiqued my presentation skills and expressed a desire for more
+* <span style="color: #3182ce;">Delivery and Engagement:</span> Some students critiqued my presentation skills and expressed a desire for more
 opportunities for group work, class discussion, and additional hands-on activities like the chicken lab.
-* Additional Insight: Some students felt that my approach to focusing on material in the textbook was too
+* <span style="color: #3182ce;">Additional Insight:</span> Some students felt that my approach to focusing on material in the textbook was too
 orthodox and believed that they would have more incentive to attend class if I incorporated more supplementary
 content.
-* Incentivized Attendance: I didn’t take attendance, causing some students to feel that there was little incentive to
+* <span style="color: #3182ce;">Incentivized Attendance:</span> I didn’t take attendance, causing some students to feel that there was little incentive to
 attend class.
-* Experience: Some students felt that if I was more experienced, I would be better prepared to respond to
+* <span style="color: #3182ce;">Experience:</span> Some students felt that if I was more experienced, I would be better prepared to respond to
 questions and help to keep the class focused when some students asked off-topic questions.
