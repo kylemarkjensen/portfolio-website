@@ -46,12 +46,12 @@ author_profile: true
     will-change: transform, opacity;
   }
 
-  /* Trigger classes added dynamically by JavaScript as you scroll down */
-  .scroll-animate.reveal-left {
+  /* Classes added dynamically by JavaScript ONLY when scrolled into the viewport */
+  .reveal-left-act {
     animation: dynamicSlideInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 
-  .scroll-animate.reveal-right {
+  .reveal-right-act {
     animation: dynamicSlideInRight 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
   
@@ -128,13 +128,13 @@ author_profile: true
 <!-- Responsive Flexbox Container: Columns stack on mobile, side-by-side on desktop -->
 <div class="responsive-flex-container">
   
-<!-- Left Text Wrapper (Slides in from left) -->
-  <div class="text-wrapper scroll-animate reveal-left" markdown="1">
+<!-- Left Text Wrapper (Data attribute handles choice of engine direction) -->
+  <div class="text-wrapper scroll-animate" data-direction="left" markdown="1">
  <p class="intro-text">Teaching is an integral part of who I am as a person; to explain why I teach is more of a biography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.</p>
   </div>
   
-  <!-- Right Image Wrapper (Slides in from right) -->
-  <div class="image-wrapper scroll-animate reveal-right">
+  <!-- Right Image Wrapper -->
+  <div class="image-wrapper scroll-animate" data-direction="right">
     <img src="/images/Brain_Puzzle_cropped.jpg" alt="brain puzzle image">
   </div>
 
@@ -161,24 +161,25 @@ author_profile: true
 document.addEventListener("DOMContentLoaded", function() {
 const observerOptions = {
 root: null,
-rootMargin: "0px 0px -10% 0px", // Triggers when element is 10% above the bottom viewport edge
-threshold: 0.05
+rootMargin: "0px 0px -8% 0px", // Triggers when the top of the element rolls slightly up into view
+threshold: 0.01
 };
 const observer = new IntersectionObserver((entries, observer) => {
 entries.forEach(entry => {
 if (entry.isIntersecting) {
-// If the element contains the class, kick off the animation styles
-entry.target.style.opacity = "1";
-if (entry.target.classList.contains('reveal-left')) {
-entry.target.style.animation = "dynamicSlideInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards";
-} else if (entry.target.classList.contains('reveal-right')) {
-entry.target.style.animation = "dynamicSlideInRight 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards";
+const element = entry.target;
+const direction = element.getAttribute('data-direction');
+// Inject the correct sweep class dynamically only on intersection context
+if (direction === 'left') {
+element.classList.add('reveal-left-act');
+} else if (direction === 'right') {
+element.classList.add('reveal-right-act');
 }
-observer.unobserve(entry.target); // Stops watching once animated to optimize performance
+observer.unobserve(element); // Drop tracker to preserve DOM operational memory
 }
 });
 }, observerOptions);
-// Attach listener to all targeted animation fragments
+// Track targets exclusively via class signature
 document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
 });
 </script>
