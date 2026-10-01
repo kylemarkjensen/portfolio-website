@@ -33,13 +33,18 @@ author_profile: true
     display: block;
   }
 
-  /* Custom styling for the introduction paragraph */
+  /* Enhanced styling to make the introduction paragraph pop */
   .intro-text {
-    font-size: 2rem;       /* Makes the text a little bigger */
-    font-style: italic;       /* Makes the text italicized */
-    color: #4a5568;           /* Slightly lighter/different slate-gray color to stand out */
-    line-height: 1.6;
-    margin: 0;                /* Removes default margins to keep spacing tight */
+    font-size: 1.18rem;       /* Marginally larger for better presence */
+    font-weight: 500;         /* Slightly bolder than normal text for emphasis */
+    font-style: italic;       /* Elegant italic flow */
+    color: #2d3748;           /* Darker charcoal slate for sharper legibility */
+    line-height: 1.65;
+    margin: 0;                
+    padding: 18px 20px;       /* Generous internal spacing inside the background panel */
+    background-color: #f7fafc;/* Soft, neutral off-white/light gray panel tint */
+    border-left: 4px solid #3182ce; /* Distinct, professional accent color bar on the left edge */
+    border-radius: 4px 14px 14px 4px; /* Matches your image border radius smoothly */
   }
 
   .image-wrapper {
