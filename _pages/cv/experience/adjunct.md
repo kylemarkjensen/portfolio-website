@@ -37,11 +37,13 @@ For four consecutive semesters, beginning in the Fall 2017 semester, I taught an
   
   <!-- Left Image Wrapper -->
   <div style="flex: 1; display: flex;">
+    <p><bold>a) Average Overall <span style="color: blue;">Instructor Ratings</span> by Section between Fall 2017 – Fall 2018</bold></p>
     <img src="/images/cv/instructor_ratings.png" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
   
   <!-- Right Image Wrapper -->
   <div style="flex: 1; display: flex;">
+    <p><bold>b) Average Overall <span style="color: blue;">Course Ratings</span> by Section between Fall 2017 – Fall 2018</bold></p>
     <img src="/images/cv/course_ratings.png" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
 </div>
