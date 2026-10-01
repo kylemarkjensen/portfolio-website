@@ -28,9 +28,9 @@ author_profile: true
     @keyframes dynamicSlideInLeft {
       0% {
         opacity: 0;
-        transform: translateX(-60px); /* Sweeps in from the left frame */
+        transform: translateX(-40px); /* Sweeps in from the left frame */
       }
-      40% {
+      75% {
         opacity: 1;
         transform: translateX(0);     /* Snaps into place mid-scroll */
       }
@@ -58,7 +58,7 @@ author_profile: true
     /* Apply viewport-aware scroll tracking properties natively */
     .scroll-group {
       animation-timeline: view();
-      animation-range: entry 5% cover 30%; /* Triggers as elements rise from screen bottom */
+      animation-range: entry 5% cover 40%; /* Triggers as elements rise from screen bottom */
       animation-fill-mode: both;
     }
 
