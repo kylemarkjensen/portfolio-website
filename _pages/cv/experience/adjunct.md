@@ -55,7 +55,7 @@ Importantly, my ratings are consistently higher across all three sections in Fal
 stable overall positive trajectory of improvement within a 1-year time frame (Dec 2017 - Dec 2018).*
 
 ### Qualitative Summary:
-#### Strengths:
+<span style="display: inline-block; background-color: #e6f4ea; color: #137333; padding: 4px 12px; border-radius: 16px; font-weight: bold; margin-bottom: 8px;">Strengths</span>
 * Clear Structure and Expectations: Students consistently noted that my course was well-organized, expectations
 were clear, and that the syllabus and schedule were straightforward.
 * Effective Exam Preparation: Students appreciated my study guides, test review sessions, and fair exams.
@@ -64,7 +64,7 @@ and test questions, which they reported reduced their test anxiety and made conc
 * Approachable and Caring: Students described me as kind, respectful, easy to communicate with, flexible, and
 genuinely concerned about student success and learning.
 
-#### Areas for Improvement:
+<span style="display: inline-block; background-color: #fce8e6; color: #c5221f; padding: 4px 12px; border-radius: 16px; font-weight: bold; margin-bottom: 8px; margin-top: 12px;">Areas for Improvement</span>
 * Delivery and Engagement: Some students critiqued my presentation skills and expressed a desire for more
 opportunities for group work, class discussion, and additional hands-on activities like the chicken lab.
 * Additional Insight: Some students felt that my approach to focusing on material in the textbook was too
