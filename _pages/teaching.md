@@ -23,7 +23,7 @@ author_profile: true
     flex-flow: row wrap; /* Side-by-side by default */
     gap: 16px;
     width: 100%;
-    align-items: stretch;
+    align-items: flex-start; /* Shrinks the container and image height to match the text tightly */
     margin: 25px 0;
   }
 
@@ -31,6 +31,15 @@ author_profile: true
     flex: 1;
     min-width: 300px; /* Triggers the wrap when space gets tight */
     display: block;
+  }
+
+  /* Custom styling for the introduction paragraph */
+  .intro-text {
+    font-size: 1.15rem;       /* Makes the text a little bigger */
+    font-style: italic;       /* Makes the text italicized */
+    color: #4a5568;           /* Slightly lighter/different slate-gray color to stand out */
+    line-height: 1.6;
+    margin: 0;                /* Removes default margins to keep spacing tight */
   }
 
   .image-wrapper {
@@ -41,7 +50,7 @@ author_profile: true
 
   .image-wrapper img {
     width: 100%;
-    height: 100%;
+    height: auto;             /* Allows the height to dynamically scale with the flexbox */
     object-fit: cover;
   }
 
@@ -63,7 +72,7 @@ author_profile: true
   
   <!-- Left Text Wrapper (Will wrap below the image on small screens) -->
   <div class="text-wrapper" markdown="1">
- Teaching is an integral part of who I am as a person; to explain why I teach is more of a biography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.
+ <p class="intro-text">Teaching is an integral part of who I am as a person; to explain why I teach is more of a biography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.</p>
   </div>
   
   <!-- Right Image Wrapper (Will wrap to the top on small screens) -->
