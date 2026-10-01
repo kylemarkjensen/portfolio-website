@@ -138,24 +138,6 @@ author_profile: true
   }
 </style>
 
-<!-- Page layout wrapped in an animation scope container -->
-<div class="animated-page-wrapper" markdown="1">
-
-<!-- Responsive Flexbox Container: Columns stack on mobile, side-by-side on desktop -->
-<div class="responsive-flex-container">
-  
- <!-- Left Text Wrapper -->
-  <div class="text-wrapper scroll-animate reveal-left" markdown="1">
- <p class="intro-text">Teaching is an integral part of who I am as a person; to explain why I teach is more of a biography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.</p>
-  </div>
-  
-  <!-- Right Image Wrapper -->
-  <div class="image-wrapper scroll-animate reveal-right">
-    <img src="/images/Brain_Puzzle_cropped.jpg" alt="brain puzzle image">
-  </div>
-
-</div>
-
 <!-- Responsive Flexbox Container: Columns stack on mobile, side-by-side on desktop -->
 <div class="responsive-flex-container">
   
