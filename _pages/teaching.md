@@ -36,7 +36,7 @@ author_profile: true
   /* Enhanced styling to make the introduction paragraph pop */
   .intro-text {
     font-size: 1.18rem;       /* Marginally larger for better presence */
-    font-weight: 500;         /* Slightly bolder than normal text for emphasis */
+    font-weight: 400;         /* Slightly bolder than normal text for emphasis */
     font-style: italic;       /* Elegant italic flow */
     color: #2d3748;           /* Darker charcoal slate for sharper legibility */
     line-height: 1.65;
