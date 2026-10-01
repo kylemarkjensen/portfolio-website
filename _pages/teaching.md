@@ -65,7 +65,7 @@ author_profile: true
   <!-- Left Text Wrapper (Will wrap below the image on small screens) -->
   <div class="text-wrapper" markdown="1">
  Teaching is an integral part of who I am as a person; to explain why I teach is more of a biography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.
-<h2>I am a lifelong learner.</h2> 
+<h3>I am a lifelong learner.</h3> 
 While knowledge and experience are attributes inherently required of my position and role, I do not consider myself to be some kind of all-knowing sage. Rather, I am an individual informed by relevant first-hand experience, who is adequately prepared to share with fellow students a unique perspective on knowledge which my field has deemed accurate, valuable, and useful. I am an ally who is prepared to share with students my own secrets to success. I am prepared to train students to develop the same skills which I have developed, or to help them identify desirable knowledge or skills which I may not possess and then direct them to sources where they can get the help that they need.
   </div>
   
