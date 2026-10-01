@@ -28,7 +28,7 @@ permalink: /cv/experience/adjunct/
 
 For four consecutive semesters, beginning in the Fall 2017 semester, I taught an introductory psychology course (PSYCH 111: General Psychology) at BYU-I (8 sections in total). This was an in-person lecture style course (~120 students per section), for which I developed all course curriculum and materials, including slides, assignments, and assessments (see <a href="/teaching/">Teaching</a>). 
 
-## Summary of Course Evaluations for PSYCH 111 at BYUI (Fall 2017 – Fall 2018)
+## Summary of Course Evaluations
 
 ### Quantitative Summary:
 
