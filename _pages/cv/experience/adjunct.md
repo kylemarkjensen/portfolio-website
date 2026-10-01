@@ -43,7 +43,7 @@ For four consecutive semesters, beginning in the Fall 2017 semester, I taught an
   
   <!-- Right Image Wrapper (Changed to vertical flex column) -->
   <div style="flex: 1; display: flex; flex-direction: column;">
-    <p><strong>b) Average Overall <span style="color: blue;">Course Ratings</span> by Section between Fall 2017 – Fall 2018</strong></p>
+    <p><strong>b) Average Overall <span style="color: #3182ce;">Course Ratings</span> by Section between Fall 2017 – Fall 2018</strong></p>
     <img src="/images/cv/course_ratings.png" alt="Right project image" style="width: 100%; height: auto; object-fit: cover;">
   </div>
 </div>
