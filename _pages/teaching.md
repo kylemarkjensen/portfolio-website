@@ -161,7 +161,7 @@ author_profile: true
   
   <!-- Left Text Wrapper -->
   <div class="text-wrapper load-animate reveal-left" markdown="1">
- <p class="intro-text">Teaching is an integral part of who I am as a person; to explain why I teach is more of a biography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.</p>
+ <p class="intro-text">Teaching is an integral part of who I am as a person; to explain why I teach is more of an autobiography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.</p>
   </div>
   
   <!-- Right Image Wrapper -->
