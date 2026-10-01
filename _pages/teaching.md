@@ -93,7 +93,7 @@ author_profile: true
     font-style: italic;       /* Elegant italic flow */
     color: #2d3748;           /* Darker charcoal slate for sharper legibility */
     line-height: 1.65;
-    margin: 0;                
+    margin: 0 !important;             
     padding: 18px 20px;       /* Generous internal spacing inside the background panel */
     background-color: #f7fafc;/* Soft, neutral off-white/light gray panel tint */
     border-left: 4px solid #3182ce; /* Distinct, professional accent color bar on the left edge */
