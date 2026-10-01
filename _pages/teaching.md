@@ -64,8 +64,6 @@ author_profile: true
   <!-- Left Text Wrapper (Will wrap below the image on small screens) -->
   <div class="text-wrapper" markdown="1">
  Teaching is an integral part of who I am as a person; to explain why I teach is more of a biography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.
-<h3>I am a lifelong learner.</h3> 
-While knowledge and experience are attributes inherently required of my position and role, I do not consider myself to be some kind of all-knowing sage. Rather, I am an individual informed by relevant first-hand experience, who is adequately prepared to share with fellow students a unique perspective on knowledge which my field has deemed accurate, valuable, and useful. I am an ally who is prepared to share with students my own secrets to success. I am prepared to train students to develop the same skills which I have developed, or to help them identify desirable knowledge or skills which I may not possess and then direct them to sources where they can get the help that they need.
   </div>
   
   <!-- Right Image Wrapper (Will wrap to the top on small screens) -->
@@ -74,6 +72,9 @@ While knowledge and experience are attributes inherently required of my position
   </div>
 
 </div>
+
+### I am a lifelong learner.
+While knowledge and experience are attributes inherently required of my position and role, I do not consider myself to be some kind of all-knowing sage. Rather, I am an individual informed by relevant first-hand experience, who is adequately prepared to share with fellow students a unique perspective on knowledge which my field has deemed accurate, valuable, and useful. I am an ally who is prepared to share with students my own secrets to success. I am prepared to train students to develop the same skills which I have developed, or to help them identify desirable knowledge or skills which I may not possess and then direct them to sources where they can get the help that they need.
 
 ### I am a bridge.
 I must help bridge the gap between my students and future employers, whether those employers are in industry or academia. This role highlights my duty to know what employers expect from their employees so that I can accurately represent and communicate the expectations of possible employers to students in a way that is accessible to them through clear course and learning objectives. I also have a duty to help students to meet those expectations by structuring the course to provide opportunities to gain the knowledge they need and develop the skills which will be required of them. This is done through preparation for and participation in class. Then, I must accurately evaluate how well a student achieves those objectives so that their performance and progress can be communicated back to those employers in the form of grades and recommendations. 
