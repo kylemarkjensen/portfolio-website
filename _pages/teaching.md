@@ -206,3 +206,8 @@ I do not give busy work or use lectures, activities, assignments, or assessments
 <div class="scroll-group reveal-left" markdown="1">
 Demonstration is a tool I use to advocate for my students. Demonstration is a method for following up on a student’s preparation and participation. It is an assessment of how well students have achieved course and learning objectives and it is clearly related to specific objectives. Transparency with students ensures that there will be no surprises – unless of course the objective of an assessment requires the student to adapt innovative solutions to an unexpected challenge. By producing deliverables in the form of projects and summative assessment, students can demonstrate in a tangible, observable, and objective way the great things that they will bring to the table if they are hired or funded. Top marks in my class will distinguish a student and be meaningful to the student and to employers as they reflect engagement and effort more than innate ability or aptitude. Top marks will be a realistic and achievable goal for every student as I strive to realize the potential in everyone.
 </div>
+
+<!-- Content Group 4: Examples -->
+<div class="scroll-group reveal-left" markdown="1">
+<h3>Read more about my teaching experience <a href="/cv/adjunct/">here</a>.</h3>
+</div>
