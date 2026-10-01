@@ -17,22 +17,63 @@ author_profile: true
 </style>
 
 <style>
-  /* Safe fallback default: Everything is perfectly visible by default so content ALWAYS loads */
+  /* Base structural hidden states for entry paths */
+  @keyframes dynamicSlideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-40px); /* Elegant drift distance */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes dynamicSlideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* --- 1. TOP ROW: LOAD ANIMATION (TIMED) --- */
+  .load-animate {
+    opacity: 0; /* Hidden initially so it can fade in cleanly */
+    animation-duration: 1.2s; /* Slower, gradual load time */
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    animation-fill-mode: forwards;
+  }
+
+  .load-animate.reveal-left {
+    animation-name: dynamicSlideInLeft;
+    animation-delay: 0.1s;
+  }
+
+  .load-animate.reveal-right {
+    animation-name: dynamicSlideInRight;
+    animation-delay: 0.25s; /* Image follows slightly behind the text */
+  }
+
+  /* --- 2. LOWER CONTENT: SCROLL ANIMATION --- */
+  /* Fallback: visible on load if scroll timelines aren't supported */
   .scroll-group {
     opacity: 1;
     transform: none;
   }
 
-  /* Modern Scroll-Driven Animations: Executes only if natively supported by the user browser browser */
   @supports (animation-timeline: view()) {
-    @keyframes dynamicSlideInLeft {
+    @keyframes scrollSlideInLeft {
       0% {
         opacity: 0;
-        transform: translateX(-40px); /* Sweeps in from the left frame */
+        transform: translateX(-40px);
       }
       75% {
         opacity: 1;
-        transform: translateX(0);     /* Snaps into place mid-scroll */
+        transform: translateX(0); /* Gradual fade curve as requested */
       }
       100% {
         opacity: 1;
@@ -40,34 +81,11 @@ author_profile: true
       }
     }
 
-    @keyframes dynamicSlideInRight {
-      0% {
-        opacity: 0;
-        transform: translateX(60px);  /* Sweeps in from the right frame */
-      }
-      40% {
-        opacity: 1;
-        transform: translateX(0);
-      }
-      100% {
-        opacity: 1;
-        transform: translateX(0);
-      }
-    }
-
-    /* Apply viewport-aware scroll tracking properties natively */
     .scroll-group {
       animation-timeline: view();
-      animation-range: entry 5% cover 40%; /* Triggers as elements rise from screen bottom */
+      animation-range: entry 5% cover 40%;
       animation-fill-mode: both;
-    }
-
-    .reveal-left {
-      animation-name: dynamicSlideInLeft;
-    }
-
-    .reveal-right {
-      animation-name: dynamicSlideInRight;
+      animation-name: scrollSlideInLeft;
     }
   }
   
@@ -138,16 +156,16 @@ author_profile: true
   }
 </style>
 
-<!-- Responsive Flexbox Container: Columns stack on mobile, side-by-side on desktop -->
+<!-- Responsive Flexbox Container: Animates instantly on page load -->
 <div class="responsive-flex-container">
   
   <!-- Left Text Wrapper -->
-  <div class="text-wrapper scroll-group reveal-left" markdown="1">
+  <div class="text-wrapper load-animate reveal-left" markdown="1">
  <p class="intro-text">Teaching is an integral part of who I am as a person; to explain why I teach is more of a biography than a statement of purpose. As an educator, I recognize that I am endowed with great responsibility. Part of this responsibility includes describing and elaborating on the methods of how I teach.</p>
   </div>
   
   <!-- Right Image Wrapper -->
-  <div class="image-wrapper scroll-group reveal-right">
+  <div class="image-wrapper load-animate reveal-right">
     <img src="/images/Brain_Puzzle_cropped.jpg" alt="brain puzzle image">
   </div>
 
