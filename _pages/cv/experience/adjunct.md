@@ -55,7 +55,7 @@ Importantly, my ratings are consistently higher across all three sections in Fal
 stable overall positive trajectory of improvement within a 1-year time frame (Dec 2017 - Dec 2018).*
 
 ### <span style="font-size: 1.2em; font-weight: 600; color: #4a5568; letter-spacing: 0.5px;">Qualitative Summary</span>
-<span style="display: inline-block; background-color: #e6f4ea; color: #137333; padding: 4px 12px; border-radius: 16px; font-weight: bold; font-size: 1em; margin-bottom: 2px;">Strengths</span>
+<span style="display: inline-block; background-color: #e6f4ea; color: #137333; padding: 4px 12px; border-radius: 16px; font-weight: bold; font-size: 1em; margin-top: 14px; margin-bottom: 2px;">Strengths</span>
 * Clear Structure and Expectations: Students consistently noted that my course was well-organized, expectations
 were clear, and that the syllabus and schedule were straightforward.
 * Effective Exam Preparation: Students appreciated my study guides, test review sessions, and fair exams.
