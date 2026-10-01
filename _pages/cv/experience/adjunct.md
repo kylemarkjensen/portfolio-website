@@ -30,7 +30,7 @@ For four consecutive semesters, beginning in the Fall 2017 semester, I taught an
 
 ### Summary of Course Evaluations for PSYCH 111 at BYUI (Fall 2017 – Fall 2018)
 
-## Quantitative Summary:
+#### Quantitative Summary:
 
 <!-- Flexbox Layout Container for Perfectly Equal Height Images -->
 <div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
