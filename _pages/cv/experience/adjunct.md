@@ -30,7 +30,7 @@ For four consecutive semesters, beginning in the Fall 2017 semester, I taught an
 
 ## Summary of Course Evaluations
 
-### <span style="font-size: 1.2em; font-weight: 600; color: #64748b; letter-spacing: 0.5px;">Quantitative Summary:</span>
+### <span style="font-size: 1.2em; font-weight: 600; color: #718096; letter-spacing: 0.5px;">Quantitative Summary:</span>
 
 <!-- Flexbox Layout Container for Perfectly Equal Height Images -->
 <div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
