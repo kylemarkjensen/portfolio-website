@@ -27,3 +27,48 @@ permalink: /cv/experience/adjunct/
 *Department of Psychology*
 
 For four consecutive semesters, beginning in the Fall 2017 semester, I taught an introductory psychology course (PSYCH 111: General Psychology) at BYU-I (8 sections in total). This was an in-person lecture style course (~120 students per section), for which I developed all course curriculum and materials, including slides, assignments, and assessments (see <a href="/teaching/">Teaching</a>). 
+
+### Summary of Course Evaluations for PSYCH 111 at BYUI (Fall 2017 – Fall 2018)
+
+Quantitative Summary:
+
+<!-- Flexbox Layout Container for Perfectly Equal Height Images -->
+<div style="display: flex; gap: 16px; width: 100%; align-items: stretch; margin: 25px 0;">
+  
+  <!-- Left Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/instructor_ratings.png" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  
+  <!-- Right Image Wrapper -->
+  <div style="flex: 1; display: flex;">
+    <img src="/images/cv/course_ratings.png" alt="Right project image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+</div>
+
+  *During my time as an adjunct faculty instructor in the Psychology Department at BYU-Idaho, my average (a) instructor
+and (b) course ratings for PSYCH 111 were consistently rated between “Very Good” and “Excellent”. Additionally, my
+overall instructor and course ratings increased despite my increased teaching load between Fall 2017 and Fall 2018.
+Importantly, my ratings are consistently higher across all three sections in Fall 2018 than in Fall 2017, demonstrating a
+stable overall positive trajectory of improvement within a 1-year time frame (Dec 2017 - Dec 2018).*
+
+Qualitative Summary:
+Strengths:
+* Clear Structure and Expectations: Students consistently noted that my course was well-organized, expectations
+were clear, and that the syllabus and schedule were straightforward.
+* Effective Exam Preparation: Students appreciated my study guides, test review sessions, and fair exams.
+* Relatable Examples & Humor: Students appreciated my use of pop culture references and humor in my lectures
+and test questions, which they reported reduced their test anxiety and made concepts easier to remember.
+* Approachable and Caring: Students described me as kind, respectful, easy to communicate with, flexible, and
+genuinely concerned about student success and learning.
+
+Areas for Improvement:
+* Delivery and Engagement: Some students critiqued my presentation skills and expressed a desire for more
+opportunities for group work, class discussion, and additional hands-on activities like the chicken lab.
+* Additional Insight: Some students felt that my approach to focusing on material in the textbook was too
+orthodox and believed that they would have more incentive to attend class if I incorporated more supplementary
+content.
+* Incentivized Attendance: I didn’t take attendance, causing some students to feel that there was little incentive to
+attend class.
+* Experience: Some students felt that if I was more experienced, I would be better prepared to respond to
+questions and help to keep the class focused when some students asked off-topic questions.
