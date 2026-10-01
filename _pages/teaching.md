@@ -1,8 +1,8 @@
 ---
-title: "Atlanta Science Festival"
+title: "Teaching"
 excerpt: "With background image"
 collection: portfolio
-permalink: /cv/service/ATL_science_festival/
+permalink: /teaching/
 ---
 
 <style>
