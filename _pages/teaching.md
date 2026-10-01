@@ -209,5 +209,5 @@ Demonstration is a tool I use to advocate for my students. Demonstration is a me
 
 <!-- Content Group 4: Examples -->
 <div class="scroll-group reveal-left" markdown="1">
-<h3>Read more about my teaching experience <a href="/cv/adjunct/">here</a>.</h3>
+<h3>Read more about my teaching experience <a href="/cv/experience/adjunct/">here</a>.</h3>
 </div>
