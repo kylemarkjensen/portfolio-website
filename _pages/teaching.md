@@ -157,6 +157,7 @@ author_profile: true
 
 </div>
 
+<script>
 document.addEventListener("DOMContentLoaded", function() {
 const observerOptions = {
 root: null,
@@ -180,3 +181,4 @@ observer.unobserve(entry.target); // Stops watching once animated to optimize pe
 // Attach listener to all targeted animation fragments
 document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
 });
+</script>
