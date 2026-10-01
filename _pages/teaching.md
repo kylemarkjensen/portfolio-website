@@ -17,6 +17,48 @@ author_profile: true
 </style>
 
 <style>
+  /* Core layout fade keyframes */
+  @keyframes subtleFadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(15px); /* Gentle upward drift */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);    /* Settles into exact layout slot */
+    }
+  }
+
+  /* Structural wrapper applying cascade animations sequentially */
+  .animated-page-wrapper .responsive-flex-container,
+  .animated-page-wrapper h3,
+  .animated-page-wrapper p {
+    opacity: 0; /* Keeps them hidden until their specific animation trigger window opens */
+    animation: subtleFadeInUp 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+
+  /* --- Cascading Delay Map --- */
+  
+  /* Block 1: Intro Row */
+  .animated-page-wrapper .responsive-flex-container {
+    animation-delay: 0.1s;
+  }
+
+  /* Block 2: Lifelong Learner Section */
+  .animated-page-wrapper h3:nth-of-type(1) { animation-delay: 0.25s; }
+  .animated-page-wrapper p:nth-of-type(2)  { animation-delay: 0.35s; }
+
+  /* Block 3: Bridge Section */
+  .animated-page-wrapper h3:nth-of-type(2) { animation-delay: 0.45s; }
+  .animated-page-wrapper p:nth-of-type(3)  { animation-delay: 0.55s; }
+  .animated-page-wrapper p:nth-of-type(4)  { animation-delay: 0.65s; }
+
+  /* Block 4: Advocate Section */
+  .animated-page-wrapper h3:nth-of-type(3) { animation-delay: 0.75s; }
+  .animated-page-wrapper p:nth-of-type(5)  { animation-delay: 0.85s; }
+  .animated-page-wrapper p:nth-of-type(6)  { animation-delay: 0.95s; }
+  .animated-page-wrapper p:nth-of-type(7)  { animation-delay: 1.05s; }
+  
   /* Base styles for large screens (Desktop) */
   .responsive-flex-container {
     display: flex;
