@@ -10,7 +10,7 @@ redirect_from:
 <style>
   @media (max-width: 600px) {
     .author__avatar img {
-      max-width: 150px !important;
+      max-width: 500px !important;
       width: 100% !important;
     }
   }
