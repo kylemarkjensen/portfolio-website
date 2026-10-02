@@ -74,3 +74,10 @@ content.
 attend class.
 * <span style="color: #3182ce;">Experience:</span> Some students felt that if I was more experienced, I would be better prepared to respond to
 questions and help to keep the class focused when some students asked off-topic questions.
+
+## Raw Course Evaluations
+
+<iframe src="{{ site.url }}/files/Jensen_BYUI_PSY_111_course_evaluations_Fall_2017_to_Fall_2018.pdf" width="100%" height="600px">
+    <p>This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="{{ site.url }}/files/Jensen_BYUI_PSY_111_course_evaluations_Fall_2017_to_Fall_2018.pdf">Download PDF</a>.</p>
+</iframe>
