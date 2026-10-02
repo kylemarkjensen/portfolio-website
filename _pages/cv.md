@@ -45,6 +45,46 @@ author_profile: true
     transform: scale(0.99);                            /* Slight compression effect under the thumb */
     transition: all 0.05s ease;                        /* Instantaneous response speed */
   }
+
+  /* 📱 Mobile Specific Styles: Distinctly Colored Vertical Stack Box */
+  @media (max-width: 768px) {
+  .cv-sub-nav.vertical-right {
+    display: flex;
+    flex-direction: column;            /* Stacks the 4 links vertically */
+    gap: 0;                            /* Closes gap so separators look seamless */
+    padding: 6px;                      /* Compact inner spacing */
+    margin-bottom: 25px;               /* Space below the box before content starts */
+    
+    /* 🎨 Background & Box Styling */
+    background-color: #f3f4f6;         /* gray background (Change to #f8f9fa for light gray) */
+    border: 1px solid #d1d5db;         /* Defined border line */
+    border-radius: 8px;                /* Smooth rounded corners */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Elevates it off the page background */
+  }
+
+  /* Styling for the individual row links on mobile */
+  .cv-sub-nav.vertical-right .cv-nav-link {
+    display: block;
+    width: 100%;                       /* Makes each link fill the row width */
+    padding: 12px 16px;                /* Generous touch target for mobile fingers */
+    color: #1f2937 !important;         /* Dark text color for readability */
+    font-weight: 500;                  /* Makes text slightly punchier */
+    border-radius: 6px;
+  }
+
+  /* Optional: Adds a thin separator line between the rows */
+  .cv-sub-nav.vertical-right .cv-nav-link:not(:last-child) {
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  /* Color change when a navigation item is actively scrolled to or tapped */
+  .cv-sub-nav.vertical-right .cv-nav-link.active,
+  .cv-sub-nav.vertical-right .cv-nav-link:active {
+    background-color: #3b82f6 !important; /* Premium blue accent for the active row */
+    color: #ffffff !important;            /* Flips text to white on active rows */
+  }
+}  
 </style>
 
 <div class="cv-grid-layout">
