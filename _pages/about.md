@@ -8,10 +8,29 @@ redirect_from:
 ---
 
 <style>
-  @media (max-width: 600px) {
-    .author__avatar img {
-      max-width: 500px !important;
+  @media (max-width: 57.8125em) {
+    /* Override table layout to let the avatar wrap normally */
+    .sidebar .author__avatar {
+      display: block !important;
       width: 100% !important;
+      text-align: center; /* Centers the image on mobile */
+      margin-bottom: 15px;
+    }
+    
+    /* Make the avatar image larger */
+    .sidebar .author__avatar img {
+      max-width: 160px !important; /* Adjust this value up or down to your liking */
+      width: 160px !important;
+      height: 160px !important;
+      margin: 0 auto;
+    }
+
+    /* Keeps your name and bio neat underneath the larger photo */
+    .sidebar .author__content {
+      display: block !important;
+      width: 100% !important;
+      text-align: center;
+      padding-left: 0 !important;
     }
   }
 </style>
