@@ -4,6 +4,7 @@ excerpt: "With background image"
 collection: portfolio
 permalink: /cv/phd/
 ---
+
 <style>
   /* Target all images within the primary content body */
   .page__content img {
@@ -15,7 +16,8 @@ permalink: /cv/phd/
     transition: transform 0.2s ease-in-out;
   }
 </style>
-## Georgia State University (August 2021 - May 2026)
+
+### Georgia State University (August 2021 - May 2026)
 
 ![Main Feature Image](/images/cv/mentors.jpg)
 *Advisors: Drs. Armin Iraji & Vince Calhoun*
