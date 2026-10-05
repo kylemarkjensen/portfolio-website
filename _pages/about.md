@@ -9,7 +9,7 @@ redirect_from:
 
 <style>
   @media (max-width: 57.8125em) {
-    /* Center the entire sidebar container on the mobile screen */
+    /* 1. Center & contain the main sidebar block */
     .sidebar {
       display: flex !important;
       flex-direction: column !important;
@@ -17,43 +17,67 @@ redirect_from:
       justify-content: center !important;
       text-align: center !important;
       width: 100% !important;
+      max-width: 100% !important;
       margin: 0 auto 30px auto !important;
     }
 
-    /* Override table layout to let the avatar wrap normally */
-    .sidebar .author__avatar {
-      display: block !important;
-      width: 100% !important;
-      text-align: center; 
-      margin-bottom: 15px;
-    }
-    
-    /* Make the avatar image larger and center it */
-    .sidebar .author__avatar img {
-      max-width: 160px !important; 
-      width: 160px !important;
-      height: 160px !important;
-      margin: 0 auto !important;
-    }
-
-    /* Keeps your name, bio, and social links neat underneath the larger photo */
+    /* 2. Flatten table components causing name & image misalignment */
+    .sidebar .author__avatar,
     .sidebar .author__content {
       display: block !important;
       width: 100% !important;
-      text-align: center;
-      padding-left: 0 !important;
-    }
-
-    /* Center social media links/icons if they are present */
-    .sidebar .author__urls-wrapper {
-      position: relative !important;
-      width: 100% !important;
+      padding: 0 !important;
+      margin: 0 auto !important;
       text-align: center !important;
     }
 
+    /* 3. Center and size the avatar container perfectly */
+    .sidebar .author__avatar {
+      margin-bottom: 15px !important;
+    }
+    
+    .sidebar .author__avatar img {
+      max-width: 160px !important;
+      width: 160px !important;
+      height: 160px !important;
+      margin: 0 auto !important;
+      display: inline-block !important; /* Prevents block-level layout drift */
+    }
+
+    /* 4. Fix name, pronoun, and bio text alignment */
+    .sidebar .author__content .author__name,
+    .sidebar .author__content .author__bio {
+      width: 100% !important;
+      text-align: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    /* 5. FIX THE FOLLOW BUTTON: Prevent unconditional expansion */
+    .sidebar .author__urls-wrapper {
+      display: block !important;
+      width: 100% !important;
+      text-align: center !important;
+      margin-top: 15px !important;
+    }
+
+    /* Restore button layout so it responds to clicks natively */
+    .sidebar .author__urls-wrapper button {
+      display: inline-block !important; /* Keeps the toggle button visible */
+      margin: 0 auto !important;
+    }
+
+    /* Fix layout behavior of the hidden/revealed items menu */
     .sidebar .author__urls {
-      display: inline-block !important;
-      text-align: left; /* Keeps text inside the dropdown aligned nicely while the block is centered */
+      display: none; /* Let JavaScript control the toggle natively */
+      text-align: left !important; /* Keeps structural text neat inside */
+      margin: 10px auto 0 auto !important;
+      width: max-content !important;
+    }
+
+    /* When the theme toggles the 'open' class via JS, display it nicely */
+    .sidebar .author__urls-wrapper.open .author__urls {
+      display: block !important;
     }
   }
 </style>
