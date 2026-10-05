@@ -44,7 +44,6 @@ In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Ne
 I'm grateful for the tremendous support I received from my family, mentors, and fellow lab mates throughout my academic journey!
 
 <style>
-  /* Base button styling (Light Mode default) */
   .custom-back-btn {
     margin-bottom: 25px;
     display: inline-flex;
@@ -56,33 +55,33 @@ I'm grateful for the tremendous support I received from my family, mentors, and 
     font-size: 0.9rem;
     font-weight: 500;
     
-    /* Colors for Light Mode */
+    /* LIGHT MODE STYLE (Default) */
     background-color: transparent !important;
-    color: #495057 !important;
-    border: 1px solid #ced4da !important;
-    
-    /* Creates a silky smooth hover transition effect */
+    color: #495057 !important;         /* Dark grey text for light background */
+    border: 1px solid #ced4da !important; /* Neutral light border */
     transition: all 0.25s ease-in-out !important;
   }
 
   /* Hover effect for Light Mode */
   .custom-back-btn:hover {
     background-color: #f8f9fa !important;
-    color: #17a2b8 !important; /* Soft info blue accent */
+    color: #17a2b8 !important; 
     border-color: #17a2b8 !important;
-    transform: translateX(-2px); /* Subtle nudge left to mimic a back movement */
+    transform: translateX(-2px); 
   }
 
-  /* Automatic font & border adjustments for Dark Mode */
+  /* DARK MODE STYLE (Visible immediately before hover) */
   @media (prefers-color-scheme: dark) {
     .custom-back-btn {
-      color: #dfdfdf !important;
-      border-color: #454d55 !important;
+      color: #e4e6eb !important;         /* High-contrast off-white for immediate visibility */
+      border-color: #4f5660 !important;   /* Slightly lighter border so the button shape stands out */
+      background-color: rgba(255, 255, 255, 0.05) !important; /* Extremely soft white tint to ground it */
     }
-    /* Hover effect adjustments for Dark Mode */
+    
+    /* Hover effect for Dark Mode */
     .custom-back-btn:hover {
-      background-color: #1f2326 !important;
-      color: #64d2ff !important; /* Vibrant teal/blue accent for high dark contrast */
+      background-color: rgba(100, 210, 255, 0.1) !important; /* Subtle glowing background container */
+      color: #64d2ff !important;          /* High-visibility electric blue */
       border-color: #64d2ff !important;
     }
   }
