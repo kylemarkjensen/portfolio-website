@@ -17,7 +17,7 @@ permalink: /cv/service/CABI_EEG/
   }
 </style>
 
-<div style="display: flex; gap: 10px; width: 100%;">
+<div style="display: flex; gap: 10px; width: 100%; margin-bottom: 20px;">
 <!-- Left Image Wrapper -->
   <div style="flex: 1; display: flex;">
     <img src="/images/cv/Kyle_EEG.jpeg" alt="Left project image" style="width: 100%; height: 100%; object-fit: cover;">
