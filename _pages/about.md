@@ -9,28 +9,51 @@ redirect_from:
 
 <style>
   @media (max-width: 57.8125em) {
+    /* Center the entire sidebar container on the mobile screen */
+    .sidebar {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      text-align: center !important;
+      width: 100% !important;
+      margin: 0 auto 30px auto !important;
+    }
+
     /* Override table layout to let the avatar wrap normally */
     .sidebar .author__avatar {
       display: block !important;
       width: 100% !important;
-      text-align: center; /* Centers the image on mobile */
+      text-align: center; 
       margin-bottom: 15px;
     }
     
-    /* Make the avatar image larger */
+    /* Make the avatar image larger and center it */
     .sidebar .author__avatar img {
-      max-width: 160px !important; /* Adjust this value up or down to your liking */
+      max-width: 160px !important; 
       width: 160px !important;
       height: 160px !important;
-      margin: 0 auto;
+      margin: 0 auto !important;
     }
 
-    /* Keeps your name and bio neat underneath the larger photo */
+    /* Keeps your name, bio, and social links neat underneath the larger photo */
     .sidebar .author__content {
       display: block !important;
       width: 100% !important;
       text-align: center;
       padding-left: 0 !important;
+    }
+
+    /* Center social media links/icons if they are present */
+    .sidebar .author__urls-wrapper {
+      position: relative !important;
+      width: 100% !important;
+      text-align: center !important;
+    }
+
+    .sidebar .author__urls {
+      display: inline-block !important;
+      text-align: left; /* Keeps text inside the dropdown aligned nicely while the block is centered */
     }
   }
 </style>
