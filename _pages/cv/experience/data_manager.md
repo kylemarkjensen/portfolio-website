@@ -17,10 +17,6 @@ permalink: /cv/experience/data_manager/
   }
 </style>
 
-<a href="/cv/" class="btn btn--info" style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none !important;">
-  <i class="fas fa-arrow-left"></i> Back to CV
-</a>
-
 ### Tri-Institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS) at Georgia State University, Georgia Institute of Technology, and Emory University
 
 In June 2026, I began my current role at the TReNDS Center, where I serve as the lead data manager for the Atlanta site within the Aligning Research to Impact Autism (ARIA) IMPACT Network.
@@ -30,3 +26,61 @@ See the article below to learn more about this initiative:
 <iframe src="https://www.choa.org/about-us/newsroom/marcus-autism-center-to-join-international-autism-clinical-trials-network" width="100%" height="500px" style="border:none;">
   <p>Your browser does not support iframes.</p>
 </iframe>
+
+<style>
+  /* LIGHT MODE STYLE (Default state) */
+  .custom-back-btn {
+    margin-bottom: 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none !important;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    
+    background-color: transparent !important;
+    color: #495057 !important;           /* Dark slate text */
+    border: 1px solid #ced4da !important;   /* Subtle border frame */
+    transition: all 0.25s ease-in-out !important;
+  }
+
+  /* Hover state for Light Mode */
+  .custom-back-btn:hover {
+    background-color: #f8f9fa !important;
+    color: #17a2b8 !important;            /* Accent cyan */
+    border-color: #17a2b8 !important;
+    transform: translateX(-2px); 
+  }
+
+  /* UNIVERSAL DARK MODE SELECTOR (Triggers directly off your manual toggle) */
+  html.dark .custom-back-btn,
+  body.dark .custom-back-btn,
+  html.dark-theme .custom-back-btn,
+  body.dark-theme .custom-back-btn,
+  html.dark-mode .custom-back-btn,
+  body.dark-mode .custom-back-btn,
+  [data-theme="dark"] .custom-back-btn {
+    color: #f8f9fa !important;            /* High-contrast bright text prior to hover */
+    border-color: #495057 !important;     /* Mid-tone visible frame border */
+    background-color: rgba(255, 255, 255, 0.08) !important; /* Low light surface visibility background */
+  }
+  
+  /* Hover state when Dark Mode toggle is engaged */
+  html.dark .custom-back-btn:hover,
+  body.dark .custom-back-btn:hover,
+  html.dark-theme .custom-back-btn:hover,
+  body.dark-theme .custom-back-btn:hover,
+  html.dark-mode .custom-back-btn:hover,
+  body.dark-mode .custom-back-btn:hover,
+  [data-theme="dark"] .custom-back-btn:hover {
+    background-color: rgba(100, 210, 255, 0.15) !important; 
+    color: #64d2ff !important;            /* Vibrant light neon-blue */
+    border-color: #64d2ff !important;
+  }
+</style>
+
+<a href="/cv/" class="custom-back-btn">
+  <i class="fas fa-arrow-left" style="font-size: 0.8rem;"></i> Back to CV
+</a>
