@@ -17,10 +17,6 @@ permalink: /cv/phd/
   }
 </style>
 
-<a href="/cv/" class="btn" style="margin-bottom: 25px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none !important; background-color: transparent !important; color: #495057 !important; border: 1px solid #ced4da !important; padding: 6px 14px; border-radius: 6px; font-size: 0.9rem; font-weight: 500; transition: all 0.2s ease;">
-  <i class="fas fa-arrow-left" style="font-size: 0.8rem;"></i> Back to CV
-</a>
-
 ### Georgia State University (August 2021 - May 2026)
 
 ![Main Feature Image](/images/cv/mentors.jpg)
@@ -46,3 +42,7 @@ In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Ne
 </div>
 
 I'm grateful for the tremendous support I received from my family, mentors, and fellow lab mates throughout my academic journey!
+
+<a href="/cv/" class="btn" style="margin-bottom: 25px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none !important; background-color: transparent !important; color: #495057 !important; border: 1px solid #ced4da !important; padding: 6px 14px; border-radius: 6px; font-size: 0.9rem; font-weight: 500; transition: all 0.2s ease;">
+  <i class="fas fa-arrow-left" style="font-size: 0.8rem;"></i> Back to CV
+</a>
