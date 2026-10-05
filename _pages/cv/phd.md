@@ -44,6 +44,7 @@ In May 2026, I successfully completed my Ph.D. in the Cognitive and Affective Ne
 I'm grateful for the tremendous support I received from my family, mentors, and fellow lab mates throughout my academic journey!
 
 <style>
+  /* LIGHT MODE STYLE (Default state) */
   .custom-back-btn {
     margin-bottom: 25px;
     display: inline-flex;
@@ -55,35 +56,44 @@ I'm grateful for the tremendous support I received from my family, mentors, and 
     font-size: 0.9rem;
     font-weight: 500;
     
-    /* LIGHT MODE STYLE (Default) */
     background-color: transparent !important;
-    color: #495057 !important;         /* Dark grey text for light background */
-    border: 1px solid #ced4da !important; /* Neutral light border */
+    color: #495057 !important;           /* Dark slate text */
+    border: 1px solid #ced4da !important;   /* Subtle border frame */
     transition: all 0.25s ease-in-out !important;
   }
 
-  /* Hover effect for Light Mode */
+  /* Hover state for Light Mode */
   .custom-back-btn:hover {
     background-color: #f8f9fa !important;
-    color: #17a2b8 !important; 
+    color: #17a2b8 !important;            /* Accent cyan */
     border-color: #17a2b8 !important;
     transform: translateX(-2px); 
   }
 
-  /* DARK MODE STYLE (Visible immediately before hover) */
-  @media (prefers-color-scheme: dark) {
-    .custom-back-btn {
-      color: #e4e6eb !important;         /* High-contrast off-white for immediate visibility */
-      border-color: #4f5660 !important;   /* Slightly lighter border so the button shape stands out */
-      background-color: rgba(255, 255, 255, 0.05) !important; /* Extremely soft white tint to ground it */
-    }
-    
-    /* Hover effect for Dark Mode */
-    .custom-back-btn:hover {
-      background-color: rgba(100, 210, 255, 0.1) !important; /* Subtle glowing background container */
-      color: #64d2ff !important;          /* High-visibility electric blue */
-      border-color: #64d2ff !important;
-    }
+  /* UNIVERSAL DARK MODE SELECTOR (Triggers directly off your manual toggle) */
+  html.dark .custom-back-btn,
+  body.dark .custom-back-btn,
+  html.dark-theme .custom-back-btn,
+  body.dark-theme .custom-back-btn,
+  html.dark-mode .custom-back-btn,
+  body.dark-mode .custom-back-btn,
+  [data-theme="dark"] .custom-back-btn {
+    color: #f8f9fa !important;            /* High-contrast bright text prior to hover */
+    border-color: #495057 !important;     /* Mid-tone visible frame border */
+    background-color: rgba(255, 255, 255, 0.08) !important; /* Low light surface visibility background */
+  }
+  
+  /* Hover state when Dark Mode toggle is engaged */
+  html.dark .custom-back-btn:hover,
+  body.dark .custom-back-btn:hover,
+  html.dark-theme .custom-back-btn:hover,
+  body.dark-theme .custom-back-btn:hover,
+  html.dark-mode .custom-back-btn:hover,
+  body.dark-mode .custom-back-btn:hover,
+  [data-theme="dark"] .custom-back-btn:hover {
+    background-color: rgba(100, 210, 255, 0.15) !important; 
+    color: #64d2ff !important;            /* Vibrant light neon-blue */
+    border-color: #64d2ff !important;
   }
 </style>
 
