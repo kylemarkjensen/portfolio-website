@@ -17,8 +17,8 @@ permalink: /cv/phd/
   }
 </style>
 
-<a href="/cv/" class="btn btn--info" style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none !important;">
-  <i class="fas fa-arrow-left"></i> Back to CV
+<a href="/cv/" class="btn" style="margin-bottom: 25px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none !important; background-color: transparent !important; color: #495057 !important; border: 1px solid #ced4da !important; padding: 6px 14px; border-radius: 6px; font-size: 0.9rem; font-weight: 500; transition: all 0.2s ease;">
+  <i class="fas fa-arrow-left" style="font-size: 0.8rem;"></i> Back to CV
 </a>
 
 ### Georgia State University (August 2021 - May 2026)
