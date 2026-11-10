@@ -23,7 +23,7 @@ repository               : "https://kylemarkjensen.github.io/portfolio-website"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "square_headshot_2026_zoom.jpeg"
+  avatar           : "white_bg.jpeg"
   name             : "Kyle M. Jensen"
   pronouns         : # example: "she/her"  
   bio              : "Clinical Neuroimaging Researcher"
